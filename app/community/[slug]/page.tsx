@@ -9,11 +9,12 @@ import DiscussionFeed from '@/components/community/DiscussionFeed';
 import { CATEGORY_COLORS, CATEGORY_EMOJIS } from '@/components/community/ArticleCard';
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
-export default function ArticlePage({ params }: Props) {
-  const article = (articlesData as Article[]).find((a) => a.id === params.slug);
+export default async function ArticlePage({ params }: Props) {
+  const { slug } = await params;
+  const article = (articlesData as Article[]).find((a) => a.id === slug);
   if (!article) notFound();
 
   return (

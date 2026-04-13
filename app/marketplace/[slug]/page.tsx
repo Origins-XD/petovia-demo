@@ -6,7 +6,7 @@ import type { Vet } from '@/lib/types';
 import { isOpenNow, hashString } from '@/lib/utils';
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 const DAYS_ORDER = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
@@ -48,8 +48,9 @@ function generateReviews(vet: Vet) {
   });
 }
 
-export default function VetProfilePage({ params }: Props) {
-  const vet = (vetsData as Vet[]).find((v) => v.id === params.slug);
+export default async function VetProfilePage({ params }: Props) {
+  const { slug } = await params;
+  const vet = (vetsData as Vet[]).find((v) => v.id === slug);
   if (!vet) notFound();
 
   const { isOpen, statusText } = isOpenNow(vet.openingHours);
