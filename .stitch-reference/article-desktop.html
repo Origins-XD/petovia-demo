@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#2c1600",
+                    "inverse-surface": "#31302d",
+                    "on-tertiary-container": "#3f2f23",
+                    "on-tertiary-fixed-variant": "#554336",
+                    "background": "#fdf9f3",
+                    "tertiary-fixed": "#f9ddcc",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#fdf9f3",
+                    "primary": "#006a62",
+                    "on-surface": "#1c1c18",
+                    "on-surface-variant": "#3c4947",
+                    "surface-variant": "#e6e2dc",
+                    "on-primary-fixed-variant": "#005049",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed-dim": "#ffb86e",
+                    "secondary-container": "#fea94b",
+                    "surface-container-high": "#ebe8e2",
+                    "tertiary-fixed-dim": "#dbc2b1",
+                    "on-primary-container": "#003a35",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed": "#00201d",
+                    "on-secondary-container": "#6f4000",
+                    "tertiary-container": "#ae9687",
+                    "surface-tint": "#006a62",
+                    "outline-variant": "#bbc9c6",
+                    "outline": "#6c7a77",
+                    "inverse-on-surface": "#f4f0ea",
+                    "on-error-container": "#93000a",
+                    "primary-container": "#1aada0",
+                    "tertiary": "#6e5a4d",
+                    "surface-container": "#f1ede7",
+                    "primary-fixed-dim": "#5bdacc",
+                    "on-tertiary": "#ffffff",
+                    "surface-dim": "#dddad4",
+                    "on-secondary-fixed-variant": "#693c00",
+                    "primary-fixed": "#7bf7e8",
+                    "surface-container-highest": "#e6e2dc",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed": "#26190e",
+                    "inverse-primary": "#5bdacc",
+                    "secondary-fixed": "#ffdcbd",
+                    "surface": "#fdf9f3",
+                    "secondary": "#8a5100",
+                    "error": "#ba1a1a",
+                    "on-background": "#1c1c18",
+                    "surface-container-low": "#f7f3ed",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0px 12px 32px rgba(26, 173, 160, 0.06);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-background font-body text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#FFFBF5]/80 backdrop-blur-xl dark:bg-[#1F1208]/80 flex justify-between items-center px-8 py-4 max-w-full mx-auto shadow-[0px_12px_32px_rgba(26,173,160,0.06)]">
+<div class="flex items-center gap-8">
+<span class="text-2xl font-black tracking-tighter text-[#1A1A1A] dark:text-[#FFFBF5]">Petovia</span>
+<div class="hidden md:flex gap-6 items-center">
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#1A1A1A] dark:text-[#FFFBF5]/80 hover:text-[#006a62] hover:scale-[0.98] transition-all duration-200" href="#">Marketplace</a>
+<a class="font-['Plus_Jakarta_Sans'] font-bold text-sm tracking-tight text-[#006a62] border-b-2 border-[#006a62] pb-1" href="#">Community</a>
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#1A1A1A] dark:text-[#FFFBF5]/80 hover:text-[#006a62] hover:scale-[0.98] transition-all duration-200" href="#">For Providers</a>
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#1A1A1A] dark:text-[#FFFBF5]/80 hover:text-[#006a62] hover:scale-[0.98] transition-all duration-200" href="#">About</a>
+</div>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-bold text-sm hover:scale-[0.98] transition-all duration-200 active:scale-95">
+            Get Early Access
+        </button>
+</nav>
+<main class="pt-24 pb-32">
+<article class="max-w-[760px] mx-auto px-6">
+<!-- Article Header -->
+<header class="mb-12">
+<div class="flex items-center gap-3 mb-6">
+<span class="bg-secondary-fixed text-on-secondary-fixed px-4 py-1 rounded-full text-xs font-bold tracking-wide">WELLNESS</span>
+<span class="text-on-surface-variant text-sm font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+                        Oct 24, 2024
+                    </span>
+</div>
+<h1 class="text-5xl font-black text-on-surface leading-[1.1] tracking-tight mb-8">
+                    The Modern Guide to Urban Pet Nutrition: Beyond the Bowl
+                </h1>
+<div class="flex items-center justify-between py-6 border-y border-[#EEE8DD]/40">
+<div class="flex items-center gap-3">
+<img alt="Author profile" class="w-12 h-12 rounded-full object-cover grayscale" data-alt="portrait of a professional female pet nutritionist with a warm smile, soft lighting, minimalist aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr9i6npLLyf9WrRymXOEl8YCSsZK5ZWiTLDfHA_gCUJ1TKxXF4Q5kCwNfLGMTATnAAGnH2d6AmFOdQSiQ7GSgjhJ91n4KUP9WiQ8HPHYViya5PfSpGCiBMn6WlkU8rD7E8nLasbaf_lz_Tt3iVO1MEktLJe_GsCCn2mSkn_h_f6BQYrD5S2KeMWWt5olm4BRPrHvIut-QAKuuJtCIxKA5PpLSAKvupKvG3roFId_P3-F8wJBloWZMDCHZC4pL2aH3tpLEdJdJm0tNk"/>
+<div>
+<p class="font-bold text-on-surface leading-none mb-1">Dr. Elena Vance</p>
+<p class="text-xs text-on-surface-variant font-medium">Head of Research • 8 min read</p>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="w-10 h-10 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary-container transition-colors">
+<span class="material-symbols-outlined text-xl" data-icon="share">share</span>
+</button>
+<button class="w-10 h-10 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary-container transition-colors">
+<span class="material-symbols-outlined text-xl" data-icon="bookmark">bookmark</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Hero Image -->
+<div class="relative -mx-10 mb-12">
+<img alt="Article Hero" class="w-full h-[500px] object-cover rounded-xl shadow-2xl" data-alt="a curated wooden table with organic pet food ingredients, fresh greens, and a modern ceramic bowl in soft natural morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuyeXWrKfkCCMA30rNJscYCFTukv_VxBEbiao0v0qJkthjZxWP7LuiwmrXHO7msYcpFKKn-qz8tV1rffqjChdLLZ7l3eImH5SNDoQYiX8HrAE32PTj7GGcUPMGgUzYreN9F5uRHwaOktTzY9YWe3OtGWpCYQCfQ2qRM0CaTW6tDJL18rmxPuVNTtRqWWqU7zSdd_qK7uoyLoiNQdZEuvex1eUTo5N9x_3V6QknoQzR-HicKyLt9KC12A_fQrsHwrE-YCuIMU60Oc0V"/>
+<div class="absolute -bottom-6 -right-6 bg-primary p-6 rounded-2xl text-on-primary max-w-xs editorial-shadow">
+<p class="text-sm italic font-medium">"Nutrition is the cornerstone of a pet's longevity, especially in vibrant urban environments where stress levels differ."</p>
+</div>
+</div>
+<!-- Content -->
+<div class="prose prose-lg max-w-none text-on-surface leading-relaxed">
+<p class="text-xl font-medium mb-8 text-on-surface-variant leading-relaxed">
+                    In the bustling heart of our cities, our pets face unique environmental challenges. From the pavement heat to the auditory landscape, their sensory world is vastly different from their ancestral roots.
+                </p>
+<p class="mb-6">
+                    Recent studies at the Petovia Institute suggest that urban pet nutrition should focus more on anti-inflammatory superfoods than ever before. We're seeing a shift from "fillers" to "functional" ingredients that target cognitive health and metabolic balance.
+                </p>
+<h2 class="text-3xl font-bold mt-12 mb-6">The Micro-Nutrient Shift</h2>
+<p class="mb-6">
+                    While protein remains king, the quality and bio-availability of that protein determine how well your pet handles the daily stressors of city life. Transitioning to cold-pressed or freeze-dried options maintains the cellular integrity of these essential nutrients.
+                </p>
+</div>
+<!-- Live Community Feed Section -->
+<section class="mt-24 pt-12 border-t border-[#EEE8DD]/40">
+<div class="flex items-center justify-between mb-10">
+<div class="flex items-center gap-4">
+<h3 class="text-2xl font-black text-on-surface tracking-tight">Join the conversation</h3>
+<span class="bg-surface-container-highest px-3 py-1 rounded-full text-xs font-bold text-on-surface-variant">47 REPLIES</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+<span class="text-xs font-bold text-primary">23 pet parents online</span>
+</div>
+</div>
+<!-- Message Composer -->
+<div class="bg-surface-container-low rounded-lg p-6 mb-12 editorial-shadow">
+<div class="flex gap-4">
+<img alt="My avatar" class="w-10 h-10 rounded-full border-2 border-primary-container p-0.5 object-cover" data-alt="close up of a stylish young man with a friendly expression, professional headshot in warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGfz2mzXqauoMejO71ebwbFJJCktsx7oNbZe8UShv6VHq0lBmrKiRgz6JUvcc0-cCAUaEkR3Vq9mZEZ9kIEecFT4lzUQsIcmFM96O7pcgbwXsJNtcdltz76e2Z5InHt_RRCsu346OhQyforb5Cm7yFF5E1XD14T7yi6Dl2RCV5hvsb5YKaPjT-WaiFDlkFNhY0WUu4vNyMJrmnXG5Lpe1anFJOEh77bcV3WYVcXdRFBwMx8wAqd316fZNZv22AX6VwidhqIGhcCz3r"/>
+<div class="flex-1">
+<textarea class="w-full bg-transparent border-none focus:ring-0 text-on-surface placeholder:text-on-surface-variant/50 resize-none min-h-[80px] p-0 font-medium" placeholder="Share your experience with urban nutrition..."></textarea>
+<div class="flex justify-between items-center mt-4 pt-4 border-t border-[#EEE8DD]/20">
+<div class="flex gap-3 text-on-surface-variant">
+<button class="material-symbols-outlined hover:text-primary transition-colors">image</button>
+<button class="material-symbols-outlined hover:text-primary transition-colors">sentiment_satisfied</button>
+</div>
+<button class="bg-primary text-on-primary px-8 py-2 rounded-full font-bold text-sm hover:bg-on-primary-fixed-variant transition-colors active:scale-95">Post</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Feed -->
+<div class="space-y-8">
+<!-- typing indicator -->
+<div class="flex items-center gap-3 px-2">
+<div class="flex gap-1">
+<span class="w-1.5 h-1.5 bg-primary-container rounded-full animate-pulse"></span>
+<span class="w-1.5 h-1.5 bg-primary-container rounded-full animate-pulse delay-75"></span>
+<span class="w-1.5 h-1.5 bg-primary-container rounded-full animate-pulse delay-150"></span>
+</div>
+<span class="text-xs font-medium text-on-surface-variant italic">Sarah is typing...</span>
+</div>
+<!-- Message 1 -->
+<div class="flex gap-4 group">
+<img alt="Marcus avatar" class="w-10 h-10 rounded-full border-2 border-primary-container p-0.5 object-cover" data-alt="portrait of a smiling woman in her 30s with a natural look, outdoor soft focus background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGdxufD-bocG06Kf0Tr91ZB7GLoSmZEuq-cPIHNo2hPKILEZvb37B7SASh1brupznXV_bTqbEAzM2fag1dSm7-CkyIlN8p8olVS43RNFP36lTfa7HGRQZc_9R9skqSHec-_A9-Ia3blU1yztnKI9ZWYijp-75yerlVoGDK6JDUOBQimeLorM2tT-9xE1tFvPTh9kTqmVazyJjTFL7oOX0M77t1rtSMhxIKF94pDoYhDQDkT2DLajRheFoFXZu1x5xj-hzt38k5fXgw"/>
+<div class="flex-1 space-y-2">
+<div class="flex items-center gap-2">
+<span class="font-bold text-sm">Marcus Chen</span>
+<span class="bg-[#FDF1E2] text-on-secondary-fixed px-2 py-0.5 rounded text-[10px] font-black tracking-widest uppercase">Pet parent to [Luna 🐕]</span>
+<span class="text-[10px] text-on-surface-variant font-bold ml-auto opacity-60">2M AGO</span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-tr-3xl rounded-br-3xl rounded-bl-3xl editorial-shadow">
+<p class="text-sm leading-relaxed">The point about cold-pressed ingredients is so vital! Since switching Luna to a grain-free, cold-pressed diet, her energy levels during our city walks have improved significantly. Less bloating too.</p>
+</div>
+<div class="flex gap-6 pl-2">
+<button class="flex items-center gap-1.5 text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">pets</span>
+<span class="text-xs font-bold">12</span>
+</button>
+<button class="flex items-center gap-1.5 text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+<span class="text-xs font-bold">4</span>
+</button>
+<button class="flex items-center gap-1.5 text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">chat_bubble_outline</span>
+<span class="text-xs font-bold">Reply</span>
+</button>
+</div>
+</div>
+</div>
+<!-- My Message (Teal Soft) -->
+<div class="flex gap-4 flex-row-reverse">
+<img alt="My avatar" class="w-10 h-10 rounded-full border-2 border-primary-container p-0.5 object-cover" data-alt="close up of a stylish young man with a friendly expression, professional headshot in warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhjpRbpVwxBmrNzEW-wt3s5RdjwEKlILicFOSSaVkZ6zCRO2uU66sFXTjRTaToioyXAyCEdHbKN8QTcjDS4VM-F3LfP09TgXrxkcphrVYbtDSs99s8VCQJtWfh5iDMzeewalFEPZVFqCPunnemywX2U_WfqjfeFmg779iTnQ7_6-fBaUWDfcxQL9OZjLTNl-02FzYUbqsdr4kr25iNyQek_njUgSKs99aG7XQ-Sc5IQhN3oKkAZTnnUjkM9TSJ8jq8w6J2F5cBalo4"/>
+<div class="flex-1 space-y-2 text-right">
+<div class="flex items-center gap-2 flex-row-reverse">
+<span class="font-bold text-sm">You</span>
+<span class="bg-[#E8F8F6] text-primary px-2 py-0.5 rounded text-[10px] font-black tracking-widest uppercase">Active Member</span>
+<span class="text-[10px] text-on-surface-variant font-bold mr-auto opacity-60">JUST NOW</span>
+</div>
+<div class="bg-primary-container text-on-primary-container p-5 rounded-tl-3xl rounded-br-3xl rounded-bl-3xl editorial-shadow ml-auto inline-block text-left max-w-[90%]">
+<p class="text-sm leading-relaxed">Dr. Vance, are there specific berries you recommend for their antioxidant properties in city dogs? I've been adding blueberries lately.</p>
+</div>
+</div>
+</div>
+<!-- Message 3 -->
+<div class="flex gap-4 group">
+<img alt="Sofia avatar" class="w-10 h-10 rounded-full border-2 border-primary-container p-0.5 object-cover" data-alt="portrait of a confident woman of color with a warm smile, natural hair, soft daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3cV5qQMr7MFRipCjm5Br286DqF7gswIWQ5nWkVehTjExqi5qYt5Z8eAI9Og_oJXVu7mBvy53AKFo9wa7w5wFJdpgpTX7PAKTzn_o-1z2Z-6HOZIKloaKA458-KYYA3CgldX8wT9XjdZ2_cwrHaMwL2RPV3UyaD51E1pv_KtvGmvs68L5oQMBcwnqiW7PuXgBTlLb7uIGigPaCqYSeDiWJSM_vV98vWMohrGYVN9RQmL2XI96zKp5SnB3SoAPlLkE_VtydPFeun_CV"/>
+<div class="flex-1 space-y-2">
+<div class="flex items-center gap-2">
+<span class="font-bold text-sm">Sofia Rodriguez</span>
+<span class="bg-[#FDF1E2] text-on-secondary-fixed px-2 py-0.5 rounded text-[10px] font-black tracking-widest uppercase">Pet parent to [Nico 🐈]</span>
+<span class="text-[10px] text-on-surface-variant font-bold ml-auto opacity-60">15M AGO</span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-tr-3xl rounded-br-3xl rounded-bl-3xl editorial-shadow">
+<p class="text-sm leading-relaxed">Blueberries are great! I actually started growing my own wheatgrass on the balcony for Nico. Urban cats really miss that fresh green interaction.</p>
+</div>
+<div class="flex gap-6 pl-2">
+<button class="flex items-center gap-1.5 text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">pets</span>
+<span class="text-xs font-bold">8</span>
+</button>
+<button class="flex items-center gap-1.5 text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">chat_bubble_outline</span>
+<span class="text-xs font-bold">2 Replies</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</article>
+</main>
+<!-- Footer -->
+<footer class="bg-[#1F1208] w-full py-16 px-8 text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
+<div class="space-y-4">
+<span class="text-[#F0C87A] font-black text-xl">Petovia</span>
+<p class="text-[#FFFBF5]/60 max-w-xs">Elevating the urban pet experience through science-backed nutrition and community-driven care.</p>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase tracking-widest text-[10px]">Platform</h4>
+<ul class="space-y-4">
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors" href="#">Marketplace</a></li>
+<li><a class="text-[#F0C87A] font-bold" href="#">Community</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors" href="#">For Providers</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase tracking-widest text-[10px]">Company</h4>
+<ul class="space-y-4">
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors" href="#">About</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors" href="#">Privacy</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors" href="#">Terms</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase tracking-widest text-[10px]">Newsletter</h4>
+<div class="flex gap-2">
+<input class="bg-white/10 border-none rounded-full px-4 text-white text-xs w-full focus:ring-1 focus:ring-[#F0C87A]" placeholder="Email address" type="email"/>
+<button class="bg-[#F0C87A] text-[#1F1208] px-4 py-2 rounded-full font-bold text-xs">Join</button>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/10 flex justify-between items-center text-[10px] font-bold text-[#FFFBF5]/40 tracking-widest uppercase">
+<span>© 2024 Petovia. All rights reserved.</span>
+<div class="flex gap-6">
+<a href="#">Instagram</a>
+<a href="#">Twitter</a>
+<a href="#">LinkedIn</a>
+</div>
+</div>
+</footer>
+</body></html>

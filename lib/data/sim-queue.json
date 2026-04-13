@@ -1,0 +1,182 @@
+[
+  {
+    "id": "sim-001",
+    "category": "Vets & Health",
+    "author": { "name": "Bella M.", "avatar": "👩‍🦱", "petBadge": "🐱" },
+    "body": "Just registered with a new vet in Brixton and the waiting room had such a calm energy — no barking dogs in the same space as cats. Why don't more practices do this?"
+  },
+  {
+    "id": "sim-002",
+    "category": "Vets & Health",
+    "author": { "name": "Dan F.", "avatar": "🧔", "petBadge": "🐕" },
+    "body": "Quick tip: if your vet practice uses VetConnect or Vet-AI, you can sometimes get triage advice 24/7 before deciding if it's an emergency visit."
+  },
+  {
+    "id": "sim-003",
+    "category": "Vets & Health",
+    "author": { "name": "Asha R.", "avatar": "👩", "petBadge": "🐈" },
+    "body": "Anyone know if annual health checks are worth it for indoor-only cats? My vet recommends yearly, but my cat hates the carrier so much it feels cruel."
+  },
+  {
+    "id": "sim-004",
+    "category": "Vets & Health",
+    "author": { "name": "Pete O.", "avatar": "👨", "petBadge": "🐕" },
+    "body": "The vet we found through Petovia was brilliant. Honest about what was needed and what wasn't. Didn't push unnecessary tests."
+  },
+  {
+    "id": "sim-005",
+    "category": "Insurance",
+    "author": { "name": "Kim S.", "avatar": "🧑‍🦰", "petBadge": "🐕" },
+    "body": "Just renewed my policy and the premium jumped 40% because of a claim last year. This is normal apparently but still a shock. Anyone switched providers successfully?"
+  },
+  {
+    "id": "sim-006",
+    "category": "Insurance",
+    "author": { "name": "Marco V.", "avatar": "👨‍🦱", "petBadge": "🐱" },
+    "body": "Protip: if you're shopping for new insurance, declare EVERYTHING in the health history. Being caught not declaring something voids the policy entirely."
+  },
+  {
+    "id": "sim-007",
+    "category": "Insurance",
+    "author": { "name": "Jess A.", "avatar": "👩‍🦳", "petBadge": "🐕" },
+    "body": "The 'value' policies on comparison sites are almost always time-limited cover. The premium looks great until your dog gets a chronic condition."
+  },
+  {
+    "id": "sim-008",
+    "category": "Grooming",
+    "author": { "name": "Nina C.", "avatar": "👩‍🦱", "petBadge": "🐩" },
+    "body": "Found a groomer in Tooting who specialises in doodles and uses hand scissors only. The difference vs a clipper cut is unreal. Worth every penny of the extra cost."
+  },
+  {
+    "id": "sim-009",
+    "category": "Grooming",
+    "author": { "name": "Oli B.", "avatar": "🧑", "petBadge": "🐕" },
+    "body": "For anyone with a nervous dog: ask potential groomers if they do solo appointments (just your dog, no other dogs in the salon). Made a huge difference for ours."
+  },
+  {
+    "id": "sim-010",
+    "category": "Grooming",
+    "author": { "name": "Tara N.", "avatar": "🧑‍🦰", "petBadge": "🐩" },
+    "body": "Monthly grooming for a Cockapoo in London seems to run £60–85 depending on size and how much coat there is. Anyone know of anywhere more affordable in SW London?"
+  },
+  {
+    "id": "sim-011",
+    "category": "Training",
+    "author": { "name": "Raj P.", "avatar": "🧔", "petBadge": "🐕" },
+    "body": "Reward-based training changed everything for our rescue. Six months of positive reinforcement and she's a completely different dog. Force-free really works."
+  },
+  {
+    "id": "sim-012",
+    "category": "Training",
+    "author": { "name": "Lexi W.", "avatar": "👱", "petBadge": "🐕" },
+    "body": "Group classes vs 1-to-1: I tried groups first (cheaper) but our dog was too reactive. 1-to-1 home visit fixed the reactivity in 4 sessions. Sometimes you need the individual attention."
+  },
+  {
+    "id": "sim-013",
+    "category": "Training",
+    "author": { "name": "Sam K.", "avatar": "🧑‍🦳", "petBadge": "🐕" },
+    "body": "Always check if your trainer is accredited (IMDT, COAPE, or similar). 'Dog trainer' is an unregulated title in the UK — anyone can call themselves one."
+  },
+  {
+    "id": "sim-014",
+    "category": "Training",
+    "author": { "name": "Freya J.", "avatar": "👩", "petBadge": "🐕" },
+    "body": "Puppy classes for socialisation are so worth the cost. Those first 12 weeks are genuinely critical for how they relate to the world. Don't skip them."
+  },
+  {
+    "id": "sim-015",
+    "category": "Travel",
+    "author": { "name": "Paulo M.", "avatar": "👨‍🦱", "petBadge": "🐕" },
+    "body": "Just back from a month in Portugal with our dog — the AHC process was stressful to organise but completely fine at the actual border. Customs barely glanced at the paperwork."
+  },
+  {
+    "id": "sim-016",
+    "category": "Travel",
+    "author": { "name": "Cat L.", "avatar": "🧑‍🦰", "petBadge": "🐱" },
+    "body": "Does anyone travel internationally with cats? Our Maine Coon hates cars. Wondering if it's even humane to fly them."
+  },
+  {
+    "id": "sim-017",
+    "category": "Travel",
+    "author": { "name": "George H.", "avatar": "🧔", "petBadge": "🐕" },
+    "body": "If you're going through Eurotunnel/DFDS with your dog, the tapeworm treatment 1–5 days before re-entry is genuinely enforced. Don't risk it."
+  },
+  {
+    "id": "sim-018",
+    "category": "Food",
+    "author": { "name": "Maya S.", "avatar": "👩‍🦱", "petBadge": "🐕" },
+    "body": "Switched from kibble to Butternut Box wet food last month and the difference in my Staffie's coat is noticeable. Pricier but she's eating with so much more enthusiasm."
+  },
+  {
+    "id": "sim-019",
+    "category": "Food",
+    "author": { "name": "Finn O.", "avatar": "🧑", "petBadge": "🐕" },
+    "body": "The ingredient quality gap within kibble brands is massive. I started reading labels after my vet mentioned it and 'meat and animal derivatives' really is quite vague."
+  },
+  {
+    "id": "sim-020",
+    "category": "Food",
+    "author": { "name": "Ingrid B.", "avatar": "👩‍🦳", "petBadge": "🐱" },
+    "body": "Cats really need meat-based wet food — they're obligate carnivores and dry-only diets long-term can contribute to kidney issues. A vet told me this and I wish I'd known earlier."
+  },
+  {
+    "id": "sim-021",
+    "category": "Food",
+    "author": { "name": "Zara T.", "avatar": "👩", "petBadge": "🐕" },
+    "body": "Licki mats with raw feeding as a topper on complete kibble is genuinely a great combo. Mental stimulation + decent nutrition + manageable cost."
+  },
+  {
+    "id": "sim-022",
+    "category": "Vets & Health",
+    "author": { "name": "Eli N.", "avatar": "🧑‍🦱", "petBadge": "🐕" },
+    "body": "Question: does anyone find their vet always wants to run bloodwork on routine visits? Not sure if this is standard practice or upselling."
+  },
+  {
+    "id": "sim-023",
+    "category": "Vets & Health",
+    "author": { "name": "Rosa K.", "avatar": "🧑‍🦰", "petBadge": "🐱" },
+    "body": "My cat had her 10-year senior wellness check last week. So important — they caught early kidney markers that are now being monitored. Yearly checks for seniors are worth it."
+  },
+  {
+    "id": "sim-024",
+    "category": "Insurance",
+    "author": { "name": "Ben H.", "avatar": "👨", "petBadge": "🐕" },
+    "body": "Self-insuring strategy: we put £80/month into a dedicated savings account instead of a policy. 3 years in, have £2,880 saved. Works if your dog is young and healthy — doesn't if they're not."
+  },
+  {
+    "id": "sim-025",
+    "category": "Training",
+    "author": { "name": "Anita P.", "avatar": "👩‍🦱", "petBadge": "🐕" },
+    "body": "Separation anxiety training is a long game. We worked with a behaviourist for 3 months. It's really about incremental desensitisation — there are no shortcuts."
+  },
+  {
+    "id": "sim-026",
+    "category": "Grooming",
+    "author": { "name": "Will E.", "avatar": "🧔", "petBadge": "🐕" },
+    "body": "Mobile groomers are worth the premium if you have an anxious dog. Cuts out the car journey stress and the waiting room nerves entirely."
+  },
+  {
+    "id": "sim-027",
+    "category": "Vets & Health",
+    "author": { "name": "Lara F.", "avatar": "👩", "petBadge": "🐱" },
+    "body": "This article got me to finally book that vet visit I'd been putting off for weeks. Cat has a small lump near her shoulder — vet checked it immediately, just a reaction from a previous injection. Phew."
+  },
+  {
+    "id": "sim-028",
+    "category": "Food",
+    "author": { "name": "Kai S.", "avatar": "🧑‍🦳", "petBadge": "🐕" },
+    "body": "Honestly the best thing I did was join a dog nutrition Facebook group run by a veterinary nutritionist. Changed how I think about ingredient lists entirely."
+  },
+  {
+    "id": "sim-029",
+    "category": "Travel",
+    "author": { "name": "Izzy R.", "avatar": "👩‍🦱", "petBadge": "🐱" },
+    "body": "We left our cats with a house sitter rather than travel with them. Honestly think it was kinder. Some cats are just deeply territorial and disruption stresses them enormously."
+  },
+  {
+    "id": "sim-030",
+    "category": "Vets & Health",
+    "author": { "name": "Mo A.", "avatar": "👨‍🦱", "petBadge": "🐕" },
+    "body": "First time pet owner here — this community has been genuinely helpful. Found our vet through Petovia, first appointment went brilliantly. Thank you all."
+  }
+]

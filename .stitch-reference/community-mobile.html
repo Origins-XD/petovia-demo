@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Petovia Community Hub</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#2c1600",
+                    "inverse-surface": "#31302d",
+                    "on-tertiary-container": "#3f2f23",
+                    "on-tertiary-fixed-variant": "#554336",
+                    "background": "#fdf9f3",
+                    "tertiary-fixed": "#f9ddcc",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#fdf9f3",
+                    "primary": "#006a62",
+                    "on-surface": "#1c1c18",
+                    "on-surface-variant": "#3c4947",
+                    "surface-variant": "#e6e2dc",
+                    "on-primary-fixed-variant": "#005049",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed-dim": "#ffb86e",
+                    "secondary-container": "#fea94b",
+                    "surface-container-high": "#ebe8e2",
+                    "tertiary-fixed-dim": "#dbc2b1",
+                    "on-primary-container": "#003a35",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed": "#00201d",
+                    "on-secondary-container": "#6f4000",
+                    "tertiary-container": "#ae9687",
+                    "surface-tint": "#006a62",
+                    "outline-variant": "#bbc9c6",
+                    "outline": "#6c7a77",
+                    "inverse-on-surface": "#f4f0ea",
+                    "on-error-container": "#93000a",
+                    "primary-container": "#1aada0",
+                    "tertiary": "#6e5a4d",
+                    "surface-container": "#f1ede7",
+                    "primary-fixed-dim": "#5bdacc",
+                    "on-tertiary": "#ffffff",
+                    "surface-dim": "#dddad4",
+                    "on-secondary-fixed-variant": "#693c00",
+                    "primary-fixed": "#7bf7e8",
+                    "surface-container-highest": "#e6e2dc",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed": "#26190e",
+                    "inverse-primary": "#5bdacc",
+                    "secondary-fixed": "#ffdcbd",
+                    "surface": "#fdf9f3",
+                    "secondary": "#8a5100",
+                    "error": "#ba1a1a",
+                    "on-background": "#1c1c18",
+                    "surface-container-low": "#f7f3ed",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen pb-24">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-[#FFFBF5]/80 backdrop-blur-xl flex justify-between items-center px-6 py-4 shadow-[0px_12px_32px_rgba(26,173,160,0.06)]">
+<span class="text-2xl font-black tracking-tighter text-[#1A1A1A]">Petovia</span>
+<div class="flex items-center gap-4">
+<button class="w-10 h-10 flex items-center justify-center rounded-full bg-surface-container-low text-primary">
+<span class="material-symbols-outlined">search</span>
+</button>
+<div class="w-10 h-10 rounded-full overflow-hidden border-2 border-primary-container">
+<img class="w-full h-full object-cover" data-alt="professional portrait of a friendly man with a slight smile in a modern setting with warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_i1_9SxN7LEyX7KmwvGEe3xm6Keo7j03NDmuoaiH0ItpKbHU11dcAj-9MGmq7AlZGdVdQPWAZWE_8RN-YfYr9B5iHtfciMhaautu-XPsnKWGOzsYe1pQ0XEHwC3ft5l-IvbwhINXcI_ByJtm2ry_rgcazMAz-Ep_kFdPSZ9M0Yo2AfqVTZspE589KmS45WhD0H-jhTv6cPHGv4m8pNQO_TeOvwsAcRJ41HMESHCK4dbQHjTtFJ2S8mIZ7rs2szk5dFJgQWS8BH5vy"/>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="pt-24 px-6">
+<!-- Hero Section -->
+<header class="mb-8">
+<span class="text-primary font-bold text-sm tracking-widest uppercase mb-2 block">Our Community</span>
+<h1 class="text-4xl font-black text-on-surface tracking-tight leading-tight">Stories for every <span class="text-primary-container">pet lover.</span></h1>
+</header>
+<!-- Scrollable Tab Nav -->
+<div class="flex gap-3 overflow-x-auto hide-scrollbar mb-8 -mx-6 px-6">
+<button class="px-6 py-2.5 rounded-full bg-primary text-on-primary font-bold whitespace-nowrap shadow-md scale-95 transition-transform">All Stories</button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-low text-on-surface-variant font-medium whitespace-nowrap hover:bg-[#f1ede7]">Training Tips</button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-low text-on-surface-variant font-medium whitespace-nowrap hover:bg-[#f1ede7]">Pet Wellness</button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-low text-on-surface-variant font-medium whitespace-nowrap hover:bg-[#f1ede7]">Success Stories</button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-low text-on-surface-variant font-medium whitespace-nowrap hover:bg-[#f1ede7]">Community Meetups</button>
+</div>
+<!-- Featured Article Card -->
+<section class="mb-10">
+<div class="relative rounded-lg overflow-hidden bg-surface shadow-[0px_12px_32px_rgba(26,173,160,0.06)] flex flex-col">
+<div class="h-64 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="two happy dogs playing together in a golden meadow at sunset with warm lens flare and soft green background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrWP8sO_bGk1yAOTKDrH0JIC2KPy1ZZ8Pr7VMGY4dRfDGY3tKFCcyy4FxyGOdUPVUozI5XKy8acgsd0TSul8RWb68h5wuS_nKZn1lMDgdnYTroKsCkL7_BaQ6THWAwV4_RTb_jJIIigm5nz9DJJYISUOeFiR2S3a39htMhQ7hkmEobWtOz_m6A_YVuV7JoBFNgahTdEiaGKRxx61u1j0oYsNx_9xjNprT-rinx9Wg_GvgM8yIu4_9cXw2Mnz804-vt-AQTq5qSDy2N"/>
+</div>
+<div class="p-6 bg-white">
+<div class="flex items-center gap-3 mb-3">
+<span class="px-3 py-1 rounded-full bg-secondary-container/20 text-on-secondary-container text-xs font-bold uppercase tracking-wider">Editor's Pick</span>
+<span class="text-on-surface-variant/60 text-xs font-medium">8 min read</span>
+</div>
+<h2 class="text-2xl font-bold text-on-surface mb-3 leading-snug">The Science of Play: Why Socializing Your Puppy Matters More Than You Think</h2>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">Expert behavioralists share why early interaction with other breeds shapes a lifetime of healthy social habits for your furry friend.</p>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<img class="w-8 h-8 rounded-full" data-alt="portrait of a smiling woman with glasses and brown hair in a bright professional studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsvHnALMuv_e_aG9VZh4-POtlzVCMnDLnih_TM0W4XMISf_j917XodhZbYwVD23Zg-p1TCI6i7yF6o-8qK_kUvwEi8bh_GjNfSKKDApCd_LRrYVBrFBvbmKQ22XZvdvtSHKQAYLa13orYeFj5gjito6Pk9Rb0WBbY0d_nLb1b_PzLzpzWQbTRAiJOOxmqxDrI5xDdOsbZHbcMQDkrJrCyRD9RmRmmB_86mbVvuJwnJojj532ZinlZynKP9abLKHjn5VAtE-FtvW-we"/>
+<span class="text-sm font-semibold text-on-surface">Dr. Sarah Jenkins</span>
+</div>
+<button class="text-primary flex items-center font-bold text-sm">
+                            Read Now
+                            <span class="material-symbols-outlined text-lg ml-1">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Vertical Feed (1-Column Grid) -->
+<section class="space-y-8">
+<h3 class="text-xl font-bold text-on-surface flex items-center gap-2">
+                Recent Updates
+                <span class="h-px flex-1 bg-outline-variant/40"></span>
+</h3>
+<!-- Article 1 -->
+<article class="group">
+<div class="flex flex-col gap-4">
+<div class="rounded-lg overflow-hidden h-48">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="close up of a tabby cat resting comfortably on a woven blanket in soft morning sunlight by a window" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbeEln8ikCp-PYapbMRSo2nXTu5JlCVb3TfQpoEq-nArhSlNtuljubokD76tq2BftZqjxDCjMaoV6tEa6gWkozdP8FZiqKLkD7G-6qM_IpaFf0A7qBtNifolCxaFJ8ahqyE3aU4hQZBGBjGUWHzVT62VRw9rBkF85F2dQD8NVpcaA6uy2z3z6zomVLoZQ7ApoZHscLuo8bEsGoalBAx16zHuWO70tuENEK0fSq5C4xyka_bostoAPuy3D6O64u9Z34I3P1HMoXxWh-"/>
+</div>
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="text-primary font-bold text-xs uppercase tracking-widest">Pet Wellness</span>
+<span class="w-1 h-1 rounded-full bg-outline"></span>
+<span class="text-on-surface-variant/60 text-xs font-medium">May 24, 2024</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-snug group-hover:text-primary transition-colors">Decoding the Purr: A Guide to Feline Body Language and Emotional Health</h4>
+</div>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="group">
+<div class="flex flex-col gap-4">
+<div class="rounded-lg overflow-hidden h-48">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="aesthetic arrangement of organic pet food ingredients including fresh carrots, blueberries, and chicken in wooden bowls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEiBDyVPikWmM4K-YUNnKohfCHn6_gxJvu02IKoC92ivqgwzZp2SzDyIpZq25Ia2_LRwMLeAkNrlQ1kYUjhsXm5DD6sf37x6ukMV7rusUu8l-FqxHfeayIPtfyhfBzrsG5utf9pj69naGNaTm6KO_6iqEjU8sli1hUvZzLwfI-Al8KB77BcOoIeNug7YdlHeDF7NNg70Y2KBG9LKGTmDmxXrhC5b-zQ60erIdsrfe9B25qO0MDpUGpAOjo382GJDYO0QOD2sE46MUG"/>
+</div>
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="text-primary font-bold text-xs uppercase tracking-widest">Nutrition</span>
+<span class="w-1 h-1 rounded-full bg-outline"></span>
+<span class="text-on-surface-variant/60 text-xs font-medium">May 22, 2024</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-snug group-hover:text-primary transition-colors">The Raw Truth: Are Homemade Diets Safe for Large Breed Senior Dogs?</h4>
+</div>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="group">
+<div class="flex flex-col gap-4">
+<div class="rounded-lg overflow-hidden h-48">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="a group of diverse pet owners and their dogs gathered in a park for a community social event under a large tree" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwJnYQ_ITQqTYLmK59ZzpiphdX_hT9yBR5cZVKFh47G9tkwx88SO1_rvNxtA9oaRMWJCK2zxvCgO_c_4F4WbFJbes0uAMqMCEhbSFQp6TL4VPuVCAe6-rBR-BgBAxbSCCcCDK8Lka1s6PoDTars3-FT_XyJbL-kftrbcG0tnopc01KtJrCr8POA3jXBkN3DW84PcUlVGUwrDlwJ5cF2AyLamF0c5o0oEydgqJIKSRU0ARrc4BKRZfhEkM6-sIryVsSz7sgiBXFs9kW"/>
+</div>
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="text-primary font-bold text-xs uppercase tracking-widest">Community</span>
+<span class="w-1 h-1 rounded-full bg-outline"></span>
+<span class="text-on-surface-variant/60 text-xs font-medium">May 20, 2024</span>
+</div>
+<h4 class="text-lg font-bold text-on-surface leading-snug group-hover:text-primary transition-colors">Meetup Recap: Bark in the Park 2024 brought over 200 local pets together</h4>
+</div>
+</div>
+</article>
+</section>
+<!-- Newsletter Section -->
+<section class="mt-12 mb-8 bg-on-tertiary-fixed text-on-tertiary-fixed rounded-lg p-8 relative overflow-hidden">
+<div class="absolute -right-8 -top-8 w-32 h-32 bg-primary/20 rounded-full blur-3xl"></div>
+<h3 class="text-2xl font-black text-[#1A1A1A] mb-2">Stay in the loop.</h3>
+<p class="text-[#1A1A1A]/70 text-sm mb-6 leading-relaxed">Join 15k+ pet parents receiving our weekly care digest.</p>
+<div class="flex gap-2">
+<input class="flex-1 rounded-full bg-white border-none text-sm px-4 focus:ring-2 focus:ring-primary-container" placeholder="Email address" type="email"/>
+<button class="w-12 h-12 flex items-center justify-center rounded-full bg-primary text-white">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</section>
+</main>
+<!-- Bottom Navigation Bar (Shell) -->
+<footer class="fixed bottom-0 left-0 w-full flex justify-around items-center p-4 bg-[#FFFBF5] border-t border-[#EEE8DD]/40 z-50">
+<div class="flex flex-col items-center justify-center text-[#1A1A1A]/60">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="text-[10px] mt-1 font-medium">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1A1A1A]/60">
+<span class="material-symbols-outlined" data-icon="storefront">storefront</span>
+<span class="text-[10px] mt-1 font-medium">Marketplace</span>
+</div>
+<!-- Active Tab: Community -->
+<div class="flex flex-col items-center justify-center bg-[#E8F8F6] text-[#006a62] rounded-full px-5 py-2 transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="groups" style="font-variation-settings: 'FILL' 1;">groups</span>
+<span class="text-[10px] mt-1 font-bold">Community</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1A1A1A]/60">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span>
+<span class="text-[10px] mt-1 font-medium">Saved</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1A1A1A]/60">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="text-[10px] mt-1 font-medium">Account</span>
+</div>
+</footer>
+</body></html>

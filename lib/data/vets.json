@@ -1,0 +1,5891 @@
+[
+  {
+    "id": "selsdon-veterinary-surgery",
+    "name": "Selsdon Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 5,
+    "reviewCount": 9,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "178 Addington Rd, South Croydon",
+    "postcode": "CR2",
+    "borough": "South Croydon",
+    "lat": 51.35782,
+    "lng": -0.10045,
+    "phone": "+44 20 4626 6870",
+    "website": "https://www.selsdonvets.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "novivet",
+    "name": "NoviVet",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 5,
+    "reviewCount": 522,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Grooming",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "77 Pickford Ln, Bexleyheath",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49425,
+    "lng": -0.11802,
+    "phone": "+44 20 3432 5825",
+    "website": "https://novivet.com/",
+    "verified": true
+  },
+  {
+    "id": "mascotas-all-services",
+    "name": "Mascotas All Services",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 5,
+    "reviewCount": 176,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Dental",
+      "Surgery"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "34 North St, Bexleyheath",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49343,
+    "lng": -0.1191,
+    "phone": "+44 7515 475809",
+    "verified": true
+  },
+  {
+    "id": "the-pet-health-therapy-centre",
+    "name": "The Pet Health & Therapy Centre",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 5,
+    "reviewCount": 93,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "1 Bellegrove Parade, Welling",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.51097,
+    "lng": -0.11074,
+    "phone": "+44 20 3260 5058",
+    "website": "http://www.pethealthandtherapy.com/",
+    "verified": true
+  },
+  {
+    "id": "tooting-veterinary-surgery",
+    "name": "Tooting Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 5,
+    "reviewCount": 30,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "5 London Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49882,
+    "lng": -0.12372,
+    "phone": "+44 20 4587 7796",
+    "website": "https://www.tootingvets.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "veterinary-assist",
+    "name": "Veterinary Assist",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 5,
+    "reviewCount": 2,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Surgery"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "23 Newhouse Walk, Morden",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50293,
+    "lng": -0.12164,
+    "phone": "+44 7961 952379",
+    "website": "http://veterinaryassist.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "optivet-referrals-south-london",
+    "name": "Optivet Referrals (South London)",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 5,
+    "reviewCount": 5,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Grooming",
+      "Emergency",
+      "Surgery",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "Inside The Pet Vet, Optivet Referrals South London, 145 Morden Rd, Mitcham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.4913,
+    "lng": -0.12207,
+    "phone": "+44 20 3422 8886",
+    "website": "https://www.optivet.com/optivet-south-london",
+    "verified": true
+  },
+  {
+    "id": "physivet-veterinary-physiotherapy",
+    "name": "PhysiVet Veterinary Physiotherapy",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 5,
+    "reviewCount": 9,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "Glenburnie Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.5097,
+    "lng": -0.12054,
+    "phone": "+44 7826 294927",
+    "website": "https://www.physivet.com/",
+    "verified": true
+  },
+  {
+    "id": "snoots-vet-unlimited-care-27mo-forest-hill",
+    "name": "Snoots Vet - Unlimited Care £27/mo (Forest Hill)",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 5,
+    "reviewCount": 12,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Dental",
+      "Emergency",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "13 Dartmouth Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.4901,
+    "lng": -0.13045,
+    "phone": "+44 7458 699020",
+    "website": "https://www.snootsvet.com/forest-hill-vets",
+    "verified": true
+  },
+  {
+    "id": "animal-ultrasound-association",
+    "name": "Animal Ultrasound Association",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 5,
+    "reviewCount": 15,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "Wimpole Cl, Bromley",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49955,
+    "lng": -0.12827,
+    "phone": "+44 7910 522512",
+    "website": "https://www.animalultrasoundassociation.org/",
+    "verified": true
+  },
+  {
+    "id": "london-veterinary-acupuncture",
+    "name": "London Veterinary Acupuncture",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 5,
+    "reviewCount": 30,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Surgery",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "London",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.501,
+    "lng": -0.119,
+    "phone": "",
+    "website": "http://www.londonveterinaryacupuncture.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "vet-at-home-uk",
+    "name": "Vet At Home UK",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 5,
+    "reviewCount": 5,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Emergency",
+      "Dental",
+      "Surgery"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "London",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.501,
+    "lng": -0.119,
+    "phone": "+44 7349 122063",
+    "website": "https://www.vetathomeuk.com/",
+    "verified": true
+  },
+  {
+    "id": "mortrams-moggies-home-cat-care-pet-sitting-services",
+    "name": "Mortram's Moggies Home Cat Care & Pet Sitting Services",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 5,
+    "reviewCount": 174,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Behaviour",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "London",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.501,
+    "lng": -0.119,
+    "phone": "+44 7539 937750",
+    "website": "http://www.mortramsmoggies.com/",
+    "verified": true
+  },
+  {
+    "id": "woodings-family-veterinary-practice",
+    "name": "Wooding's Family Veterinary Practice",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 5,
+    "reviewCount": 56,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Behaviour",
+      "Dental",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "42 Chase Cross Rd, Romford",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49928,
+    "lng": -0.11476,
+    "phone": "+44 1708 577577",
+    "website": "https://woodingsvets.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "kings-road-veterinary-surgery",
+    "name": "Kings Road Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.9,
+    "reviewCount": 250,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Dental",
+      "Surgery",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "123 Kings Rd, Westerham",
+    "postcode": "TN16",
+    "borough": "Westerham",
+    "lat": 51.26809,
+    "lng": 0.06316,
+    "phone": "+44 1959 576337",
+    "website": "http://www.kingsroadvets.com/",
+    "verified": true
+  },
+  {
+    "id": "the-cat-doctor",
+    "name": "The Cat Doctor",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.9,
+    "reviewCount": 61,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Dental",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "London",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.501,
+    "lng": -0.119,
+    "phone": "+44 7961 154886",
+    "website": "http://www.thecatdoctor.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "vets-for-pets-crayford",
+    "name": "Vets for Pets - Crayford",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 4.9,
+    "reviewCount": 345,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Grooming",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "9, TOWER RETAIL PARK, Dartford",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49303,
+    "lng": -0.1275,
+    "phone": "+44 1322 621360",
+    "website": "https://www.vets4pets.com/crayford",
+    "verified": true
+  },
+  {
+    "id": "creature-comforts-vets-balham",
+    "name": "Creature Comforts Vets Balham",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.9,
+    "reviewCount": 47,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "128 Balham High Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50147,
+    "lng": -0.12865,
+    "phone": "+44 20 3039 3079",
+    "website": "https://www.creaturecomforts.co.uk/locations/balham?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=balham",
+    "verified": true
+  },
+  {
+    "id": "the-urban-vet",
+    "name": "The Urban Vet",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.9,
+    "reviewCount": 250,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Grooming",
+      "Microchipping",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "663-665 Garratt Ln, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49285,
+    "lng": -0.12822,
+    "phone": "+44 20 3642 4892",
+    "website": "http://www.theurbanvet.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "vets-for-pets-beckenham",
+    "name": "Vets for Pets - Beckenham",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.9,
+    "reviewCount": 56,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Behaviour",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "Inside Pets at Home, 150-164, Upper Elmers End Rd, Beckenham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49917,
+    "lng": -0.1106,
+    "phone": "+44 20 4505 6666",
+    "website": "https://www.vets4pets.com/practices/beckenham-vets-for-pets/",
+    "verified": true
+  },
+  {
+    "id": "very-important-pets",
+    "name": "Very Important Pets",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.9,
+    "reviewCount": 107,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Surgery"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "8 Lombard Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50332,
+    "lng": -0.12329,
+    "phone": "+44 20 3004 4580",
+    "website": "https://www.veryimportantpets.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "beckenham-chiropractic-clinic",
+    "name": "Beckenham Chiropractic Clinic",
+    "photo": "/clinic-photos/fallback-8.jpg",
+    "rating": 4.9,
+    "reviewCount": 341,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Microchipping",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "366 Croydon Rd, Beckenham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49727,
+    "lng": -0.12339,
+    "phone": "+44 20 8663 3878",
+    "website": "http://www.beckenhamchiropractic.com/",
+    "verified": true
+  },
+  {
+    "id": "elmfield-vets",
+    "name": "Elmfield Vets",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.8,
+    "reviewCount": 203,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Behaviour",
+      "Boarding",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "43 Elmfield Way, South Croydon",
+    "postcode": "CR2",
+    "borough": "South Croydon",
+    "lat": 51.34613,
+    "lng": -0.09398,
+    "phone": "+44 20 8066 3500",
+    "website": "http://www.elmfieldvets.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "paxton-veterinary-clinic-clifton-road",
+    "name": "Paxton Veterinary Clinic, Clifton Road",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.8,
+    "reviewCount": 404,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "30 Clifton Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.4901,
+    "lng": -0.12017,
+    "phone": "+44 20 8653 3355",
+    "website": "https://www.paxtonvets.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "verified": true
+  },
+  {
+    "id": "hydro-hounds",
+    "name": "Hydro Hounds",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4.8,
+    "reviewCount": 21,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "246 Coulsdon Rd, Coulsdon",
+    "postcode": "CR5",
+    "borough": "Coulsdon",
+    "lat": 51.32498,
+    "lng": -0.13897,
+    "phone": "+44 20 8763 2020",
+    "website": "http://www.hydrohounds.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "medivet-welling",
+    "name": "Medivet Welling",
+    "photo": "/clinic-photos/fallback-8.jpg",
+    "rating": 4.8,
+    "reviewCount": 173,
+    "priceTier": 3,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "122 Park View Rd, Welling",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50316,
+    "lng": -0.11171,
+    "phone": "+44 20 8303 2864",
+    "website": "https://www.medivetgroup.com/vet-practices/welling/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_welling_-_park_view_veterinary_group",
+    "verified": true
+  },
+  {
+    "id": "parish-lane-veterinary-surgery",
+    "name": "Parish Lane Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.8,
+    "reviewCount": 277,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "1 Parish Ln, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49894,
+    "lng": -0.13304,
+    "phone": "+44 20 8778 7789",
+    "website": "https://www.parishlanevets.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "west-wickham-veterinary-surgery",
+    "name": "West Wickham Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.8,
+    "reviewCount": 139,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Dental",
+      "Emergency",
+      "Surgery",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "20 Station Rd, West Wickham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.5048,
+    "lng": -0.12787,
+    "phone": "+44 20 3143 6688",
+    "website": "http://www.westwickhamvets.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "animal-choice",
+    "name": "Animal Choice",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.8,
+    "reviewCount": 167,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Boarding",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "67 Upper Tooting Park, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49543,
+    "lng": -0.11807,
+    "phone": "+44 20 3996 4928",
+    "website": "http://www.animal-choice.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "mitcham-veterinary-surgery",
+    "name": "Mitcham Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 4.8,
+    "reviewCount": 347,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "4 Upper Green E, Mitcham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49416,
+    "lng": -0.11843,
+    "phone": "+44 20 8640 5766",
+    "website": "http://www.mitchamvets.co.uk/",
+    "verified": true
+  },
+  {
+    "id": "medivet-morden",
+    "name": "Medivet Morden",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.8,
+    "reviewCount": 246,
+    "priceTier": 3,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Surgery",
+      "Dental",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "101-103, Central Rd, Morden",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49925,
+    "lng": -0.12525,
+    "phone": "+44 20 8640 2064",
+    "website": "https://www.medivetgroup.com/vet-practices/morden/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_morden_-_heron_veterinary_surgery",
+    "verified": false
+  },
+  {
+    "id": "medivet-wimbledon-kydd-and-kydd-vets",
+    "name": "Medivet Wimbledon - Kydd and Kydd Vets",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.8,
+    "reviewCount": 208,
+    "priceTier": 3,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Boarding",
+      "Microchipping",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "1-3 Leopold Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.5081,
+    "lng": -0.11776,
+    "phone": "+44 20 8946 9925",
+    "website": "https://www.medivetgroup.com/vet-practices/wimbledon/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_wimbledon_-_kydd_and_kydd_vets",
+    "verified": false
+  },
+  {
+    "id": "voo-vets-balham",
+    "name": "Voo Vets Balham",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.8,
+    "reviewCount": 32,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Grooming",
+      "Emergency",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "31 Bedford Hill, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49273,
+    "lng": -0.12329,
+    "phone": "+44 20 3925 1516",
+    "website": "http://welovevoo.com/",
+    "verified": false
+  },
+  {
+    "id": "hainault-hydrotherapy",
+    "name": "Hainault Hydrotherapy",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4.8,
+    "reviewCount": 170,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Emergency",
+      "Surgery"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "Equestrian Centre, Noak Hill Rd, Romford",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50581,
+    "lng": -0.11305,
+    "phone": "+44 20 3540 8736",
+    "website": "http://www.canine-hydrotherapy.com/",
+    "verified": false
+  },
+  {
+    "id": "parkside-veterinary-centre",
+    "name": "Parkside Veterinary Centre",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 4.7,
+    "reviewCount": 603,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Dental",
+      "Boarding",
+      "Behaviour",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "61 Ruskin Rd, Carshalton",
+    "postcode": "SM5",
+    "borough": "Carshalton",
+    "lat": 51.36448,
+    "lng": -0.16236,
+    "phone": "+44 20 8395 8222",
+    "website": "http://www.parksidevet.com/",
+    "verified": false
+  },
+  {
+    "id": "paxton-veterinary-clinic-dulwich",
+    "name": "Paxton Veterinary Clinic- Dulwich",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 4.7,
+    "reviewCount": 286,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Emergency",
+      "Surgery"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "231 Gipsy Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49267,
+    "lng": -0.13645,
+    "phone": "+44 20 8670 1772",
+    "website": "https://www.paxtonvets.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "verified": false
+  },
+  {
+    "id": "mayow-veterinary-surgery",
+    "name": "Mayow Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.7,
+    "reviewCount": 656,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Grooming",
+      "Surgery"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "48 Mayow Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49786,
+    "lng": -0.13655,
+    "phone": "+44 20 8659 4496",
+    "website": "http://www.mayowvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "medivet-dulwich",
+    "name": "Medivet Dulwich",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.7,
+    "reviewCount": 255,
+    "priceTier": 3,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Surgery",
+      "Behaviour",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "509 Lordship Ln, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50953,
+    "lng": -0.13544,
+    "phone": "+44 20 8693 4677",
+    "website": "https://www.medivetgroup.com/vet-practices/dulwich/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_dulwich_-_lordship_lane_vet_surgery_and_pet_shop",
+    "verified": false
+  },
+  {
+    "id": "norbury-pet-health-centre",
+    "name": "Norbury Pet Health Centre",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4.7,
+    "reviewCount": 289,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Surgery",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "1203A London Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50023,
+    "lng": -0.13405,
+    "phone": "+44 20 8764 1254",
+    "website": "https://www.norburyvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "the-neighbourhood-vet-penge",
+    "name": "The Neighbourhood Vet Penge",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.7,
+    "reviewCount": 245,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Grooming",
+      "Emergency",
+      "Microchipping",
+      "Surgery"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "219 High St, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49505,
+    "lng": -0.13264,
+    "phone": "+44 20 8299 2388",
+    "website": "https://www.theneighbourhoodvet.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "verified": false
+  },
+  {
+    "id": "wimbledon-veterinary-surgery",
+    "name": "Wimbledon Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.7,
+    "reviewCount": 440,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "170-172 Merton Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49571,
+    "lng": -0.1326,
+    "phone": "+44 20 8540 7275",
+    "website": "https://www.wimbledonvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "eden-park-veterinary-surgery",
+    "name": "Eden Park Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-8.jpg",
+    "rating": 4.7,
+    "reviewCount": 187,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Dental",
+      "Boarding",
+      "Surgery",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "438 Upper Elmers End Rd, Beckenham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50587,
+    "lng": -0.12453,
+    "phone": "+44 20 8658 2300",
+    "website": "https://edenpark-vets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "addiscombe-road-veterinary-centre",
+    "name": "Addiscombe Road Veterinary Centre",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.7,
+    "reviewCount": 3,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "3 Northampton Rd, Croydon",
+    "postcode": "CR0",
+    "borough": "Croydon",
+    "lat": 51.36663,
+    "lng": -0.0998,
+    "phone": "+44 20 8654 0151",
+    "website": "https://www.medivetgroup.com/vet-practices/croydon/",
+    "verified": false
+  },
+  {
+    "id": "hill-park-veterinary-group",
+    "name": "Hill Park Veterinary Group",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.7,
+    "reviewCount": 445,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Behaviour",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "1 Lindfield Rd, Romford",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.4915,
+    "lng": -0.12684,
+    "phone": "+44 1708 344455",
+    "website": "http://www.hillparkvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "anwell-veterinary-centre",
+    "name": "Anwell Veterinary Centre",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.6,
+    "reviewCount": 317,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Surgery",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "41 Brighton Rd, Coulsdon",
+    "postcode": "CR5",
+    "borough": "Coulsdon",
+    "lat": 51.31731,
+    "lng": -0.14785,
+    "phone": "+44 20 8668 6151",
+    "website": "http://www.anwellvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "goddard-veterinary-group-new-addington",
+    "name": "Goddard Veterinary Group, New Addington",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.6,
+    "reviewCount": 130,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Grooming",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "7 Salcot Cres, Croydon",
+    "postcode": "CR0",
+    "borough": "Croydon",
+    "lat": 51.37729,
+    "lng": -0.0931,
+    "phone": "+44 1689 842883",
+    "website": "https://www.goddardvetgroup.co.uk/practice/new-addington/",
+    "verified": false
+  },
+  {
+    "id": "medivet-croydon",
+    "name": "Medivet Croydon",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 4.6,
+    "reviewCount": 285,
+    "priceTier": 3,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Surgery",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "263 Addiscombe Rd, Croydon",
+    "postcode": "CR0",
+    "borough": "Croydon",
+    "lat": 51.36861,
+    "lng": -0.10282,
+    "phone": "+44 20 8654 0151",
+    "website": "https://www.medivetgroup.com/vet-practices/croydon/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_croydon_-_addiscombe_road_vets",
+    "verified": false
+  },
+  {
+    "id": "croydon-veterinary-surgery",
+    "name": "Croydon Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4.6,
+    "reviewCount": 524,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "335 Lower Addiscombe Rd, Croydon",
+    "postcode": "CR0",
+    "borough": "Croydon",
+    "lat": 51.37162,
+    "lng": -0.1005,
+    "phone": "+44 20 8655 0235",
+    "website": "http://www.croydonvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "belvedere-parkvets",
+    "name": "Belvedere Parkvets",
+    "photo": "/clinic-photos/fallback-8.jpg",
+    "rating": 4.6,
+    "reviewCount": 77,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Behaviour",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "19 Picardy St, Belvedere",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50788,
+    "lng": -0.12363,
+    "phone": "+44 20 8311 5250",
+    "website": "https://www.parkvets.com/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "verified": false
+  },
+  {
+    "id": "hill-park-veterinary-group",
+    "name": "Hill Park Veterinary Group",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.6,
+    "reviewCount": 408,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Behaviour",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "89 Coronation Dr, Hornchurch",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.4915,
+    "lng": -0.12684,
+    "phone": "+44 1708 458424",
+    "website": "http://www.hillparkvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "london-canine-fertility-clinic-ltd",
+    "name": "London Canine Fertility Clinic Ltd",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.6,
+    "reviewCount": 36,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Behaviour",
+      "Grooming",
+      "Surgery"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "Myra St, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50372,
+    "lng": -0.12185,
+    "phone": "+44 7827 322935",
+    "website": "https://londoncaninefertilityclinic.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "streatham-hill-veterinary-surgery",
+    "name": "Streatham Hill Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.6,
+    "reviewCount": 1075,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Grooming",
+      "Behaviour",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "101 Sternhold Ave, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50673,
+    "lng": -0.12036,
+    "phone": "+44 20 8674 3525",
+    "website": "http://www.streathamhillvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "the-corner-veterinary-surgery",
+    "name": "The Corner Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.6,
+    "reviewCount": 376,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Dental",
+      "Microchipping",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "1 Stayton Rd, Sutton",
+    "postcode": "SM1",
+    "borough": "Sutton",
+    "lat": 51.35846,
+    "lng": -0.1979,
+    "phone": "+44 20 8641 6126",
+    "website": "https://thecornervet.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "andersons-veterinary-surgery",
+    "name": "Anderson's Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.6,
+    "reviewCount": 380,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Grooming",
+      "Behaviour",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "The Gatehouse, 132 Burnt Ash Ln, Bromley",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49643,
+    "lng": -0.12225,
+    "phone": "+44 20 8290 1698",
+    "website": "http://www.andersonvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "medivet-bromley",
+    "name": "Medivet Bromley",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 4.6,
+    "reviewCount": 296,
+    "priceTier": 3,
+    "services": [
+      "Vaccinations",
+      "Behaviour",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "1 Homefield Rd, Bromley",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50059,
+    "lng": -0.11545,
+    "phone": "+44 20 8460 2033",
+    "website": "https://www.medivetgroup.com/vet-practices/bromley/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_bromley",
+    "verified": false
+  },
+  {
+    "id": "blue-cross-animal-hospital-merton",
+    "name": "Blue Cross animal hospital, Merton",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 4.6,
+    "reviewCount": 510,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "88-92 Merton High St, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50459,
+    "lng": -0.13392,
+    "phone": "+44 300 777 1890",
+    "website": "https://www.bluecross.org.uk/merton",
+    "verified": false
+  },
+  {
+    "id": "sutton-dental-centre-skynology",
+    "name": "Sutton Dental Centre & Skynology",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4.6,
+    "reviewCount": 91,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "38 Throwley Way, Sutton",
+    "postcode": "SM1",
+    "borough": "Sutton",
+    "lat": 51.36815,
+    "lng": -0.19376,
+    "phone": "+44 20 8642 1169",
+    "website": "http://www.suttondentalcentre.org.uk/",
+    "verified": false
+  },
+  {
+    "id": "ivy-lodge-veterinary-clinic",
+    "name": "Ivy Lodge Veterinary Clinic",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.6,
+    "reviewCount": 133,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Behaviour",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "Ivy lodge vets, Nags Head Ln, Upminster",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50147,
+    "lng": -0.11292,
+    "phone": "+44 1708 341181",
+    "website": "http://www.ivylodgevets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "romford-pdsa-pet-hospital",
+    "name": "Romford PDSA Pet Hospital",
+    "photo": "/clinic-photos/fallback-8.jpg",
+    "rating": 4.6,
+    "reviewCount": 717,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Grooming",
+      "Surgery",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "The Julie & Robert Breckman Centre, 8 Danes Rd, Romford",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49761,
+    "lng": -0.11631,
+    "phone": "+44 1708 745505",
+    "website": "https://www.pdsa.org.uk/near-me",
+    "verified": false
+  },
+  {
+    "id": "avenue-road-veterinary-surgeons-wallington",
+    "name": "Avenue Road Veterinary Surgeons - Wallington",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4.5,
+    "reviewCount": 200,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Behaviour",
+      "Microchipping",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "6 Avenue Rd, Wallington",
+    "postcode": "SM6",
+    "borough": "Wallington",
+    "lat": 51.35651,
+    "lng": -0.16199,
+    "phone": "+44 20 8647 8515",
+    "website": "https://www.cvsvets.com/south-east/avenue-road-veterinary-surgery?utm_source=google&utm_medium=Yext",
+    "verified": false
+  },
+  {
+    "id": "selsdon-veterinary-centre",
+    "name": "Selsdon Veterinary Centre",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4.5,
+    "reviewCount": 150,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Behaviour",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "286 Addington Rd, South Croydon",
+    "postcode": "CR2",
+    "borough": "South Croydon",
+    "lat": 51.352,
+    "lng": -0.09896,
+    "phone": "+44 20 8657 8151",
+    "website": "https://www.cvsvets.com/south-east/selsdon-veterinary-centre?utm_source=google&utm_medium=Yext",
+    "verified": false
+  },
+  {
+    "id": "croydon-pdsa-pet-hospital",
+    "name": "Croydon PDSA Pet Hospital",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 4.5,
+    "reviewCount": 834,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Grooming",
+      "Dental",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "7 Hurst Rd, Croydon",
+    "postcode": "CR0",
+    "borough": "Croydon",
+    "lat": 51.38313,
+    "lng": -0.09025,
+    "phone": "+44 20 8686 3972",
+    "website": "http://www.pdsa.org.uk/",
+    "verified": false
+  },
+  {
+    "id": "anne-nelson-vets",
+    "name": "Anne Nelson Vets",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.5,
+    "reviewCount": 382,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "238 Pampisford Rd., South Croydon",
+    "postcode": "CR2",
+    "borough": "South Croydon",
+    "lat": 51.35724,
+    "lng": -0.08871,
+    "phone": "+44 20 8686 6070",
+    "website": "https://www.nelsonvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "pet-care-veterinary-surgery",
+    "name": "Pet Care Veterinary Surgery",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.5,
+    "reviewCount": 323,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Dental",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "355 Bexley Rd, Erith",
+    "postcode": "DA8",
+    "borough": "Erith",
+    "lat": 51.48106,
+    "lng": 0.17329,
+    "phone": "+44 1322 346173",
+    "website": "http://www.petcarevets.co.uk/?utm_source=gmb&utm_medium=organic",
+    "verified": false
+  },
+  {
+    "id": "aspen-vet-surgery",
+    "name": "Aspen Vet Surgery",
+    "photo": "/clinic-photos/fallback-8.jpg",
+    "rating": 4.5,
+    "reviewCount": 209,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "139 Woolwich Road Upper, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50127,
+    "lng": -0.12633,
+    "phone": "+44 20 8311 5990",
+    "website": "http://www.aspenvets.com/",
+    "verified": false
+  },
+  {
+    "id": "goddard-veterinary-group-thamesmead",
+    "name": "Goddard Veterinary Group, Thamesmead",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.5,
+    "reviewCount": 229,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Grooming",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "8A Joyce Dawson Way, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49918,
+    "lng": -0.1307,
+    "phone": "+44 20 8311 5407",
+    "website": "https://www.goddardvetgroup.co.uk/practice/thamesmead/?utm_source=google&utm_medium=organic&utm_campaign=VP0542",
+    "verified": false
+  },
+  {
+    "id": "goddard-veterinary-group-croydon",
+    "name": "Goddard Veterinary Group, Croydon",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.5,
+    "reviewCount": 128,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Dental",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "356 Lower Addiscombe Rd, Croydon",
+    "postcode": "CR0",
+    "borough": "Croydon",
+    "lat": 51.37798,
+    "lng": -0.08863,
+    "phone": "+44 20 8654 3887",
+    "website": "https://www.goddardvetgroup.co.uk/practice/croydon/?utm_source=google&utm_medium=organic&utm_campaign=VP0563",
+    "verified": false
+  },
+  {
+    "id": "broadway-veterinary-clinic",
+    "name": "Broadway Veterinary Clinic",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4.5,
+    "reviewCount": 174,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Microchipping",
+      "Grooming",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "1077 Garratt Ln, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.4902,
+    "lng": -0.12578,
+    "phone": "+44 20 8672 4710",
+    "website": "http://www.broadway-vets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "tender-paws-vets",
+    "name": "Tender Paws Vets",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.5,
+    "reviewCount": 47,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Microchipping",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "35 Addington Rd, West Wickham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49155,
+    "lng": -0.12582,
+    "phone": "+44 20 8462 5775",
+    "website": "http://tenderpaws.vet/",
+    "verified": false
+  },
+  {
+    "id": "fitzgeralds-catford",
+    "name": "Fitzgeralds Catford",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.5,
+    "reviewCount": 218,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Dental",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "10 Bromley Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49187,
+    "lng": -0.13455,
+    "phone": "+44 20 8690 3638",
+    "website": "http://fitzgeraldscatford.com/",
+    "verified": false
+  },
+  {
+    "id": "pets-at-home-beckenham",
+    "name": "Pets at Home Beckenham",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.5,
+    "reviewCount": 79,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Behaviour",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "150-164 Upper Elmers End Rd, Beckenham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50119,
+    "lng": -0.10941,
+    "phone": "+44 345 600 2484",
+    "website": "https://www.petsathome.com/find-us/locations/pet-care-centre/beckenham",
+    "verified": false
+  },
+  {
+    "id": "vets-for-pets-croydon",
+    "name": "Vets for Pets Croydon",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4.4,
+    "reviewCount": 367,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Surgery",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "Waddon Goods Yard, Purley Way, Croydon",
+    "postcode": "CR0",
+    "borough": "Croydon",
+    "lat": 51.38534,
+    "lng": -0.08885,
+    "phone": "+44 20 8432 8018",
+    "website": "http://www.vets4pets.com/croydon?y_source=1_MjkyNTE4ODUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "verified": false
+  },
+  {
+    "id": "medivet-24-hour-sutton",
+    "name": "Medivet 24 Hour Sutton",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4.4,
+    "reviewCount": 460,
+    "priceTier": 3,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Microchipping",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "84 Mulgrave Rd, Sutton",
+    "postcode": "SM1",
+    "borough": "Sutton",
+    "lat": 51.35789,
+    "lng": -0.19729,
+    "phone": "+44 20 8642 9100",
+    "website": "https://www.medivetgroup.com/24-hour-emergency-vet/24-hour-sutton/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_sutton_-_wingrave_vets",
+    "verified": false
+  },
+  {
+    "id": "goddard-veterinary-group-dagenham-broad-street",
+    "name": "Goddard Veterinary Group, Dagenham Broad Street",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.4,
+    "reviewCount": 90,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Behaviour",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "191 Broad St, Dagenham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50261,
+    "lng": -0.12003,
+    "phone": "+44 20 8595 5818",
+    "website": "https://www.goddardvetgroup.co.uk/practice/dagenham-broad-street/?utm_source=google&utm_medium=organic&utm_campaign=VP0041",
+    "verified": false
+  },
+  {
+    "id": "oval-pet-centre-veterinary-practice",
+    "name": "Oval Pet Centre Veterinary Practice",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.4,
+    "reviewCount": 176,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Grooming",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "7-9 Bellegrove Parade, Welling",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49405,
+    "lng": -0.12705,
+    "phone": "+44 20 7998 4969",
+    "website": "https://ovalpetcentre.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "verified": false
+  },
+  {
+    "id": "easipetcare-streatham",
+    "name": "easipetcare - Streatham",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.4,
+    "reviewCount": 565,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Behaviour",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "3-7 Hermitage Ln, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49544,
+    "lng": -0.12153,
+    "phone": "+44 20 3621 6114",
+    "website": "https://www.easipetcare.com/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "verified": false
+  },
+  {
+    "id": "medivet-streatham",
+    "name": "Medivet Streatham",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 4.4,
+    "reviewCount": 208,
+    "priceTier": 3,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Boarding",
+      "Dental",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "130 Streatham Vale, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50974,
+    "lng": -0.12965,
+    "phone": "+44 20 8679 6969",
+    "website": "https://www.medivetgroup.com/vet-practices/streatham/?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_streatham",
+    "verified": false
+  },
+  {
+    "id": "mark-nelson-vets-thorton-heath",
+    "name": "Mark Nelson Vets, Thorton Heath",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 4.4,
+    "reviewCount": 162,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Behaviour",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "81 Woodville Rd, Thornton Heath",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.5007,
+    "lng": -0.1108,
+    "phone": "+44 20 8771 7555",
+    "website": "http://www.marknelsonvet.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "thamesmead-pdsa-pet-hospital",
+    "name": "Thamesmead PDSA Pet Hospital",
+    "photo": "/clinic-photos/fallback-8.jpg",
+    "rating": 4.3,
+    "reviewCount": 940,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Boarding",
+      "Behaviour",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "Abbey Place, Thamesmead, 125 Felixstowe Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49114,
+    "lng": -0.13179,
+    "phone": "+44 20 8311 6695",
+    "website": "http://www.pdsa.org.uk/",
+    "verified": false
+  },
+  {
+    "id": "vets-for-pets-sidcup",
+    "name": "Vets for Pets - Sidcup",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.3,
+    "reviewCount": 306,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "278 Sherwood Park Ave, Bexley",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50382,
+    "lng": -0.12318,
+    "phone": "+44 20 8304 3641",
+    "website": "http://www.vets4pets.com/find-a-practice/vets4pets-vets-in-Sidcup?y_source=1_MjkyNTIwMTItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "verified": false
+  },
+  {
+    "id": "oval-pet-centre-veterinary-practice",
+    "name": "Oval Pet Centre Veterinary Practice",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.3,
+    "reviewCount": 221,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Grooming",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "19 The Oval, Sidcup",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49405,
+    "lng": -0.12705,
+    "phone": "+44 20 8302 1521",
+    "website": "https://ovalpetcentre.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "verified": false
+  },
+  {
+    "id": "animal-ark-vets",
+    "name": "Animal Ark Vets",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4.3,
+    "reviewCount": 785,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Behaviour",
+      "Grooming",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "54 Goodmayes Ave, Ilford",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50332,
+    "lng": -0.11388,
+    "phone": "+44 20 8599 8544",
+    "website": "https://www.animalarkvets.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "the-pet-vet-morden-mitcham-wimbledon",
+    "name": "The Pet Vet Morden, Mitcham & Wimbledon",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.3,
+    "reviewCount": 355,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "145 Morden Rd, Mitcham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50533,
+    "lng": -0.12426,
+    "phone": "+44 20 3780 7903",
+    "website": "https://www.thepetvet.co.uk/locations/morden",
+    "verified": false
+  },
+  {
+    "id": "burnt-ash-veterinary-clinic",
+    "name": "Burnt Ash Veterinary Clinic",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 4.3,
+    "reviewCount": 135,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Boarding",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "146 Burnt Ash Hill, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49308,
+    "lng": -0.13567,
+    "phone": "+44 20 8857 6888",
+    "website": "http://www.burntashvets.com/",
+    "verified": false
+  },
+  {
+    "id": "essex-vets-rainham",
+    "name": "Essex Vets Rainham",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.2,
+    "reviewCount": 188,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "Towards, 2 S End Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49611,
+    "lng": -0.1328,
+    "phone": "+44 1708 592290",
+    "website": "http://essexvetsrainham.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "yourvets-veterinary-centre-dagenham",
+    "name": "YourVets Veterinary Centre - Dagenham",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 4.2,
+    "reviewCount": 403,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Surgery",
+      "Grooming",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "1-7 Whalebone Ln S, Dagenham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50097,
+    "lng": -0.12871,
+    "phone": "+44 20 3597 7501",
+    "website": "https://www.cvsvets.com/london/yourvets-veterinary-centre-dagenham?utm_source=google&utm_medium=Yext",
+    "verified": false
+  },
+  {
+    "id": "medivet-24-hour-beckenham",
+    "name": "Medivet 24 Hour Beckenham",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 4.2,
+    "reviewCount": 635,
+    "priceTier": 3,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Grooming"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "8 Foxgrove Rd, Beckenham",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49763,
+    "lng": -0.1243,
+    "phone": "+44 20 8650 2003",
+    "website": "https://www.medivetgroup.com/24-hour-emergency-vet/24-hour-beckenham?utm_source=google&utm_medium=organic&utm_campaign=google_lpm_beckenham_-_foxgrove_veterinary_centre",
+    "verified": false
+  },
+  {
+    "id": "hayes-parkvets",
+    "name": "Hayes Parkvets",
+    "photo": "/clinic-photos/fallback-2.jpg",
+    "rating": 4.2,
+    "reviewCount": 30,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Behaviour",
+      "Dental",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "44 Hayes St, Bromley",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.49625,
+    "lng": -0.12665,
+    "phone": "+44 20 8619 0499",
+    "website": "https://www.parkvets.com/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "verified": false
+  },
+  {
+    "id": "goddard-veterinary-group-tooting",
+    "name": "Goddard Veterinary Group, Tooting",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 4.2,
+    "reviewCount": 140,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "224 Mitcham Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49064,
+    "lng": -0.11858,
+    "phone": "+44 20 8672 8322",
+    "website": "https://www.goddardvetgroup.co.uk/practice/tooting/",
+    "verified": false
+  },
+  {
+    "id": "vets4pets-wimbledon",
+    "name": "Vets4Pets - Wimbledon",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 4.2,
+    "reviewCount": 189,
+    "priceTier": 3,
+    "services": [
+      "Vaccinations",
+      "Surgery",
+      "Emergency",
+      "Dental",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "plough lane retail park, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49604,
+    "lng": -0.1182,
+    "phone": "+44 20 8879 4110",
+    "website": "http://www.vets4pets.com/find-a-practice/vets4pets-vets-in-wimbledon?y_source=1_MjkyNTE5MTktNzE1LWxvY2F0aW9uLndlYnNpdGU=",
+    "verified": false
+  },
+  {
+    "id": "pets-at-home-croydon",
+    "name": "Pets at Home Croydon",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 4.2,
+    "reviewCount": 2584,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Dental",
+      "Surgery",
+      "Microchipping"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "Waddon Goods Yard, Purley Way, Croydon",
+    "postcode": "CR0",
+    "borough": "Croydon",
+    "lat": 51.38269,
+    "lng": -0.10028,
+    "phone": "+44 345 600 9519",
+    "website": "https://www.petsathome.com/find-us/locations/pet-care-centre/croydon?y_source=1_MTU2Njc5NDQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "verified": false
+  },
+  {
+    "id": "vets-for-pets-sydenham",
+    "name": "Vets for Pets - Sydenham",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 4.1,
+    "reviewCount": 371,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Boarding",
+      "Dental",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "Bell Green Retail Park, Southend Ln, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49765,
+    "lng": -0.12181,
+    "phone": "+44 20 8659 1777",
+    "website": "https://www.vets4pets.com/practices/vets-for-pets-sydenham/",
+    "verified": false
+  },
+  {
+    "id": "vets-for-pets-beckton",
+    "name": "Vets for Pets Beckton",
+    "photo": "/clinic-photos/fallback-7.jpg",
+    "rating": 3.8,
+    "reviewCount": 551,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Surgery",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "10:00",
+        "close": "14:00"
+      }
+    ],
+    "address": "Inside Pets at Home, Gateway Retail Park, Claps Gate Ln, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50528,
+    "lng": -0.12921,
+    "phone": "+44 20 8507 3904",
+    "website": "https://www.vets4pets.com/practices/vets4pets-beckton/",
+    "verified": false
+  },
+  {
+    "id": "vetscriptions",
+    "name": "Vetscriptions",
+    "photo": "/clinic-photos/fallback-4.jpg",
+    "rating": 3.3,
+    "reviewCount": 83,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Microchipping",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "335 Lower Addiscombe Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.50362,
+    "lng": -0.12765,
+    "phone": "+44 20 3411 0071",
+    "website": "https://www.vetscriptions.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "thornton-heath-medical-practice",
+    "name": "Thornton Heath Medical Practice",
+    "photo": "/clinic-photos/fallback-6.jpg",
+    "rating": 1.7,
+    "reviewCount": 90,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Dental",
+      "Behaviour",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "08:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "61A Gillett Rd, Thornton Heath",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.505,
+    "lng": -0.1236,
+    "phone": "+44 20 8664 1590",
+    "website": "https://www.thorntonheathmedicalcentre.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "the-cat-doctor",
+    "name": "The Cat Doctor",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4,
+    "reviewCount": 0,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Dental",
+      "Emergency"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "19:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "21 Westleigh Ave, Coulsdon",
+    "postcode": "CR5",
+    "borough": "Coulsdon",
+    "lat": 51.32167,
+    "lng": -0.13559,
+    "phone": "+44 7961 154886",
+    "website": "https://thecatdoctor.co.uk/contact/",
+    "verified": false
+  },
+  {
+    "id": "advanced-vetcare-london",
+    "name": "Advanced Vetcare London",
+    "photo": "/clinic-photos/fallback-3.jpg",
+    "rating": 4,
+    "reviewCount": 0,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Grooming",
+      "Surgery",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "49 Leigham Ct Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49705,
+    "lng": -0.13059,
+    "phone": "+44 20 3143 4444",
+    "website": "https://www.advancedvetcare.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "dna-vetcare",
+    "name": "Dna Vetcare",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 4,
+    "reviewCount": 0,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Dental"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Friday",
+        "open": "08:30",
+        "close": "17:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "48 Mayow Rd, London",
+    "postcode": "SW",
+    "borough": "London",
+    "lat": 51.49565,
+    "lng": -0.1334,
+    "phone": "+44 20 8659 4496",
+    "website": "http://dnavetcare.co.uk/",
+    "verified": false
+  },
+  {
+    "id": "vet-image-solutions",
+    "name": "Vet Image Solutions",
+    "photo": "/clinic-photos/fallback-1.jpg",
+    "rating": 4,
+    "reviewCount": 0,
+    "priceTier": 2,
+    "services": [
+      "Vaccinations",
+      "Dental",
+      "Emergency",
+      "Microchipping",
+      "Behaviour"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "11, 12 Farwig Ln, Bromley",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.50266,
+    "lng": -0.11929,
+    "phone": "+44 20 8432 9802",
+    "website": "https://www.vetimagesolutions.co.uk/index.php/",
+    "verified": false
+  },
+  {
+    "id": "london-veterinary-surgeries",
+    "name": "London Veterinary Surgeries",
+    "photo": "/clinic-photos/fallback-5.jpg",
+    "rating": 4,
+    "reviewCount": 0,
+    "priceTier": 1,
+    "services": [
+      "Vaccinations",
+      "Emergency",
+      "Boarding"
+    ],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "18:30"
+      },
+      {
+        "day": "Saturday",
+        "open": "09:00",
+        "close": "13:00"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": ""
+      }
+    ],
+    "address": "London",
+    "postcode": "SW1",
+    "borough": "London",
+    "lat": 51.501,
+    "lng": -0.119,
+    "phone": "+44 20 8674 7342",
+    "website": "http://www.londonvets.co.uk/",
+    "verified": false
+  }
+]

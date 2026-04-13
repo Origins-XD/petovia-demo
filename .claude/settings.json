@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/Srivardhan/Documents/VS-Code/Petovia-Demo/.claude/skills/frontend-design)",
+      "Bash(mkdir -p /Users/Srivardhan/Documents/VS-Code/Petovia-Demo/.claude/skills/ui-ux-pro-max)",
+      "Bash(mkdir -p /Users/Srivardhan/Documents/VS-Code/Petovia-Demo/.claude/skills/brand)",
+      "Bash(mkdir -p /Users/Srivardhan/Documents/VS-Code/Petovia-Demo/.claude/skills/design-system)",
+      "Bash(mkdir -p /Users/Srivardhan/Documents/VS-Code/Petovia-Demo/.claude/skills/ui-styling)",
+      "Edit(/.claude/skills/frontend-design/**)",
+      "Edit(/.claude/skills/brand/**)",
+      "Edit(/.claude/skills/banner-design/**)",
+      "Edit(/.claude/skills/slides/**)"
+    ]
+  }
+}

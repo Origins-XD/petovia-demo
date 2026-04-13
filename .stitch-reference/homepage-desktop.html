@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Petovia | Every pet service. One trusted place.</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#2c1600",
+                    "inverse-surface": "#31302d",
+                    "on-tertiary-container": "#3f2f23",
+                    "on-tertiary-fixed-variant": "#554336",
+                    "background": "#fdf9f3",
+                    "tertiary-fixed": "#f9ddcc",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#fdf9f3",
+                    "primary": "#006a62",
+                    "on-surface": "#1c1c18",
+                    "on-surface-variant": "#3c4947",
+                    "surface-variant": "#e6e2dc",
+                    "on-primary-fixed-variant": "#005049",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed-dim": "#ffb86e",
+                    "secondary-container": "#fea94b",
+                    "surface-container-high": "#ebe8e2",
+                    "tertiary-fixed-dim": "#dbc2b1",
+                    "on-primary-container": "#003a35",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed": "#00201d",
+                    "on-secondary-container": "#6f4000",
+                    "tertiary-container": "#ae9687",
+                    "surface-tint": "#006a62",
+                    "outline-variant": "#bbc9c6",
+                    "outline": "#6c7a77",
+                    "inverse-on-surface": "#f4f0ea",
+                    "on-error-container": "#93000a",
+                    "primary-container": "#1aada0",
+                    "tertiary": "#6e5a4d",
+                    "surface-container": "#f1ede7",
+                    "primary-fixed-dim": "#5bdacc",
+                    "on-tertiary": "#ffffff",
+                    "surface-dim": "#dddad4",
+                    "on-secondary-fixed-variant": "#693c00",
+                    "primary-fixed": "#7bf7e8",
+                    "surface-container-highest": "#e6e2dc",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed": "#26190e",
+                    "inverse-primary": "#5bdacc",
+                    "secondary-fixed": "#ffdcbd",
+                    "surface": "#fdf9f3",
+                    "secondary": "#8a5100",
+                    "error": "#ba1a1a",
+                    "on-background": "#1c1c18",
+                    "surface-container-low": "#f7f3ed",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fdf9f3; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .editorial-shadow { shadow-[0px_12px_32px_rgba(26,173,160,0.06)]; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="text-on-surface">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#FFFBF5]/80 backdrop-blur-xl flex justify-between items-center px-8 py-4 max-w-full mx-auto shadow-[0px_12px_32px_rgba(26,173,160,0.06)]">
+<div class="text-2xl font-black tracking-tighter text-[#1A1A1A] dark:text-[#FFFBF5]">Petovia</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#006a62] font-bold border-b-2 border-[#006a62] pb-1" href="#">Marketplace</a>
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#1A1A1A] hover:text-[#006a62] transition-all duration-200" href="#">Community</a>
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#1A1A1A] hover:text-[#006a62] transition-all duration-200" href="#">For Providers</a>
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#1A1A1A] hover:text-[#006a62] transition-all duration-200" href="#">About</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-bold text-sm hover:scale-[0.98] transition-all duration-200 active:scale-95">
+            Get Early Access
+        </button>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative px-8 pt-16 pb-32 overflow-hidden">
+<div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+<div class="relative z-10">
+<div class="flex gap-3 mb-8">
+<span class="inline-flex items-center gap-2 px-4 py-2 bg-primary-container/10 text-primary rounded-full text-xs font-bold tracking-wider">
+<span class="material-symbols-outlined text-sm" data-icon="verified">verified</span>
+                            TRUSTED BY 10K+ PET PARENTS
+                        </span>
+</div>
+<h1 class="text-6xl md:text-7xl font-black tracking-tight text-on-surface mb-6 leading-[1.1]">
+                        Every pet service. <br/>
+<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary-container to-secondary">One trusted place.</span>
+</h1>
+<p class="text-xl text-on-surface-variant font-medium max-w-lg mb-10 leading-relaxed">
+                        The modern directory for pet owners. From elite vets to bespoke groomers, discover the gold standard of care for your companions.
+                    </p>
+<!-- Large Pill Search Bar -->
+<div class="bg-surface-container-lowest p-2 rounded-full shadow-[0px_20px_48px_rgba(26,173,160,0.12)] flex items-center gap-2 max-w-2xl group focus-within:ring-2 ring-primary/20 transition-all">
+<div class="flex items-center gap-2 px-6 border-r border-outline-variant/40">
+<span class="material-symbols-outlined text-primary" data-icon="pets">pets</span>
+<select class="bg-transparent border-none focus:ring-0 font-bold text-on-surface cursor-pointer py-3 appearance-none">
+<option>Vets</option>
+<option>Groomers</option>
+<option>Insurance</option>
+<option>Boarding</option>
+</select>
+</div>
+<div class="flex-grow flex items-center gap-2 px-4">
+<span class="material-symbols-outlined text-outline" data-icon="location_on">location_on</span>
+<input class="w-full bg-transparent border-none focus:ring-0 font-medium text-on-surface py-3" placeholder="Enter postcode" type="text"/>
+</div>
+<button class="bg-primary text-on-primary w-14 h-14 rounded-full flex items-center justify-center hover:bg-on-primary-fixed-variant transition-colors active:scale-90">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+</button>
+</div>
+<!-- Brand Pills -->
+<div class="flex flex-wrap gap-4 mt-12">
+<div class="flex items-center gap-2 px-6 py-2.5 bg-primary-container text-on-primary-container rounded-full font-bold text-sm shadow-sm">
+<span class="material-symbols-outlined text-[18px]" data-icon="explore">explore</span>
+                            Discover
+                        </div>
+<div class="flex items-center gap-2 px-6 py-2.5 bg-primary-container text-on-primary-container rounded-full font-bold text-sm shadow-sm">
+<span class="material-symbols-outlined text-[18px]" data-icon="compare_arrows">compare_arrows</span>
+                            Compare
+                        </div>
+<div class="flex items-center gap-2 px-6 py-2.5 bg-primary-container text-on-primary-container rounded-full font-bold text-sm shadow-sm">
+<span class="material-symbols-outlined text-[18px]" data-icon="verified_user">verified_user</span>
+                            Trust
+                        </div>
+</div>
+</div>
+<div class="relative lg:h-[600px] hidden lg:block">
+<div class="absolute inset-0 bg-secondary-container/20 rounded-[4rem] rotate-3 -z-10 translate-x-8 translate-y-8 scale-95"></div>
+<img alt="Happy golden retriever" class="w-full h-full object-cover rounded-[3.5rem] shadow-2xl relative z-0" data-alt="Close-up of a happy golden retriever in a sunlit home with a warm, editorial lifestyle photography style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSJgo8SQXiG9wyWc0QPtNDVAfg9Ta8LG7kWbz0iOvFC7fyURyjPZBmCbJIvjyF4PzI4s7L3Z-TH-XEy4Q8w914cG84ILJwpgyxykHgvCV7ADqnsXIBXkcrW4EBKpaLKYHYgXz8Z37ujyA7OgJRQZhGV13YQLZ4cak3FtjAHJK2dmnigcINrMscxuo3S1R7HDASUdziwmbx_jcZcQaIYh9DqRhydssfPvpxq_RX47YO_z853vufe_smcBnGvMSI-0IOV5Wnvc2hpZbp"/>
+<!-- Floating Stat Overlay -->
+<div class="absolute -bottom-6 -left-12 bg-surface-container-lowest p-6 rounded-lg shadow-xl flex items-center gap-4 z-20 border border-outline-variant/10">
+<div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary" data-icon="star" data-weight="fill">star</span>
+</div>
+<div>
+<p class="text-2xl font-black text-on-surface">4.8</p>
+<p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">Average Rating</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Category Tiles -->
+<section class="py-24 px-8 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="mb-16">
+<h2 class="text-4xl font-black tracking-tight text-on-surface mb-4">Explore our categories</h2>
+<p class="text-on-surface-variant font-medium">Verified professional services for every stage of your pet's life.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6">
+<!-- Vets -->
+<a class="group bg-surface-container-lowest p-8 rounded-[16px] text-center hover:bg-primary transition-all duration-300 shadow-[0px_4px_12px_rgba(26,173,160,0.04)] hover:-translate-y-2" href="#">
+<div class="w-16 h-16 bg-primary-container/10 group-hover:bg-on-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-3xl" data-icon="medical_services">medical_services</span>
+</div>
+<span class="font-bold text-on-surface group-hover:text-on-primary transition-colors">Vets</span>
+</a>
+<!-- Insurance -->
+<a class="group bg-surface-container-lowest p-8 rounded-[16px] text-center hover:bg-primary transition-all duration-300 shadow-[0px_4px_12px_rgba(26,173,160,0.04)] hover:-translate-y-2" href="#">
+<div class="w-16 h-16 bg-primary-container/10 group-hover:bg-on-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-3xl" data-icon="security">security</span>
+</div>
+<span class="font-bold text-on-surface group-hover:text-on-primary transition-colors">Insurance</span>
+</a>
+<!-- Groomers -->
+<a class="group bg-surface-container-lowest p-8 rounded-[16px] text-center hover:bg-primary transition-all duration-300 shadow-[0px_4px_12px_rgba(26,173,160,0.04)] hover:-translate-y-2" href="#">
+<div class="w-16 h-16 bg-primary-container/10 group-hover:bg-on-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-3xl" data-icon="content_cut">content_cut</span>
+</div>
+<span class="font-bold text-on-surface group-hover:text-on-primary transition-colors">Groomers</span>
+</a>
+<!-- Trainers -->
+<a class="group bg-surface-container-lowest p-8 rounded-[16px] text-center hover:bg-primary transition-all duration-300 shadow-[0px_4px_12px_rgba(26,173,160,0.04)] hover:-translate-y-2" href="#">
+<div class="w-16 h-16 bg-primary-container/10 group-hover:bg-on-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-3xl" data-icon="sports_and_outdoors">sports_and_outdoors</span>
+</div>
+<span class="font-bold text-on-surface group-hover:text-on-primary transition-colors">Trainers</span>
+</a>
+<!-- Walkers -->
+<a class="group bg-surface-container-lowest p-8 rounded-[16px] text-center hover:bg-primary transition-all duration-300 shadow-[0px_4px_12px_rgba(26,173,160,0.04)] hover:-translate-y-2" href="#">
+<div class="w-16 h-16 bg-primary-container/10 group-hover:bg-on-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-3xl" data-icon="directions_walk">directions_walk</span>
+</div>
+<span class="font-bold text-on-surface group-hover:text-on-primary transition-colors">Walkers</span>
+</a>
+<!-- Boarding -->
+<a class="group bg-surface-container-lowest p-8 rounded-[16px] text-center hover:bg-primary transition-all duration-300 shadow-[0px_4px_12px_rgba(26,173,160,0.04)] hover:-translate-y-2" href="#">
+<div class="w-16 h-16 bg-primary-container/10 group-hover:bg-on-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-3xl" data-icon="cottage">cottage</span>
+</div>
+<span class="font-bold text-on-surface group-hover:text-on-primary transition-colors">Boarding</span>
+</a>
+<!-- Sitters -->
+<a class="group bg-surface-container-lowest p-8 rounded-[16px] text-center hover:bg-primary transition-all duration-300 shadow-[0px_4px_12px_rgba(26,173,160,0.04)] hover:-translate-y-2" href="#">
+<div class="w-16 h-16 bg-primary-container/10 group-hover:bg-on-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary text-3xl" data-icon="home_health">home_health</span>
+</div>
+<span class="font-bold text-on-surface group-hover:text-on-primary transition-colors">Sitters</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Trust Strip -->
+<section class="bg-[#1F1208] py-12 px-8 overflow-hidden">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-12">
+<div class="text-center md:text-left">
+<p class="text-4xl font-black text-[#F0C87A]">100+</p>
+<p class="text-xs uppercase tracking-[0.2em] font-bold text-[#FFFBF5]/60 mt-1">Verified Vets</p>
+</div>
+<div class="w-px h-12 bg-white/10 hidden md:block"></div>
+<div class="text-center md:text-left">
+<p class="text-4xl font-black text-[#F0C87A]">4.8</p>
+<p class="text-xs uppercase tracking-[0.2em] font-bold text-[#FFFBF5]/60 mt-1">Community Stars</p>
+</div>
+<div class="w-px h-12 bg-white/10 hidden md:block"></div>
+<div class="text-center md:text-left">
+<p class="text-4xl font-black text-[#F0C87A]">50k+</p>
+<p class="text-xs uppercase tracking-[0.2em] font-bold text-[#FFFBF5]/60 mt-1">Services Booked</p>
+</div>
+</div>
+<div class="flex -space-x-4">
+<img class="w-12 h-12 rounded-full border-4 border-[#1F1208] object-cover" data-alt="portrait of a female professional vet" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhd8dY-j6q1K74U8QHNX26ayKg1JyF7UKqhvjM5xjT2nC_BP8Ib-4KI2Zm22LHSue_EhHDsml-tfCrd0ZO-ff6awJqIbwgi2-OlVLr0euabucYrVztMZklVZt0iaoln0J6dY-2VtR_13zfEzliIUZsoogj-hx6aaXcrae6QxOReIruiRTQGkvsdNvsqU6qDuewrT1_afp_pGQNmsPr7TMv1mCEUwnZQ6S_UkdU-ZOvR-CITutsTXvQP_nzqFXzwtNFzu733sOxbwb-"/>
+<img class="w-12 h-12 rounded-full border-4 border-[#1F1208] object-cover" data-alt="portrait of a male professional groomer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCquuwrscQIWoopV-jiR6qyVi8IHpv0gOw-wSGUcMeFyvjeE3esb29YBuyQzK6n4xElTuH6285LryfcR7Yndsw3qMdNSOxEkiMEXyM9cCww21Wkn0d1Pfq-Re3MwoGCj8GQ6hGObI4tfpjSNBejlW7VqP5LTCyibftsSpBw7VpIJU6LDgEpEBcLy3_ftDwwv-qBH30WN5mAwcDbRn8YA9CGUQNLePbJLGieuyQw0RLnd-L50-79zhRVRDUl8cfdbnYLzJFBJNRqH9W9"/>
+<img class="w-12 h-12 rounded-full border-4 border-[#1F1208] object-cover" data-alt="portrait of a smiling female dog walker" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1VP7FnQPZzrNEX8wY9fqXnIlyG8cRSRyrghfnh-tmzJ_7CyHOAeqDknpWCPbjzio__-vL82MHbFpaabGtvCbLlbDtH-Z9tXBylbHmFbC4uZMZo1TGZOp2AJImhJ4zMH6gvaDa2pTfgbfI8a18hAPur00olhyDVsrDxGpQg190pjDsEdPIRd6mzreokn2alm6daTierUk04-w2Zi5WoUIWxmG6hpMjSAyeYHjOrDittGf7wYu8IvfXSOq-LD18IIvzcRvIQRSmYGSm"/>
+<div class="w-12 h-12 rounded-full border-4 border-[#1F1208] bg-primary flex items-center justify-center text-on-primary font-bold text-xs">+9k</div>
+</div>
+</div>
+</section>
+<!-- How it Works -->
+<section class="py-32 px-8">
+<div class="max-w-7xl mx-auto text-center mb-24">
+<span class="text-primary font-black uppercase tracking-[0.3em] text-xs mb-4 block">The Process</span>
+<h2 class="text-5xl font-black text-on-surface tracking-tight">How Petovia Works</h2>
+</div>
+<div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-16 relative">
+<!-- Connectors -->
+<div class="hidden md:block absolute top-1/2 left-1/4 right-1/4 h-px border-t-2 border-dashed border-outline-variant/30 -translate-y-20"></div>
+<div class="relative text-center group">
+<div class="w-24 h-24 bg-surface-container rounded-[24px] flex items-center justify-center mx-auto mb-10 transition-transform group-hover:rotate-6">
+<span class="text-6xl font-black text-primary/10 absolute -top-4 -left-4">01</span>
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="search">search</span>
+</div>
+<h3 class="text-2xl font-black mb-4">Search</h3>
+<p class="text-on-surface-variant font-medium leading-relaxed">Enter your postcode and service needs to see all local experts in one view.</p>
+</div>
+<div class="relative text-center group">
+<div class="w-24 h-24 bg-surface-container rounded-[24px] flex items-center justify-center mx-auto mb-10 transition-transform group-hover:-rotate-6">
+<span class="text-6xl font-black text-primary/10 absolute -top-4 -left-4">02</span>
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="dashboard">dashboard</span>
+</div>
+<h3 class="text-2xl font-black mb-4">Compare</h3>
+<p class="text-on-surface-variant font-medium leading-relaxed">Filter by rating, price, and availability. Read honest reviews from other pet parents.</p>
+</div>
+<div class="relative text-center group">
+<div class="w-24 h-24 bg-surface-container rounded-[24px] flex items-center justify-center mx-auto mb-10 transition-transform group-hover:rotate-6">
+<span class="text-6xl font-black text-primary/10 absolute -top-4 -left-4">03</span>
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="event_available">event_available</span>
+</div>
+<h3 class="text-2xl font-black mb-4">Choose</h3>
+<p class="text-on-surface-variant font-medium leading-relaxed">Book securely or contact the provider directly. Simple, safe, and stress-free.</p>
+</div>
+</div>
+</section>
+<!-- Featured Community (Bento-style) -->
+<section class="py-24 px-8 bg-surface-container-low/50">
+<div class="max-w-7xl mx-auto">
+<div class="flex justify-between items-end mb-16">
+<div>
+<h2 class="text-4xl font-black tracking-tight text-on-surface mb-2">The Caretaker's Journal</h2>
+<p class="text-on-surface-variant font-medium">Expert advice and heartwarming stories from our community.</p>
+</div>
+<a class="hidden md:flex items-center gap-2 font-bold text-primary hover:gap-4 transition-all" href="#">
+                        View All Articles <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Blog Card 1 -->
+<div class="bg-surface-container-lowest rounded-[16px] overflow-hidden group shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="h-64 overflow-hidden relative">
+<img alt="Cat health" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern indoor setting with a tabby cat being examined by a professional vet, soft natural lighting, editorial style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxSTqMRQ7uTeFCytmXoYuAF0RGUHcxdhvXvaScCuBHya6ozr5Fxy0pflkgFzlKzdbpfB-QP6S5LzgQCKP2b35eL5vJLkZ7FamB7eJ3DswMHCSsod6OsMSX-JUo0I6mW9T-I5eR6bx8lzUKhmgboAhdSB7B1OZA5u5OJjZYCyQortu7dATezAM5tL8NHQCSwZ34q_VCYqbA4fHI_dAlPNAvPOvhdB9YPW7_eSVyrKdMBfs4SyJZmR7JL558CuAly31p3M-dH_98d3fE"/>
+<div class="absolute top-4 left-4 bg-primary text-on-primary px-4 py-1.5 rounded-full text-xs font-bold">Health</div>
+</div>
+<div class="p-8">
+<h3 class="text-xl font-black mb-4 group-hover:text-primary transition-colors">5 Preventive Care Tips Every Kitten Owner Needs</h3>
+<div class="flex items-center gap-3">
+<img class="w-8 h-8 rounded-full object-cover" data-alt="Portrait of Dr. Elena Ross, vet" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDg-LVycSvzxm8hCQGTzU_Y-PLR2B_Z3NUItjgWpkC9iAPnYT4CFNij520oRRMtq1KaQGDztI4Ir8EpbImdw_dZg3oUJASTU6RC8xUi6qRfitUziDJhW1bJEUusQnZ9NvUML6v8tWnDV2mM9B3H3yEh_ZHlp3FJsoEOIBXrBTOn_aGdBejKOzJPIA6XHr0Dia-2hFpU_aA31S73NqEdZTVvPzz2No2U3otHFy_aGVu7d-rcKJrvldFw-Gqx_2PSUUCieoJHwYE4M8r9"/>
+<span class="text-sm font-bold text-on-surface">Dr. Elena Ross</span>
+<span class="text-sm text-on-surface-variant ml-auto">4 min read</span>
+</div>
+</div>
+</div>
+<!-- Blog Card 2 -->
+<div class="bg-surface-container-lowest rounded-[16px] overflow-hidden group shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="h-64 overflow-hidden relative">
+<img alt="Dog training" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Young man training a puppy in a green park, sunny morning, soft depth of field, high-end photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAp0hw1sUdGTT31idXoUv1mtqBcEp4PTSNb9piBeQfUbzgnHTKCf_p4nlz_tY_fgwuDySEcQtcVSQ0-xH-BH9z4DZ1frk_aO1bSHMTCvrf_twIbCdMapbOmi2gnmEkSC_fonQm9p_O1TSrjjJyuZgySdiR4idcFHluGYKkrRliK4E7uvAXUV1SI2miWRTtn2rYb6qZ95KCLPQB6HMBUARrrpk-7NK_WWT_oMbQcfLIuyUf0_--6y7G_3h681qxA7mV1Vgj_WgjqHD8d"/>
+<div class="absolute top-4 left-4 bg-secondary-container text-on-secondary-container px-4 py-1.5 rounded-full text-xs font-bold">Training</div>
+</div>
+<div class="p-8">
+<h3 class="text-xl font-black mb-4 group-hover:text-primary transition-colors">Positive Reinforcement: A Guide to Modern Training</h3>
+<div class="flex items-center gap-3">
+<img class="w-8 h-8 rounded-full object-cover" data-alt="Portrait of Marc Benioff, trainer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDINFOGST9759_yFCfU7d-zM48DToAjA10-fwXu8DXNnLYEj8ZYDkSxhZMUwGau1OdO4P4JBTJHOMlCAp8wJs7XyzJtjU2T2FrvfoTCdNI6R-zQF0bGKGvssJ_oMf1EgPyIbunZU-vkLJVbntwp_woNUvFc9V3PCs-2DfIuR3qt2_8lYzpm04eXLzM6cSH8qIPUM5mb39fRwJjtgY3-ERCcefkudZGv4s74mylOMPWTDuHz06e-Iku-r6F6aRvDEgXq4DNYOYQ9Fqb9"/>
+<span class="text-sm font-bold text-on-surface">Marc Benioff</span>
+<span class="text-sm text-on-surface-variant ml-auto">6 min read</span>
+</div>
+</div>
+</div>
+<!-- Blog Card 3 -->
+<div class="bg-surface-container-lowest rounded-[16px] overflow-hidden group shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="h-64 overflow-hidden relative">
+<img alt="Pet lifestyle" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Luxurious dog spa interior with a fluffy white poodle, warm aesthetic lighting, high-end commercial style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQK5l1hpP_397Zwvtl07_R--VIjsw1nbJ1BPWe52jguz3Vs9UZheSEbz_H-Huczz3SH5X2rGIhhuv_RXIhFA9prcc8D_D6OOUtDK08m8wnpX7BkwRXody0PGbbvhTuJMHnOit3fVN99-_-Ie1jHI03Md3q03qTepj-bSa5F8h2sycJUmn_fTwS5NF9jMzmXGcMvlgVErjUafy3pMrM23cGvps5qPaK09mvUmuAeDB4wGOXhd8Ydn2QnCNppGXfc3NxTfbOfNrl-j81"/>
+<div class="absolute top-4 left-4 bg-tertiary-container text-on-tertiary-container px-4 py-1.5 rounded-full text-xs font-bold">Lifestyle</div>
+</div>
+<div class="p-8">
+<h3 class="text-xl font-black mb-4 group-hover:text-primary transition-colors">The Rise of Bespoke Pet Spas in Modern Cities</h3>
+<div class="flex items-center gap-3">
+<img class="w-8 h-8 rounded-full object-cover" data-alt="Portrait of Sarah Jenkins, stylist" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC689FpdqyvhxWIc71pZGt24vX7xht9-nS-WSnpeIcVQdtc_0dZSQUez_ek-DcTwkPQqJOJQKcGTOyOSqxTFvqQgqJJruqc-n7H_fGozBqWKEhqnbyDxq5q4wSAs4KXUI9Iq_Dl4UoO2omkM0gbJBNpNLOc9Hfl5PtemD-pxcGUV2RPFAuB2rr53G43quAgXtXvlxsDeR5KsiYKOqlPLHPKL3ui-wRHBjRrPhApkHIq6YcjuIRT_w0FgdWRwPL5oQ8U5LD5f8VjdPVZ"/>
+<span class="text-sm font-bold text-on-surface">Sarah Jenkins</span>
+<span class="text-sm text-on-surface-variant ml-auto">5 min read</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Early Access CTA -->
+<section class="mx-8 mb-24 mt-24">
+<div class="max-w-7xl mx-auto bg-[#1F1208] rounded-[2rem] p-12 md:p-24 relative overflow-hidden text-center md:text-left">
+<!-- Decorative Elements -->
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-[120px] -mr-48 -mt-48"></div>
+<div class="relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+<div>
+<h2 class="text-4xl md:text-6xl font-black text-[#F0C87A] leading-tight mb-6">
+                            Join the pack for <br/>priority access.
+                        </h2>
+<p class="text-lg text-[#FFFBF5]/70 font-medium max-w-md">
+                            Be the first to know when we launch in your city. Exclusive member perks and early booking benefits await.
+                        </p>
+</div>
+<div class="flex flex-col gap-4">
+<div class="bg-white/5 p-2 rounded-full flex flex-col md:flex-row gap-2 border border-white/10 focus-within:border-primary/50 transition-all">
+<input class="bg-transparent border-none focus:ring-0 px-8 py-4 text-white placeholder-white/30 flex-grow font-medium" placeholder="Enter your email address" type="email"/>
+<button class="bg-[#E8973A] text-[#1F1208] font-black px-10 py-4 rounded-full hover:scale-[0.98] transition-all active:scale-95">
+                                Join Now
+                            </button>
+</div>
+<p class="text-xs text-[#FFFBF5]/40 text-center md:text-left ml-6">No spam. Only essential pet care updates.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#1F1208] w-full py-16 px-8">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div>
+<div class="text-[#F0C87A] font-black text-xl mb-6">Petovia</div>
+<p class="text-[#FFFBF5]/60 font-['Plus_Jakarta_Sans'] text-sm leading-relaxed mb-8">
+                    Defining the new gold standard in digital pet care infrastructure. Trusted by parents, loved by pets.
+                </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center text-[#F0C87A] hover:bg-white/10 transition-colors" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="public">public</span>
+</a>
+<a class="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center text-[#F0C87A] hover:bg-white/10 transition-colors" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="mail">mail</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-[#F0C87A] font-bold mb-6">Explore</h4>
+<ul class="space-y-4">
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">Marketplace</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">Community</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">Directory</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">Service Areas</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-[#F0C87A] font-bold mb-6">Company</h4>
+<ul class="space-y-4">
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">About Us</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">For Providers</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">Press Kit</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">Careers</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-[#F0C87A] font-bold mb-6">Support</h4>
+<ul class="space-y-4">
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">Help Center</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">Safety</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">Privacy Policy</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-['Plus_Jakarta_Sans'] text-sm hover:translate-x-1 transition-transform inline-block" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto border-t border-white/5 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-[#FFFBF5]/40 text-xs">© 2024 Petovia. All rights reserved.</p>
+<p class="text-[#FFFBF5]/40 text-xs">Crafted for the modern caretaker.</p>
+</div>
+</footer>
+</body></html>

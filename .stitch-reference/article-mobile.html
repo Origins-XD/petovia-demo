@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#2c1600",
+                    "inverse-surface": "#31302d",
+                    "on-tertiary-container": "#3f2f23",
+                    "on-tertiary-fixed-variant": "#554336",
+                    "background": "#fdf9f3",
+                    "tertiary-fixed": "#f9ddcc",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#fdf9f3",
+                    "primary": "#006a62",
+                    "on-surface": "#1c1c18",
+                    "on-surface-variant": "#3c4947",
+                    "surface-variant": "#e6e2dc",
+                    "on-primary-fixed-variant": "#005049",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed-dim": "#ffb86e",
+                    "secondary-container": "#fea94b",
+                    "surface-container-high": "#ebe8e2",
+                    "tertiary-fixed-dim": "#dbc2b1",
+                    "on-primary-container": "#003a35",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed": "#00201d",
+                    "on-secondary-container": "#6f4000",
+                    "tertiary-container": "#ae9687",
+                    "surface-tint": "#006a62",
+                    "outline-variant": "#bbc9c6",
+                    "outline": "#6c7a77",
+                    "inverse-on-surface": "#f4f0ea",
+                    "on-error-container": "#93000a",
+                    "primary-container": "#1aada0",
+                    "tertiary": "#6e5a4d",
+                    "surface-container": "#f1ede7",
+                    "primary-fixed-dim": "#5bdacc",
+                    "on-tertiary": "#ffffff",
+                    "surface-dim": "#dddad4",
+                    "on-secondary-fixed-variant": "#693c00",
+                    "primary-fixed": "#7bf7e8",
+                    "surface-container-highest": "#e6e2dc",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed": "#26190e",
+                    "inverse-primary": "#5bdacc",
+                    "secondary-fixed": "#ffdcbd",
+                    "surface": "#fdf9f3",
+                    "secondary": "#8a5100",
+                    "error": "#ba1a1a",
+                    "on-background": "#1c1c18",
+                    "surface-container-low": "#f7f3ed",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation Anchor (Shared Component Mobile State) -->
+<nav class="fixed top-0 w-full z-50 bg-[#FFFBF5]/80 backdrop-blur-xl flex justify-between items-center px-6 py-4 shadow-[0px_12px_32px_rgba(26,173,160,0.06)]">
+<div class="text-2xl font-black tracking-tighter text-[#1A1A1A]">Petovia</div>
+<div class="flex items-center gap-4">
+<button class="w-10 h-10 flex items-center justify-center rounded-full surface-container-low text-primary">
+<span class="material-symbols-outlined">search</span>
+</button>
+<div class="w-8 h-8 rounded-full bg-secondary-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="close-up portrait of a smiling young professional man with short dark hair in a bright studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChj0KTOWEDYGiBupVHEXuml7b8YejfQJOjL8PVusUa2iWoTw9ILCh5u6Qau8iSnRXqam_a33B-xvoDlY1WQYbwIAklWQ_WKne22Fm1XEfN3yRP-YZkkmOg3oR_7ulNXZhd2pYWHHA-TqvbPsnDkkmPOpfQ4Isr_uoq7FmLkUe9bEeYklMEQhqrEvvYPGl1ittw7Bo-EMuWaNUQRPC4t3usgob_hKgSdSTUmBaLWtxAIHUyc6aKw4AciDQkP9KB9MnLHPSDnCwTOSLU"/>
+</div>
+</div>
+</nav>
+<main class="pt-16 pb-32">
+<!-- Hero Section -->
+<section class="relative w-full h-[397px] overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="elegant golden retriever sitting peacefully in a sun-drenched modern living room with warm morning light and soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlkrdvywDMfiGPCeIEB7xxF46LrH34TKUGzgweadfQRHz-fpcd6iu9Xk75eeKfS4t45tkmmGOXWR2CMfM92didfjB2q_eazQmw7SICPTGXeZWWmphWBFrgev55gieF9DwCWZhIiJDoMA3IKoyHvD8ljNw8Hx0prEm9QiO51nS38hFAcVteLsm6YaFOjXrY84oAdMLWlVstY8ykJpoX8WH75jsVOUzIhBuOfU7F_6LUYHpjYy91blprzVaEfSEtt0g9lg6XEXaNA4cw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6 w-full">
+<div class="flex gap-2 mb-3">
+<span class="px-3 py-1 rounded-full bg-primary-container text-on-primary-container text-[10px] font-bold tracking-wider uppercase">Wellness</span>
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container text-[10px] font-bold tracking-wider uppercase">8 min read</span>
+</div>
+<h1 class="text-3xl font-black tracking-tight leading-none text-on-surface">The Science of Puppy Serenity</h1>
+</div>
+</section>
+<!-- Article Body -->
+<article class="px-6 py-8">
+<div class="flex items-center gap-3 mb-8">
+<div class="w-10 h-10 rounded-full bg-tertiary-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="professional headshot of a female veterinarian smiling warmly, wearing a white coat, in a bright clinic office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtiUruUXTyJrViUHUSVofPKfwiiVvuY7YIVNGoI41XotsnqJBPVo2BGdFSl4qphskZZuQSaxojB3jLsjEJMB923gpGTmJrkyFvEBGo1w9YerPj2Pd-hkb2lIT_0c5PY5Vli7Zp9DxRfxe99QLfdahTrBNoaGNetjhzsqi2nLOXGKRjjkWcWT6yJMS6w4jBpoh6uTzSs4BVqXgRTzN28eRpKYKcBsMAoR_2vQVd0gC9GLynZGkckGgJhdk1cI1VfBwFogmom7w6CsI5"/>
+</div>
+<div>
+<p class="text-sm font-bold text-on-surface leading-none">Dr. Elena Vance</p>
+<p class="text-xs text-on-surface-variant">Senior Behaviorist • Mar 24, 2024</p>
+</div>
+<button class="ml-auto w-10 h-10 flex items-center justify-center rounded-full surface-container-low text-primary">
+<span class="material-symbols-outlined">bookmark</span>
+</button>
+</div>
+<div class="space-y-6 text-on-surface-variant leading-relaxed font-medium">
+<p class="text-lg text-on-surface leading-snug">The bond between a human and their pet is more than just companionship; it's a physiological resonance that alters heart rates and lowers cortisol levels in real-time.</p>
+<p>New research suggests that the tactile editorial of a pet's fur actually triggers the same neural pathways as deep-pressure therapy. When we stroke our pets, we aren't just showing affection; we're engaging in a mutual nervous system regulation.</p>
+<div class="my-10 p-6 bg-surface-container-low rounded-lg relative overflow-hidden">
+<div class="absolute top-0 right-0 p-4 opacity-10">
+<span class="material-symbols-outlined text-6xl">format_quote</span>
+</div>
+<p class="text-primary italic font-semibold text-xl relative z-10">"Animals are the bridge between us and the natural world, reminding us of the simple cadence of being."</p>
+</div>
+<p>To truly master the art of caretaking, we must move beyond the sterile routines of feeding and walking. We must embrace the emotional architecture of their world.</p>
+</div>
+<div class="mt-10 flex items-center justify-between border-t border-[#EEE8DD]/40 pt-6">
+<div class="flex -space-x-3">
+<div class="w-8 h-8 rounded-full border-2 border-background overflow-hidden"><img class="w-full h-full object-cover" data-alt="male face avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnPGWupYRRqHtBvnzNBwA9WIAKR9CW82Nvnqrqds8Oj1zujHk8FTY3sYp1rtajE2LMu3xJpv1dNoNiJyHMG-qiewUEcNYmVnR_iZyqrmWb1GN9emsLRSqOI3APbbmb4JnYwU2zKQ7udo4dZDqdP087ojvdZ-fibUbzvmMYRCd6oQs6w_LbP_mCGE0zfmY96W-K_qINb-NxxAs7n6H-BRTH1VgjLSI9ji3OIBU_ssjmVHHtJp6YpBj3pLx6tgMbbnE964J8WKU8srq6"/></div>
+<div class="w-8 h-8 rounded-full border-2 border-background overflow-hidden"><img class="w-full h-full object-cover" data-alt="female face avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB44tqojEItm4pdAgtsSmquDvhuuzMsIdcOGRHOFv5culdn6clJDSZXvZ3TrcizG8SX71-Mf57M0A9OCZRF28xxut3FrFCRyvhqMnFfKOwZbsHYlk8yh-vbJ5ZlMe4lvNPhKWHQPED4jLpKiKfJLkf281QZDncQ5qiFq4aoU_VIVDgCRCTWlxJq8Q7-lA6V49s5zPe5rrpywRJEEOQusELOJnaFzm36MqkXu3aWBbajbLsSV49TZK8c8c3RaoEFX4ZNjItgl9Kp2Yrm"/></div>
+<div class="w-8 h-8 rounded-full border-2 border-background bg-surface-container flex items-center justify-center text-[10px] font-bold">+42</div>
+</div>
+<div class="flex gap-4">
+<button class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-xl">favorite</span>
+<span class="text-sm font-bold">1.2k</span>
+</button>
+<button class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-xl">share</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Live Community Feed Section -->
+<section class="mt-4 bg-surface-container-low rounded-t-[2.5rem] px-6 py-10 shadow-[0px_-12px_32px_rgba(26,173,160,0.04)]">
+<div class="flex items-center justify-between mb-8">
+<div>
+<h2 class="text-2xl font-black tracking-tight text-on-surface">Live Discussion</h2>
+<div class="flex items-center gap-1.5 mt-1">
+<span class="w-2 h-2 rounded-full bg-error animate-pulse"></span>
+<span class="text-xs font-bold text-error uppercase tracking-widest">128 Active Now</span>
+</div>
+</div>
+<button class="text-primary font-bold text-sm">View All</button>
+</div>
+<!-- Discussion Feed -->
+<div class="space-y-6">
+<!-- Message 1 -->
+<div class="flex gap-3">
+<div class="w-9 h-9 rounded-full overflow-hidden shrink-0 mt-1">
+<img class="w-full h-full object-cover" data-alt="man smiling profile avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAejPqHwymH8NEzM-1BOLXPklbQxrvZZG8xDpHKq2UQ-lBFO8LImn7VJVd9eRLB0nRb_SBfLSjrdR-aL83300mIMfyTPGzfzwhDesNdc9WDk_Q2NU5crEBWFWGPYJGFCUdIjOaRTRC3quPvwPrA5wCb1eDOJZoh42PE0wkrxI8d1jr7rw9LfvMe7wAkPNSFS4jZjFG5tDuo1bXbcC3dX-XT2yZNWigWBAoy_Vin6W2hfxTZGQotHeax9gbD_iM06qSMBxD4--ruzBmb"/>
+</div>
+<div class="space-y-1 max-w-[85%]">
+<div class="bg-white p-4 rounded-2xl rounded-tl-none shadow-[0px_4px_16px_rgba(26,173,160,0.04)]">
+<p class="text-xs font-black text-primary mb-1">Marcus T.</p>
+<p class="text-sm text-on-surface-variant leading-relaxed">This completely explains why my cat sits on my chest when I'm stressed! The resonance is real.</p>
+</div>
+<div class="flex gap-2 px-1">
+<span class="bg-[#E8F8F6] px-2 py-0.5 rounded-full text-[10px] font-bold text-primary flex items-center gap-1">❤️ 12</span>
+<span class="bg-surface-container px-2 py-0.5 rounded-full text-[10px] font-bold text-on-surface-variant flex items-center gap-1">Reply</span>
+</div>
+</div>
+</div>
+<!-- Message 2 (Right Aligned/Current User) -->
+<div class="flex gap-3 flex-row-reverse">
+<div class="w-9 h-9 rounded-full overflow-hidden shrink-0 mt-1">
+<img class="w-full h-full object-cover" data-alt="user portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3NhUVZCSS4KgzF3OiuCtxwbljgJaAC9OhAt-mMdWgPwKvx4j8X8hgXv001vE5dVyrHPGOzcdhX7X2gPgnSObIgVvzLWWsnc1b-SaziPNYxU-jTRM-LFZb5DSSV36rFtMvJ2vZ7hkp93IYWVmIAqOaRHeZKEaHwBYDoDuJmW7DaykIyIv7eEavjM7kyxLL_rnLVWW1_5hpm1j_s2M6hnAuzg3dCQ-Z58-OK5dDdP0P1Gjw4aqLhA9Ly3OZs9gun1GK89DPhFlcsNHp"/>
+</div>
+<div class="space-y-1 max-w-[85%]">
+<div class="bg-primary p-4 rounded-2xl rounded-tr-none text-white shadow-[0px_4px_16px_rgba(0,106,98,0.2)]">
+<p class="text-sm leading-relaxed">Exactly! It's that "Tactile Editorial" feel mentioned in the guide. My lab thrives on it.</p>
+</div>
+<p class="text-[10px] text-on-surface-variant/60 font-bold text-right px-1">Read 2m ago</p>
+</div>
+</div>
+<!-- Message 3 -->
+<div class="flex gap-3">
+<div class="w-9 h-9 rounded-full overflow-hidden shrink-0 mt-1">
+<img class="w-full h-full object-cover" data-alt="woman face avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD76d7FZj0ZfxkVp7CaxvukCXS360IZlCecv8oWz5UwoSvosmzxcDD7FxCOuWFHgVKbFfLHRdkji-l9PqRs7XfAANJI266Xqai4bPdEDOE9hkKfaqh36LKc_IUmgBuG2pr-tQyT--7I9E4i66chEAKxuSYMDKHEDkt0kVYn0DgEmnRGn3Atk-8PWc4X5HtznKgNzWPVqsr2_Ss6jzWgLiOohpEAPVm6vZ4isPZblsin0PbEyVfhivy2ip5rl4300-_LqYId3zqqnCyC"/>
+</div>
+<div class="space-y-1 max-w-[85%]">
+<div class="bg-white p-4 rounded-2xl rounded-tl-none shadow-[0px_4px_16px_rgba(26,173,160,0.04)]">
+<p class="text-xs font-black text-secondary mb-1">Sarah Jenkins</p>
+<p class="text-sm text-on-surface-variant leading-relaxed">Does this also apply to birds? My parrot seems to have the same effect on my mood.</p>
+</div>
+<div class="flex gap-2 px-1">
+<span class="bg-[#E8F8F6] px-2 py-0.5 rounded-full text-[10px] font-bold text-primary flex items-center gap-1">🙌 4</span>
+<span class="bg-surface-container px-2 py-0.5 rounded-full text-[10px] font-bold text-on-surface-variant flex items-center gap-1">Reply</span>
+</div>
+</div>
+</div>
+<!-- Typing Indicator -->
+<div class="flex gap-3 items-center px-2 py-2">
+<div class="flex gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary/40 animate-bounce"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary/40 animate-bounce" style="animation-delay: 0.2s"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary/40 animate-bounce" style="animation-delay: 0.4s"></span>
+</div>
+<p class="text-[10px] font-bold text-primary/60 uppercase tracking-widest">Dr. Vance is typing...</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Bottom Message Input (Focused Action) -->
+<div class="fixed bottom-20 left-0 w-full px-6 py-4 bg-[#FFFBF5]/90 backdrop-blur-md z-40">
+<div class="flex items-center gap-3 bg-surface-container-highest rounded-full px-5 py-3 shadow-sm">
+<span class="material-symbols-outlined text-primary">add_circle</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm font-medium w-full text-on-surface placeholder:text-on-surface-variant/50" placeholder="Share your thoughts..." type="text"/>
+<button class="bg-primary text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+<!-- BottomNavBar (Shared Component Mobile) -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center p-4 bg-[#FFFBF5] border-t border-[#EEE8DD]/40 z-50 shadow-[0px_-12px_32px_rgba(26,173,160,0.08)]">
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="text-[10px] font-bold mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="storefront">storefront</span>
+<span class="text-[10px] font-bold mt-1">Marketplace</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-[#E8F8F6] text-[#006a62] rounded-full px-4 py-2" href="#">
+<span class="material-symbols-outlined" data-icon="groups" style="font-variation-settings: 'FILL' 1;">groups</span>
+<span class="text-[10px] font-bold mt-0.5">Community</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span>
+<span class="text-[10px] font-bold mt-1">Saved</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="text-[10px] font-bold mt-1">Account</span>
+</a>
+</nav>
+</body></html>

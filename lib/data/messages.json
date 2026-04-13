@@ -1,0 +1,281 @@
+[
+  {
+    "id": "msg-001",
+    "articleId": "how-to-choose-your-first-london-vet",
+    "author": { "name": "Emma T.", "avatar": "🧑‍🦰", "petBadge": "🐱" },
+    "body": "We moved to Clapham last year with our two Bengals and spent three weeks researching vets. The Stitch recommendation above is solid — going in person first was the thing that helped most.",
+    "postedAt": "2026-04-12T14:32:00Z",
+    "reactions": { "paw": 8, "heart": 3 },
+    "reactors": ["🧑‍🦰", "👩", "🧔"]
+  },
+  {
+    "id": "msg-002",
+    "articleId": "how-to-choose-your-first-london-vet",
+    "parentId": "msg-001",
+    "author": { "name": "Ravi S.", "avatar": "🧔", "petBadge": "🐕" },
+    "body": "Same experience in Hackney. The first vet we tried had a 3-week wait for non-urgent, which sounds fine until your dog eats something random.",
+    "postedAt": "2026-04-12T15:10:00Z",
+    "reactions": { "paw": 5, "heart": 1 },
+    "reactors": ["🧑‍🦰", "👱"]
+  },
+  {
+    "id": "msg-003",
+    "articleId": "how-to-choose-your-first-london-vet",
+    "author": { "name": "Claudia M.", "avatar": "👩", "petBadge": "🐈" },
+    "body": "The RCVS accreditation point is underrated. I didn't know about the Practice Standards Scheme until I started reading this stuff. Our current vet is a RCVS Hospital — they have an on-site lab and everything.",
+    "postedAt": "2026-04-11T09:45:00Z",
+    "reactions": { "paw": 12, "heart": 6 },
+    "reactors": ["🧔", "👩‍🦱", "🧑"]
+  },
+  {
+    "id": "msg-004",
+    "articleId": "how-to-choose-your-first-london-vet",
+    "author": { "name": "Tariq H.", "avatar": "👨‍🦱", "petBadge": "🐕" },
+    "body": "Can anyone recommend a vet in the Lewisham/Forest Hill area? Just adopted a 2-year-old lurcher and we're completely new to this.",
+    "postedAt": "2026-04-10T18:20:00Z",
+    "reactions": { "paw": 2, "heart": 7 },
+    "reactors": ["👩", "🧔"]
+  },
+  {
+    "id": "msg-005",
+    "articleId": "how-to-choose-your-first-london-vet",
+    "parentId": "msg-004",
+    "author": { "name": "Grace O.", "avatar": "👩‍🦱", "petBadge": "🐱" },
+    "body": "Try Forest Hill Vets on Dartmouth Road — we've been there for 4 years with our two dogs. Honest pricing, never felt like they were upselling.",
+    "postedAt": "2026-04-10T19:05:00Z",
+    "reactions": { "paw": 9, "heart": 4 },
+    "reactors": ["👨‍🦱", "🧑‍🦰"]
+  },
+  {
+    "id": "msg-006",
+    "articleId": "how-to-choose-your-first-london-vet",
+    "author": { "name": "Nina W.", "avatar": "🧑‍🦳", "petBadge": "🐇" },
+    "body": "Worth noting: the emergency clinic thing is a real expense to factor in. Our regular vet refers to Vets Now which charges a £160 consult fee just to walk in. Found that out the hard way.",
+    "postedAt": "2026-04-09T21:15:00Z",
+    "reactions": { "paw": 14, "heart": 2 },
+    "reactors": ["👩", "🧔", "👨‍🦱", "🧑"]
+  },
+  {
+    "id": "msg-007",
+    "articleId": "how-to-choose-your-first-london-vet",
+    "parentId": "msg-006",
+    "author": { "name": "Emma T.", "avatar": "🧑‍🦰", "petBadge": "🐱" },
+    "body": "This is genuinely useful to know. I had no idea some practices don't cover their own out-of-hours.",
+    "postedAt": "2026-04-09T21:44:00Z",
+    "reactions": { "paw": 3, "heart": 1 },
+    "reactors": ["🧑‍🦳"]
+  },
+  {
+    "id": "msg-008",
+    "articleId": "what-pet-insurance-actually-covers",
+    "author": { "name": "Marcus B.", "avatar": "🧔", "petBadge": "🐕" },
+    "body": "The time-limited vs lifetime distinction tripped us up badly. Had a policy that seemed comprehensive, dog was diagnosed with IBD at age 5, and by age 6 it was fully excluded. Now we self-insure.",
+    "postedAt": "2026-04-11T10:20:00Z",
+    "reactions": { "paw": 21, "heart": 8 },
+    "reactors": ["👩", "🧑‍🦰", "👨‍🦱", "🧑‍🦳"]
+  },
+  {
+    "id": "msg-009",
+    "articleId": "what-pet-insurance-actually-covers",
+    "parentId": "msg-008",
+    "author": { "name": "Priya K.", "avatar": "👩‍🦱", "petBadge": "🐱" },
+    "body": "This is exactly why I always tell people: get lifetime cover from day one, not when they're already showing issues.",
+    "postedAt": "2026-04-11T11:05:00Z",
+    "reactions": { "paw": 11, "heart": 5 },
+    "reactors": ["🧔", "🧑‍🦳"]
+  },
+  {
+    "id": "msg-010",
+    "articleId": "what-pet-insurance-actually-covers",
+    "author": { "name": "David L.", "avatar": "🧑", "petBadge": "🐕" },
+    "body": "The co-payment maths in this article is something policies really bury. 20% + £250 excess sounds manageable until you work it out on a £4,000 bill. That's £1,050 you're paying yourself.",
+    "postedAt": "2026-04-10T14:30:00Z",
+    "reactions": { "paw": 18, "heart": 3 },
+    "reactors": ["👩‍🦱", "🧔", "🧑‍🦰"]
+  },
+  {
+    "id": "msg-011",
+    "articleId": "what-pet-insurance-actually-covers",
+    "author": { "name": "Yuki T.", "avatar": "👱", "petBadge": "🐈" },
+    "body": "I have Bought By Many (now ManyPets) and genuinely rate them. The dental cover extra is worth it for my Persian — she's had two dental procedures in two years.",
+    "postedAt": "2026-04-09T18:00:00Z",
+    "reactions": { "paw": 9, "heart": 6 },
+    "reactors": ["👩‍🦱", "🧑"]
+  },
+  {
+    "id": "msg-012",
+    "articleId": "what-pet-insurance-actually-covers",
+    "parentId": "msg-011",
+    "author": { "name": "Alice R.", "avatar": "👩", "petBadge": "🐱" },
+    "body": "How much is the dental extra roughly? My Ragdoll is 3 and I've been putting off sorting cover.",
+    "postedAt": "2026-04-09T18:45:00Z",
+    "reactions": { "paw": 1, "heart": 2 },
+    "reactors": ["👱"]
+  },
+  {
+    "id": "msg-013",
+    "articleId": "microchipping-is-now-law",
+    "author": { "name": "Jo P.", "avatar": "🧑‍🦰", "petBadge": "🐈" },
+    "body": "The database issue is real and so underreported. My neighbour's cat was missing for 3 weeks, found, chipped — but the registration had an old email address. Took another week to sort.",
+    "postedAt": "2026-04-12T08:30:00Z",
+    "reactions": { "paw": 24, "heart": 7 },
+    "reactors": ["👩", "🧔", "👱", "🧑‍🦳"]
+  },
+  {
+    "id": "msg-014",
+    "articleId": "microchipping-is-now-law",
+    "author": { "name": "Sam F.", "avatar": "🧑", "petBadge": "🐱" },
+    "body": "Is there a free way to check which database your chip is registered on? Our cat is from a rescue 2 years ago and I've never verified it.",
+    "postedAt": "2026-04-11T15:20:00Z",
+    "reactions": { "paw": 6, "heart": 2 },
+    "reactors": ["👩‍🦱"]
+  },
+  {
+    "id": "msg-015",
+    "articleId": "microchipping-is-now-law",
+    "parentId": "msg-014",
+    "author": { "name": "Dr. Sarah O.", "avatar": "👩‍⚕️", "petBadge": "🐈" },
+    "body": "Check-a-chip.co.uk — free, just enter the 15-digit number from your chip card. Any vet can scan the chip for free in seconds if you don't have the number.",
+    "postedAt": "2026-04-11T16:00:00Z",
+    "reactions": { "paw": 31, "heart": 9 },
+    "reactors": ["🧑", "👩‍🦱", "🧔", "👱"]
+  },
+  {
+    "id": "msg-016",
+    "articleId": "5-signs-your-dog-needs-a-groomer",
+    "author": { "name": "Beth K.", "avatar": "👩‍🦱", "petBadge": "🐩" },
+    "body": "The nail/floor clicking thing is such a good indicator. My Cavapoo started doing this and I was embarrassed I hadn't noticed. Four weeks post-groomer and she walks completely differently.",
+    "postedAt": "2026-04-12T12:00:00Z",
+    "reactions": { "paw": 17, "heart": 11 },
+    "reactors": ["👩", "🧑‍🦰", "👱", "🧔"]
+  },
+  {
+    "id": "msg-017",
+    "articleId": "5-signs-your-dog-needs-a-groomer",
+    "author": { "name": "Amir H.", "avatar": "👨‍🦱", "petBadge": "🐕" },
+    "body": "The matting section is so important. My partner thought we could just cut out the mat at home with scissors and ended up cutting the dog's skin. Required a vet visit. Please read this point carefully.",
+    "postedAt": "2026-04-11T09:15:00Z",
+    "reactions": { "paw": 28, "heart": 4 },
+    "reactors": ["👩‍🦱", "🧑", "🧑‍🦳", "👩"]
+  },
+  {
+    "id": "msg-018",
+    "articleId": "5-signs-your-dog-needs-a-groomer",
+    "author": { "name": "Fiona C.", "avatar": "👩", "petBadge": "🐱" },
+    "body": "Can anyone recommend a groomer in Peckham/East Dulwich? Preferably someone who does Cockapoos and doesn't shave them completely (the 'puppy cut' look is not it for us).",
+    "postedAt": "2026-04-10T16:45:00Z",
+    "reactions": { "paw": 3, "heart": 14 },
+    "reactors": ["👩‍🦱", "🧔"]
+  },
+  {
+    "id": "msg-019",
+    "articleId": "raw-vs-kibble-uk-vet-honest-take",
+    "author": { "name": "Chris T.", "avatar": "🧔", "petBadge": "🐕" },
+    "body": "Finally — a balanced take. The raw feeding forums get so aggressive toward anyone who feeds kibble. My Labrador has been on Hill's Science Plan for 8 years and is in excellent health. There's no universal answer.",
+    "postedAt": "2026-04-12T10:30:00Z",
+    "reactions": { "paw": 34, "heart": 12 },
+    "reactors": ["👩", "🧑‍🦰", "👨‍🦱", "🧑‍🦳", "👱"]
+  },
+  {
+    "id": "msg-020",
+    "articleId": "raw-vs-kibble-uk-vet-honest-take",
+    "parentId": "msg-019",
+    "author": { "name": "Jade R.", "avatar": "🧑‍🦰", "petBadge": "🐕" },
+    "body": "Agreed. Though I do feel like the kibble-is-fine crowd sometimes dismisses the ingredient quality issue a bit quickly. There's a meaningful difference between Pro Plan and Iceland own-brand.",
+    "postedAt": "2026-04-12T11:15:00Z",
+    "reactions": { "paw": 19, "heart": 5 },
+    "reactors": ["🧔", "👩‍🦱"]
+  },
+  {
+    "id": "msg-021",
+    "articleId": "raw-vs-kibble-uk-vet-honest-take",
+    "author": { "name": "Leila V.", "avatar": "👩‍🦱", "petBadge": "🐱" },
+    "body": "The zoonotic risk point is real and under-discussed, especially in households with kids. We switched to Natures Menu raw and I'm genuinely meticulous about the prep. Probably fine — but it's a consideration.",
+    "postedAt": "2026-04-10T20:00:00Z",
+    "reactions": { "paw": 15, "heart": 3 },
+    "reactors": ["🧔", "🧑"]
+  },
+  {
+    "id": "msg-022",
+    "articleId": "crate-training-rescue-7-day-plan",
+    "author": { "name": "Tom A.", "avatar": "👨", "petBadge": "🐕" },
+    "body": "We followed almost exactly this plan with our rescue greyhound. Key thing we learned: step 5 (closing the door) really can't be rushed. We spent 3 days on that step alone.",
+    "postedAt": "2026-04-12T09:00:00Z",
+    "reactions": { "paw": 22, "heart": 8 },
+    "reactors": ["👩", "🧑‍🦰", "🧑", "🧔"]
+  },
+  {
+    "id": "msg-023",
+    "articleId": "crate-training-rescue-7-day-plan",
+    "parentId": "msg-022",
+    "author": { "name": "Nadia B.", "avatar": "👩‍🦳", "petBadge": "🐕" },
+    "body": "This. Everyone says '7-day plan' like it's guaranteed to take 7 days. With our Romanian rescue it was closer to 3 weeks. But it worked, and now she goes in voluntarily to nap.",
+    "postedAt": "2026-04-12T09:45:00Z",
+    "reactions": { "paw": 18, "heart": 11 },
+    "reactors": ["👨", "🧑‍🦰", "🧑‍🦳"]
+  },
+  {
+    "id": "msg-024",
+    "articleId": "crate-training-rescue-7-day-plan",
+    "author": { "name": "Poppy M.", "avatar": "🧑‍🦰", "petBadge": "🐕" },
+    "body": "The tip about removing the door entirely at first is something I hadn't seen before. That was genuinely useful — our boy was suspicious of the hinge mechanism itself.",
+    "postedAt": "2026-04-11T14:20:00Z",
+    "reactions": { "paw": 13, "heart": 6 },
+    "reactors": ["👩‍🦳", "🧔"]
+  },
+  {
+    "id": "msg-025",
+    "articleId": "emergency-vet-bills-what-to-do",
+    "author": { "name": "Obi K.", "avatar": "👨‍🦱", "petBadge": "🐕" },
+    "body": "The PDSA point deserves to be at the top. So many people don't know it exists. Our dog needed emergency surgery last year — £0 cost because we qualify for Universal Credit. Would have been over £4,000 otherwise.",
+    "postedAt": "2026-04-12T11:30:00Z",
+    "reactions": { "paw": 48, "heart": 21 },
+    "reactors": ["👩", "🧑‍🦰", "🧔", "👱", "🧑‍🦳"]
+  },
+  {
+    "id": "msg-026",
+    "articleId": "emergency-vet-bills-what-to-do",
+    "parentId": "msg-025",
+    "author": { "name": "Cass W.", "avatar": "👩", "petBadge": "🐱" },
+    "body": "This genuinely made me cry. Sharing this article because people need to know. The PDSA Hammersmith centre is incredible.",
+    "postedAt": "2026-04-12T12:00:00Z",
+    "reactions": { "paw": 19, "heart": 31 },
+    "reactors": ["👨‍🦱", "🧑‍🦰", "🧑"]
+  },
+  {
+    "id": "msg-027",
+    "articleId": "emergency-vet-bills-what-to-do",
+    "author": { "name": "Lee P.", "avatar": "🧑", "petBadge": "🐕" },
+    "body": "The crowdfunding point is real. When my cat needed a £2,800 operation last year I posted on a local Facebook group almost as a last resort. Raised £1,400 in two days. People genuinely want to help.",
+    "postedAt": "2026-04-10T17:45:00Z",
+    "reactions": { "paw": 25, "heart": 15 },
+    "reactors": ["👩", "👩‍🦳", "🧔"]
+  },
+  {
+    "id": "msg-028",
+    "articleId": "travelling-eu-with-pet-post-brexit",
+    "author": { "name": "Helen S.", "avatar": "👩‍🦳", "petBadge": "🐕" },
+    "body": "The 10-day window on the AHC catches people out. We nearly missed our ferry because I thought we needed it a month in advance. Booked the OV appointment for day 9 before travel and it was fine.",
+    "postedAt": "2026-04-11T08:00:00Z",
+    "reactions": { "paw": 16, "heart": 4 },
+    "reactors": ["👩", "🧔"]
+  },
+  {
+    "id": "msg-029",
+    "articleId": "travelling-eu-with-pet-post-brexit",
+    "author": { "name": "Stefan B.", "avatar": "👱", "petBadge": "🐕" },
+    "body": "The tapeworm treatment for re-entry is not on most people's radar at all. First time we brought our dog back from Spain we had no idea — a very kind border officer flagged it rather than turned us away.",
+    "postedAt": "2026-04-10T14:00:00Z",
+    "reactions": { "paw": 27, "heart": 8 },
+    "reactors": ["👩‍🦳", "🧑‍🦰", "🧑‍🦳", "👩"]
+  },
+  {
+    "id": "msg-030",
+    "articleId": "travelling-eu-with-pet-post-brexit",
+    "author": { "name": "Mia L.", "avatar": "🧑‍🦰", "petBadge": "🐕" },
+    "body": "The OV vet cost is real. I called 5 local vets and only two of them were OVs and willing to do the AHC. Booked weeks in advance — it's not a drop-in service.",
+    "postedAt": "2026-04-09T20:30:00Z",
+    "reactions": { "paw": 20, "heart": 5 },
+    "reactors": ["👱", "🧔", "👩"]
+  }
+]

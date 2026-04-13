@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── CSS Custom Properties (mirrors Tailwind tokens) ─────────────────────── */
+:root {
+  --background:                 #fdf9f3;
+  --surface-container-lowest:   #ffffff;
+  --surface-container-low:      #f7f3ed;
+  --surface-container:          #f1ede7;
+  --surface-container-high:     #ebe8e2;
+  --surface-container-highest:  #e6e2dc;
+
+  --primary:                    #006a62;
+  --primary-container:          #1aada0;
+  --teal-deep:                  #138A80;
+  --teal-soft:                  #E8F8F6;
+
+  --secondary-container:        #fea94b;
+  --amber:                      #E8973A;
+  --amber-soft:                 #FDF1E2;
+
+  --brown-dark:                 #1F1208;
+  --gold:                       #F0C87A;
+
+  --ink:                        #1A1A1A;
+  --on-surface:                 #1c1c18;
+  --on-surface-variant:         #3c4947;
+  --border:                     #EEE8DD;
+  --outline-variant:            #bbc9c6;
+
+  /* Teal shadows */
+  --shadow-teal-xs:   0 2px 8px rgba(26,173,160,0.06);
+  --shadow-teal-sm:   0 4px 16px rgba(26,173,160,0.08);
+  --shadow-teal-md:   0 8px 24px rgba(26,173,160,0.10);
+  --shadow-teal-lg:   0 12px 32px rgba(26,173,160,0.12);
+  --shadow-teal-lift: 0 12px 32px rgba(26,173,160,0.16);
+}
+
+/* ── Material Symbols ────────────────────────────────────────────────────── */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  user-select: none;
+}
+
+/* ── Base Resets ─────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf9f3;
+    color: #1c1c18;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #fdf9f3;
+    min-height: 100dvh;
+  }
+
+  /* Tabular figures for numeric content */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }
+
+  /* No-line rule: suppress all default hr, divider usage */
+  hr {
+    border-color: rgba(238, 232, 221, 0.4);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* ── Petovia Utility Classes ─────────────────────────────────────────────── */
+@layer utilities {
+  /* Glassmorphism nav */
+  .glass-nav {
+    background: rgba(253, 249, 243, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  /* Primary CTA gradient */
+  .gradient-primary {
+    background: linear-gradient(135deg, #006a62 0%, #1aada0 100%);
+  }
+
+  /* Shimmer skeleton */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      #f1ede7 0%,
+      #e6e2dc 50%,
+      #f1ede7 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+  }
+
+  /* Teal ring for verified/selected items */
+  .ring-teal {
+    outline: 1px solid #1aada0;
+    outline-offset: 1px;
+  }
+
+  /* Ghost border fallback (accessibility only) */
+  .border-ghost {
+    border-color: rgba(238, 232, 221, 0.4);
+  }
+
+  /* Message new-item glow animation */
+  .glow-in {
+    animation: teal-glow 1.5s ease-out forwards;
+  }
+
+  /* Hide scrollbar but keep scrollable */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Editorial display text */
+  .text-display {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    font-weight: 800;
+  }
+
+  @media (max-width: 768px) {
+    .text-display {
+      font-size: 2.25rem;
+    }
+  }
+}
+
+/* ── Leaflet Map Overrides ───────────────────────────────────────────────── */
+.leaflet-container {
+  background: #f7f3ed;
+  font-family: var(--font-jakarta), 'Plus Jakarta Sans', sans-serif;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 16px !important;
+  box-shadow: 0 8px 24px rgba(26,173,160,0.12) !important;
+  border: none !important;
+}
+
+.leaflet-popup-tip {
+  background: white !important;
+}

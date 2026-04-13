@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Petovia - Every pet service. One trusted place.</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "on-secondary-fixed": "#2c1600",
+                "inverse-surface": "#31302d",
+                "on-tertiary-container": "#3f2f23",
+                "on-tertiary-fixed-variant": "#554336",
+                "background": "#fdf9f3",
+                "tertiary-fixed": "#f9ddcc",
+                "surface-container-lowest": "#ffffff",
+                "surface-bright": "#fdf9f3",
+                "primary": "#006a62",
+                "on-surface": "#1c1c18",
+                "on-surface-variant": "#3c4947",
+                "surface-variant": "#e6e2dc",
+                "on-primary-fixed-variant": "#005049",
+                "on-secondary": "#ffffff",
+                "secondary-fixed-dim": "#ffb86e",
+                "secondary-container": "#fea94b",
+                "surface-container-high": "#ebe8e2",
+                "tertiary-fixed-dim": "#dbc2b1",
+                "on-primary-container": "#003a35",
+                "error-container": "#ffdad6",
+                "on-primary-fixed": "#00201d",
+                "on-secondary-container": "#6f4000",
+                "tertiary-container": "#ae9687",
+                "surface-tint": "#006a62",
+                "outline-variant": "#bbc9c6",
+                "outline": "#6c7a77",
+                "inverse-on-surface": "#f4f0ea",
+                "on-error-container": "#93000a",
+                "primary-container": "#1aada0",
+                "tertiary": "#6e5a4d",
+                "surface-container": "#f1ede7",
+                "primary-fixed-dim": "#5bdacc",
+                "on-tertiary": "#ffffff",
+                "surface-dim": "#dddad4",
+                "on-secondary-fixed-variant": "#693c00",
+                "primary-fixed": "#7bf7e8",
+                "surface-container-highest": "#e6e2dc",
+                "on-primary": "#ffffff",
+                "on-tertiary-fixed": "#26190e",
+                "inverse-primary": "#5bdacc",
+                "secondary-fixed": "#ffdcbd",
+                "surface": "#fdf9f3",
+                "secondary": "#8a5100",
+                "error": "#ba1a1a",
+                "on-background": "#1c1c18",
+                "surface-container-low": "#f7f3ed",
+                "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                "DEFAULT": "1rem",
+                "lg": "2rem",
+                "xl": "3rem",
+                "full": "9999px"
+            },
+            "fontFamily": {
+                "headline": ["Plus Jakarta Sans"],
+                "body": ["Plus Jakarta Sans"],
+                "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #FFFBF5; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-on-surface antialiased pb-24">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-[#FFFBF5]/80 backdrop-blur-xl flex justify-between items-center px-6 py-4 shadow-[0px_12px_32px_rgba(26,173,160,0.06)]">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="pets">pets</span>
+<span class="text-2xl font-black tracking-tighter text-[#1A1A1A]">Petovia</span>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-primary hover:scale-[0.98] transition-all duration-200">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-24 px-6 space-y-12">
+<!-- Hero Section -->
+<section class="space-y-8">
+<div class="space-y-4">
+<h1 class="text-5xl font-black tracking-tighter leading-[1.1] text-on-surface">
+                    Every pet service. One trusted place.
+                </h1>
+<p class="text-lg text-on-surface-variant font-medium leading-relaxed max-w-[90%]">
+                    Connecting pet parents with premium sitters, walkers, and groomers.
+                </p>
+</div>
+<!-- Vertical Pill Search Bar -->
+<div class="bg-surface-container-lowest rounded-lg p-3 shadow-[0px_12px_32px_rgba(26,173,160,0.08)] space-y-2">
+<div class="flex items-center gap-3 p-4 bg-surface-container-low rounded-full">
+<span class="material-symbols-outlined text-primary/60" data-icon="search">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm font-medium w-full" placeholder="What service do you need?" type="text"/>
+</div>
+<div class="flex items-center gap-3 p-4 bg-surface-container-low rounded-full">
+<span class="material-symbols-outlined text-primary/60" data-icon="location_on">location_on</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm font-medium w-full" placeholder="Near London, UK" type="text"/>
+</div>
+<button class="w-full bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold py-4 rounded-full shadow-lg active:scale-95 transition-transform">
+                    Search Now
+                </button>
+</div>
+<!-- Brand Pills -->
+<div class="flex gap-3 overflow-x-auto no-scrollbar pb-2">
+<div class="flex-none px-5 py-2.5 bg-[#FDF1E2] rounded-full text-secondary font-semibold text-sm">Top Rated</div>
+<div class="flex-none px-5 py-2.5 bg-surface-container rounded-full text-on-surface-variant font-semibold text-sm">Eco-Friendly</div>
+<div class="flex-none px-5 py-2.5 bg-surface-container rounded-full text-on-surface-variant font-semibold text-sm">Urgent Care</div>
+<div class="flex-none px-5 py-2.5 bg-surface-container rounded-full text-on-surface-variant font-semibold text-sm">24/7 Support</div>
+</div>
+</section>
+<!-- Category Tiles (2x4 Grid) -->
+<section class="space-y-6">
+<div class="flex justify-between items-end">
+<h2 class="text-2xl font-extrabold tracking-tight">Explore Categories</h2>
+<span class="text-primary font-bold text-sm">See all</span>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white p-6 rounded-lg shadow-[0px_8px_24px_rgba(26,173,160,0.04)] flex flex-col gap-4 active:scale-98 transition-transform">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="home_health">home_health</span>
+</div>
+<span class="font-bold text-on-surface">Boarding</span>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-[0px_8px_24px_rgba(26,173,160,0.04)] flex flex-col gap-4 active:scale-98 transition-transform">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="directions_walk">directions_walk</span>
+</div>
+<span class="font-bold text-on-surface">Walking</span>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-[0px_8px_24px_rgba(26,173,160,0.04)] flex flex-col gap-4 active:scale-98 transition-transform">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="content_cut">content_cut</span>
+</div>
+<span class="font-bold text-on-surface">Grooming</span>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-[0px_8px_24px_rgba(26,173,160,0.04)] flex flex-col gap-4 active:scale-98 transition-transform">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="pets">pets</span>
+</div>
+<span class="font-bold text-on-surface">Daycare</span>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-[0px_8px_24px_rgba(26,173,160,0.04)] flex flex-col gap-4 active:scale-98 transition-transform">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="medical_services">medical_services</span>
+</div>
+<span class="font-bold text-on-surface">Vet Care</span>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-[0px_8px_24px_rgba(26,173,160,0.04)] flex flex-col gap-4 active:scale-98 transition-transform">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="school">school</span>
+</div>
+<span class="font-bold text-on-surface">Training</span>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-[0px_8px_24px_rgba(26,173,160,0.04)] flex flex-col gap-4 active:scale-98 transition-transform">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="restaurant">restaurant</span>
+</div>
+<span class="font-bold text-on-surface">Nutrition</span>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-[0px_8px_24px_rgba(26,173,160,0.04)] flex flex-col gap-4 active:scale-98 transition-transform">
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="photography_camera">photo_camera</span>
+</div>
+<span class="font-bold text-on-surface">Photoshoot</span>
+</div>
+</div>
+</section>
+<!-- Trust Strip -->
+<section class="bg-[#1F1208] -mx-6 px-6 py-10 space-y-6">
+<h3 class="text-[#F0C87A] text-center font-black text-xl tracking-tight">Trusted by over 50,000+ Pet Parents</h3>
+<div class="flex justify-around opacity-60 grayscale filter invert">
+<!-- Aesthetic placeholder for logos -->
+<span class="material-symbols-outlined text-white text-3xl" data-icon="verified_user">verified_user</span>
+<span class="material-symbols-outlined text-white text-3xl" data-icon="shield">shield</span>
+<span class="material-symbols-outlined text-white text-3xl" data-icon="award_star">award_star</span>
+<span class="material-symbols-outlined text-white text-3xl" data-icon="security">security</span>
+</div>
+</section>
+<!-- How It Works (Editorial Layout) -->
+<section class="space-y-8">
+<div class="space-y-2">
+<span class="text-primary font-bold uppercase tracking-widest text-xs">The Process</span>
+<h2 class="text-3xl font-black tracking-tighter">How Petovia Works</h2>
+</div>
+<div class="space-y-12">
+<div class="relative pl-12">
+<span class="absolute left-0 top-0 text-5xl font-black text-primary/10">01</span>
+<h4 class="font-bold text-xl mb-2">Find your match</h4>
+<p class="text-on-surface-variant font-medium">Browse verified profiles and read reviews from other pet parents in your neighborhood.</p>
+</div>
+<div class="relative pl-12">
+<span class="absolute left-0 top-0 text-5xl font-black text-primary/10">02</span>
+<h4 class="font-bold text-xl mb-2">Book with ease</h4>
+<p class="text-on-surface-variant font-medium">Schedule services directly through the app with secure payments and instant confirmation.</p>
+</div>
+<div class="relative pl-12">
+<span class="absolute left-0 top-0 text-5xl font-black text-primary/10">03</span>
+<h4 class="font-bold text-xl mb-2">Paws of mind</h4>
+<p class="text-on-surface-variant font-medium">Receive real-time photo updates and GPS tracking while your pet is in expert care.</p>
+</div>
+</div>
+</section>
+<!-- Featured Community -->
+<section class="space-y-6">
+<div class="flex justify-between items-end">
+<h2 class="text-2xl font-extrabold tracking-tight">Community Stories</h2>
+</div>
+<div class="relative rounded-lg overflow-hidden h-[350px] flex items-end">
+<img alt="Community Story" class="absolute inset-0 w-full h-full object-cover" data-alt="happy golden retriever running in a park with its owner during sunset with warm lens flare and vibrant green grass" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoZiCthVPpP1UKyHtlNQIt8hFR-enPwE_joEAVDyQhe2rSivX6JBiduak9dz6n3hezDFBQby42rSfQt67ImFyUgtkz8jh3MMuoQ4NpuAUmphnltnSnkZVKStAerdyrf8Nja_s7l_82bcENbhcQtcsGkvSOjFpVLExJH0kdzisXQekYjCld00WhEA8zh2doa9jjH9OENH8_A_hVG7H_EMbjawZpgn4ix3G7hewgUVYEuKS3hxYJ1fp3n6_NTf5JJ88RJ7-42FsXOp99"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#1F1208]/90 via-[#1F1208]/20 to-transparent"></div>
+<div class="relative p-6 space-y-3">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-primary text-white rounded-full text-xs font-bold uppercase tracking-wider">Featured</div>
+<h3 class="text-2xl font-bold text-white leading-tight">How Luna found her perfect midday walking buddy.</h3>
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-primary-container"></div>
+<span class="text-[#F0C87A] text-sm font-bold">Sarah &amp; Luna</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Bottom Footer Info -->
+<footer class="bg-[#1F1208] -mx-6 px-8 py-16 text-center space-y-8">
+<div class="text-[#F0C87A] font-black text-3xl tracking-tighter">Petovia</div>
+<div class="flex flex-wrap justify-center gap-x-6 gap-y-4">
+<a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-medium text-sm" href="#">Marketplace</a>
+<a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-medium text-sm" href="#">Community</a>
+<a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-medium text-sm" href="#">For Providers</a>
+<a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] font-medium text-sm" href="#">About</a>
+</div>
+<p class="text-[#FFFBF5]/40 text-xs">© 2024 Petovia. All rights reserved.</p>
+</footer>
+</main>
+<!-- Bottom Navigation Bar -->
+<div class="fixed bottom-0 left-0 w-full flex justify-around items-center p-4 bg-[#FFFBF5] border-t border-[#EEE8DD]/40 z-50">
+<div class="flex flex-col items-center justify-center bg-[#E8F8F6] text-[#006a62] rounded-full px-4 py-2 transition-transform scale-95">
+<span class="material-symbols-outlined text-2xl" data-icon="home" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="text-[10px] font-bold mt-0.5">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1A1A1A]/60 hover:bg-[#f1ede7] rounded-full p-2">
+<span class="material-symbols-outlined text-2xl" data-icon="storefront">storefront</span>
+<span class="text-[10px] font-medium mt-0.5">Marketplace</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1A1A1A]/60 hover:bg-[#f1ede7] rounded-full p-2">
+<span class="material-symbols-outlined text-2xl" data-icon="groups">groups</span>
+<span class="text-[10px] font-medium mt-0.5">Community</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1A1A1A]/60 hover:bg-[#f1ede7] rounded-full p-2">
+<span class="material-symbols-outlined text-2xl" data-icon="bookmark">bookmark</span>
+<span class="text-[10px] font-medium mt-0.5">Saved</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#1A1A1A]/60 hover:bg-[#f1ede7] rounded-full p-2">
+<span class="material-symbols-outlined text-2xl" data-icon="person">person</span>
+<span class="text-[10px] font-medium mt-0.5">Account</span>
+</div>
+</div>
+</body></html>

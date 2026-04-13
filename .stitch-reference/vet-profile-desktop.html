@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Petovia - Vet Profile</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#2c1600",
+                    "inverse-surface": "#31302d",
+                    "on-tertiary-container": "#3f2f23",
+                    "on-tertiary-fixed-variant": "#554336",
+                    "background": "#fdf9f3",
+                    "tertiary-fixed": "#f9ddcc",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#fdf9f3",
+                    "primary": "#006a62",
+                    "on-surface": "#1c1c18",
+                    "on-surface-variant": "#3c4947",
+                    "surface-variant": "#e6e2dc",
+                    "on-primary-fixed-variant": "#005049",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed-dim": "#ffb86e",
+                    "secondary-container": "#fea94b",
+                    "surface-container-high": "#ebe8e2",
+                    "tertiary-fixed-dim": "#dbc2b1",
+                    "on-primary-container": "#003a35",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed": "#00201d",
+                    "on-secondary-container": "#6f4000",
+                    "tertiary-container": "#ae9687",
+                    "surface-tint": "#006a62",
+                    "outline-variant": "#bbc9c6",
+                    "outline": "#6c7a77",
+                    "inverse-on-surface": "#f4f0ea",
+                    "on-error-container": "#93000a",
+                    "primary-container": "#1aada0",
+                    "tertiary": "#6e5a4d",
+                    "surface-container": "#f1ede7",
+                    "primary-fixed-dim": "#5bdacc",
+                    "on-tertiary": "#ffffff",
+                    "surface-dim": "#dddad4",
+                    "on-secondary-fixed-variant": "#693c00",
+                    "primary-fixed": "#7bf7e8",
+                    "surface-container-highest": "#e6e2dc",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed": "#26190e",
+                    "inverse-primary": "#5bdacc",
+                    "secondary-fixed": "#ffdcbd",
+                    "surface": "#fdf9f3",
+                    "secondary": "#8a5100",
+                    "error": "#ba1a1a",
+                    "on-background": "#1c1c18",
+                    "surface-container-low": "#f7f3ed",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-background font-body text-on-background selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#FFFBF5]/80 backdrop-blur-xl flex justify-between items-center px-8 py-4 max-w-full mx-auto shadow-[0px_12px_32px_rgba(26,173,160,0.06)]">
+<div class="text-2xl font-black tracking-tighter text-[#1A1A1A]">Petovia</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#1A1A1A] hover:text-[#006a62] hover:scale-[0.98] transition-all duration-200" href="#">Marketplace</a>
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#1A1A1A] hover:text-[#006a62] hover:scale-[0.98] transition-all duration-200" href="#">Community</a>
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#006a62] font-bold border-b-2 border-[#006a62] pb-1" href="#">For Providers</a>
+<a class="font-['Plus_Jakarta_Sans'] font-medium text-sm tracking-tight text-[#1A1A1A] hover:text-[#006a62] hover:scale-[0.98] transition-all duration-200" href="#">About</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-bold text-sm hover:scale-[0.98] transition-all duration-200 active:scale-95">
+            Get Early Access
+        </button>
+</nav>
+<main class="pt-24 pb-32 max-w-7xl mx-auto px-8">
+<!-- Hero Section: Clinic Name & Gallery -->
+<header class="mb-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
+<div>
+<nav class="flex items-center gap-2 text-on-surface-variant text-sm mb-4">
+<a class="hover:text-primary" href="#">Providers</a>
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+<a class="hover:text-primary" href="#">Veterinary Clinics</a>
+</nav>
+<h1 class="text-5xl font-black tracking-tighter text-on-surface leading-tight mb-2">Bark &amp; Meow Wellness Clinic</h1>
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-1 bg-primary-container/20 px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-primary text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-primary">4.9</span>
+<span class="text-primary/60 text-sm">(128 Reviews)</span>
+</div>
+<span class="text-on-surface-variant">•</span>
+<span class="text-on-surface-variant font-medium">San Francisco, CA</span>
+</div>
+</div>
+<div class="flex gap-3">
+<button class="p-3 bg-surface-container rounded-full hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined">share</span>
+</button>
+<button class="p-3 bg-surface-container rounded-full hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined">favorite</span>
+</button>
+</div>
+</div>
+<!-- Bento Gallery -->
+<div class="grid grid-cols-12 grid-rows-2 gap-4 h-[500px]">
+<div class="col-span-8 row-span-2 relative overflow-hidden rounded-lg group">
+<img alt="Clinic Interior" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Modern veterinary clinic lobby with warm lighting, wooden accents, and comfortable seating areas for pets and owners" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSG28EIqKYtspAk4IJ2MEGmzWSwNerKlSYTR2ZOMLaBr_YhER2XAcsUI_6FZExs6IKVy_pcIhzSuSzLHR2MhnCcGr3hVRCk3b-Cpbxegxaa_y7eG2S92Ly34umV-UIfZMlWE5iyU_f0GOY4XhZ-p4hv7n2pyvpvzVJM1kmkfhigbN--8C6GpdSHTEQp3SjJia8TfhNNCP08YRU3bQLjn-IHvpeFgO10U2DQ6eG-UJnQ9-mAzHX4igFsJ3C3F0JB88kNhll6pqvl4Si"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+</div>
+<div class="col-span-4 row-span-1 relative overflow-hidden rounded-lg group">
+<img alt="Medical Exam" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Professional veterinarian examining a golden retriever in a bright, clean medical exam room" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYRsgsPMeFM3wTAUWFFF9VWJkB5jgMkea3VzqDhp0RLBU6t_uPtMxU1iKM5VfmKYpvU7wNcP4RAbwKEFvcPwjWSCE4Q5jkBfYac6G2uDJ7LjHpIywko0h0glwMO5vMf6gVxgM3H1L86iMxrbmOf_5guPGAZ08BdaMcM91DJCtiRco7FEVI9iCU0xB6IpX4M4B0mzeBdE8FXwBl_DWQ6Rop51fnujsS4CJKfUQ8yOUSbbh51L-WSBO1I_-IsS8K3LG3pN6qFl_cJUJH"/>
+</div>
+<div class="col-span-2 row-span-1 relative overflow-hidden rounded-lg group">
+<img alt="Operating Room" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Surgical suite with high-tech veterinary equipment and sterile environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZfVRCD2T4j4nFnoWjT0x68Bqq4leQ7f9R_B0oJzsAzEr8508ir1Szr2HW1cv8enYoE37M2MiD2Ra3SJy_Krq297oi7cvVCYoAkpfLlA6jrLnexH9OPnFXhoEVIwpTNc_rhEZ3OV4ehw-m39nWgk1IPEkr1Xl1sAaWf2qUDWOhjZ1rAdD1EN3CrlxRqJqDCf2JafBS9upHNNHY_NmDRXybaQ19VJd6wvuaMwcWPgT8EkyQNnuJAJbuJu2FObm5_rKg0YNmRxU-4AGY"/>
+</div>
+<div class="col-span-2 row-span-1 relative overflow-hidden rounded-lg group">
+<div class="absolute inset-0 bg-primary/80 flex flex-col items-center justify-center text-on-primary z-10 cursor-pointer">
+<span class="text-2xl font-black">+24</span>
+<span class="text-xs uppercase tracking-widest font-bold">Photos</span>
+</div>
+<img alt="More Photos" class="w-full h-full object-cover" data-alt="Detailed close up of veterinary medical tools arranged neatly on a stainless steel tray" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKcAj7dqr2zrRM1yKweP-H65hZxcGtDMgcMu7PjTtOR834Iy_LP0DP_FSr-Nvyl_A-H2RcLC48O5D9l2fU6IBmFt31GB44k-ruq49-Cb0-0mZVGJaQ7BVXSjGLd-mzwPWrVGuUy4Q5YNwpzPSjVPc4tEIvPZADYturg8zVCpS9h7otZJBE2GpN8AjFRKbvv_LFL5Z7fF0D9NixtOJRcbnMLGwI9E0ZkqMDEA5qQimGVM0W1Ph_phzX-P1Y9O0vWRNJrHveZXxjCQ9E"/>
+</div>
+</div>
+</header>
+<div class="flex flex-col lg:flex-row gap-12">
+<!-- Left Column (Content) -->
+<div class="flex-1">
+<!-- Navigation Tabs -->
+<div class="flex gap-8 border-b border-outline/10 mb-10 overflow-x-auto hide-scrollbar">
+<button class="pb-4 text-primary font-bold border-b-2 border-primary whitespace-nowrap">Overview</button>
+<button class="pb-4 text-on-surface-variant font-medium hover:text-on-surface whitespace-nowrap">Services</button>
+<button class="pb-4 text-on-surface-variant font-medium hover:text-on-surface whitespace-nowrap">Reviews</button>
+<button class="pb-4 text-on-surface-variant font-medium hover:text-on-surface whitespace-nowrap">Photos</button>
+<button class="pb-4 text-on-surface-variant font-medium hover:text-on-surface whitespace-nowrap">Location</button>
+</div>
+<div class="space-y-16">
+<!-- Overview Section -->
+<section id="overview">
+<h2 class="text-3xl font-bold tracking-tight text-on-surface mb-6">About the clinic</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-6">
+                            At Bark &amp; Meow, we provide holistic and modern healthcare for your beloved pets. Founded in 2012, our clinic combines state-of-the-art medical technology with a compassionate, fear-free approach. Our team of specialized surgeons and dedicated nursing staff are committed to the highest standards of veterinary excellence.
+                        </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="flex items-center gap-4 p-4 bg-surface-container-low rounded-lg">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface">AAHA Accredited</h4>
+<p class="text-sm text-on-surface-variant">Highest standards of care</p>
+</div>
+</div>
+<div class="flex items-center gap-4 p-4 bg-surface-container-low rounded-lg">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">pets</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface">Fear Free Certified</h4>
+<p class="text-sm text-on-surface-variant">Stress-free visits</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section id="services">
+<h2 class="text-3xl font-bold tracking-tight text-on-surface mb-8 text-left">Our Services</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-6 bg-surface-container-lowest rounded-lg shadow-[0px_12px_32px_rgba(26,173,160,0.06)] group hover:translate-y-[-4px] transition-transform">
+<div class="mb-4 text-primary">
+<span class="material-symbols-outlined text-4xl">vaccines</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Preventative Care</h3>
+<p class="text-on-surface-variant text-sm">Comprehensive wellness exams, vaccinations, and parasite prevention.</p>
+<div class="mt-4 pt-4 border-t border-outline/5 flex justify-between items-center">
+<span class="font-semibold text-primary">From $85</span>
+<button class="text-sm font-bold text-primary uppercase tracking-wider">Book</button>
+</div>
+</div>
+<div class="p-6 bg-surface-container-lowest rounded-lg shadow-[0px_12px_32px_rgba(26,173,160,0.06)] group hover:translate-y-[-4px] transition-transform">
+<div class="mb-4 text-primary">
+<span class="material-symbols-outlined text-4xl">monitor_heart</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Diagnostic Imaging</h3>
+<p class="text-on-surface-variant text-sm">Advanced X-ray and Ultrasound diagnostics performed in-house.</p>
+<div class="mt-4 pt-4 border-t border-outline/5 flex justify-between items-center">
+<span class="font-semibold text-primary">From $150</span>
+<button class="text-sm font-bold text-primary uppercase tracking-wider">Book</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Reviews Section -->
+<section id="reviews">
+<div class="flex items-center justify-between mb-8">
+<h2 class="text-3xl font-bold tracking-tight text-on-surface">Client Reviews</h2>
+<button class="text-primary font-bold hover:underline">Write a Review</button>
+</div>
+<div class="space-y-8">
+<!-- Review 1 -->
+<div class="pb-8 border-b border-outline/10">
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full overflow-hidden">
+<img alt="Reviewer" class="w-full h-full object-cover" data-alt="Portrait of a smiling woman with glasses, soft studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcqqQvhxHEJJW_F2GNWsIYClTniVWCahEzmL9dy0JaMfMSIXq8ZA1twfZyRmAh3W11BW1pqJiw_iKIcxh18mEMAISANc_4eOaKI3E8ak6EtspMHg0AllOtx_lFWo-uId1aGYLQEHVoYDW2pKqRTOZoRBl941LFxlq1Z2UcxicMfkieoj9XClK0n3I2NEex1uwI7n1nxoGWgj04BuBkU0AVl8Yu2YPr36FQGr4ISEOFrCXmboEnRKBKE8QiZCDZxqpAGG8U6pLibO6n"/>
+</div>
+<div>
+<h4 class="font-bold text-on-surface">Sarah J.</h4>
+<p class="text-xs text-on-surface-variant">2 days ago</p>
+</div>
+</div>
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="text-on-surface-variant mb-4">"The best vet experience I've had in SF. My cat is usually very anxious, but the 'Fear Free' approach really worked. Dr. Kim was patient and explained everything thoroughly."</p>
+<div class="flex items-center gap-4 text-xs font-bold text-on-surface-variant mb-6">
+<button class="flex items-center gap-1 hover:text-primary"><span class="material-symbols-outlined text-base">thumb_up</span> Helpful (12)</button>
+<button class="flex items-center gap-1 hover:text-primary"><span class="material-symbols-outlined text-base">flag</span> Report</button>
+</div>
+<!-- Clinic Reply -->
+<div class="bg-[#E8F8F6] p-6 rounded-lg ml-8 relative">
+<div class="absolute -top-2 left-6 w-4 h-4 bg-[#E8F8F6] rotate-45"></div>
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-primary text-base">reply</span>
+<span class="font-bold text-primary text-sm">Reply from Bark &amp; Meow Wellness</span>
+</div>
+<p class="text-sm text-on-primary-container/80 italic">"Thank you so much Sarah! We're so glad we could make the visit comfortable for your kitty. See you next time!"</p>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="pb-8">
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full overflow-hidden">
+<img alt="Reviewer" class="w-full h-full object-cover" data-alt="Portrait of a man with a beard, natural outdoor lighting with soft green background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaMRNqz9x8vc1-D2eotHPpsy-BBb_xPGyVJaZRlpfI7BHc1BizrkVbPHbPsu5kNJ5p-MBqlVmi3AF1vThRWxx-7P3W3OYHLxHgg0RdSecxOhKER7YR8zLxZ133ySzp18BhS0iePYc-cTgySOOFnEI3iO4wpHSxEoeUquvkDYOz0K-OHnYQ8KtFwkQe5VZPYNVE6YAj64TIEJzFH_sbJ0tRVh4U7fPkdFfdtGFSAC14trBKThl3lbEXmmFqj7QuD-V7IxFuSbqPQfen"/>
+</div>
+<div>
+<h4 class="font-bold text-on-surface">Mark D.</h4>
+<p class="text-xs text-on-surface-variant">1 week ago</p>
+</div>
+</div>
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+</div>
+</div>
+<p class="text-on-surface-variant mb-4">"Very professional staff and clean facility. Only docked a star because parking was a bit difficult during peak hours, but the care itself was 5-star."</p>
+<div class="flex items-center gap-4 text-xs font-bold text-on-surface-variant">
+<button class="flex items-center gap-1 hover:text-primary"><span class="material-symbols-outlined text-base">thumb_up</span> Helpful (4)</button>
+<button class="flex items-center gap-1 hover:text-primary"><span class="material-symbols-outlined text-base">flag</span> Report</button>
+</div>
+</div>
+</div>
+<button class="w-full py-4 mt-8 bg-surface-container hover:bg-surface-container-high transition-colors font-bold rounded-lg text-primary">Load More Reviews</button>
+</section>
+</div>
+</div>
+<!-- Right Column (Sticky Contact Card) -->
+<aside class="lg:w-[400px]">
+<div class="sticky top-28 bg-surface-container-lowest p-8 rounded-lg shadow-[0px_12px_32px_rgba(26,173,160,0.06)] space-y-8">
+<div>
+<h3 class="text-2xl font-bold mb-6">Contact clinic</h3>
+<button class="w-full bg-gradient-to-br from-primary to-primary-container text-on-primary py-4 rounded-full font-bold text-lg mb-6 hover:translate-y-[-2px] transition-transform active:scale-95 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">event</span>
+                            Book Appointment
+                        </button>
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary mt-1">call</span>
+<div>
+<p class="text-xs text-on-surface-variant font-bold uppercase tracking-widest">Phone</p>
+<p class="font-bold text-on-surface">(415) 555-0123</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary mt-1">location_on</span>
+<div>
+<p class="text-xs text-on-surface-variant font-bold uppercase tracking-widest">Address</p>
+<p class="font-bold text-on-surface">123 Market St, Suite 400<br/>San Francisco, CA 94103</p>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-outline/5">
+<h4 class="text-sm font-bold uppercase tracking-widest text-on-surface-variant mb-4">Opening Hours</h4>
+<table class="w-full text-sm">
+<tbody><tr class="border-b border-outline/5">
+<td class="py-2 text-on-surface-variant">Mon – Fri</td>
+<td class="py-2 text-right font-bold">8:00 AM – 7:00 PM</td>
+</tr>
+<tr class="border-b border-outline/5">
+<td class="py-2 text-on-surface-variant">Saturday</td>
+<td class="py-2 text-right font-bold">9:00 AM – 4:00 PM</td>
+</tr>
+<tr>
+<td class="py-2 text-on-surface-variant">Sunday</td>
+<td class="py-2 text-right font-bold text-error">Closed</td>
+</tr>
+</tbody></table>
+</div>
+<div class="pt-4">
+<p class="text-xs text-on-surface-variant bg-surface-container-low p-3 rounded-lg flex items-start gap-2">
+<span class="material-symbols-outlined text-amber-500 text-sm">info</span>
+                            Offers emergency services for existing patients after hours.
+                        </p>
+</div>
+</div>
+</aside>
+</div>
+<!-- Map Section -->
+<section class="mt-20">
+<h2 class="text-3xl font-bold tracking-tight text-on-surface mb-8">Getting Here</h2>
+<div class="h-[400px] w-full bg-surface-container-high rounded-lg overflow-hidden relative group">
+<img alt="Map Location" class="w-full h-full object-cover opacity-80" data-alt="Stylized map showing urban city grid with a custom teal marker at a specific location" data-location="San Francisco" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjemRs1chLMp5N2VPWx6xzjOgPH9EoUgVbg6uNsVo9bVB6FRNnVqZqfh0u12Nmf9bnmazKnPR_Ki9uGhMI_F_Yi_53q0o_ZaBEWYSH8C_l0i8-ZH7t2bTvjf140X2dcdvXh0MVGbagWudP-YvwQvp-Sp6YnLx6x8nSYRcAc9HywzRDXiWphgROIFvW6Uy5wLzyBkhSR9-7t6WQzzL2L6LzH1wrMZZEN0uno60u5RQS1MkRXei16MFUZPtSy87essvfG9wz6HnmZYF0"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="bg-primary p-4 rounded-full shadow-lg transform -translate-y-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-on-primary text-3xl" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+</div>
+<div class="absolute bottom-6 left-6 bg-surface-container-lowest p-6 rounded-lg shadow-xl max-w-sm">
+<h4 class="font-bold mb-1">Clinic Parking</h4>
+<p class="text-sm text-on-surface-variant">Dedicated underground parking is available for all clients at the rear entrance on Mission Street.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#1F1208] w-full py-16 px-8 mt-20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
+<div class="space-y-4">
+<div class="text-[#F0C87A] font-black text-xl">Petovia</div>
+<p class="text-[#FFFBF5]/60 text-sm leading-relaxed">Redefining pet healthcare for the modern companion. Quality care meets premium experience.</p>
+</div>
+<div>
+<h4 class="text-[#F0C87A] font-bold mb-6">Marketplace</h4>
+<ul class="space-y-4">
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors text-sm" href="#">Clinics</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors text-sm" href="#">Groomers</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors text-sm" href="#">Training</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-[#F0C87A] font-bold mb-6">Support</h4>
+<ul class="space-y-4">
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors text-sm" href="#">Help Center</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors text-sm" href="#">Safety Center</a></li>
+<li><a class="text-[#FFFBF5]/60 hover:text-[#F0C87A] transition-colors text-sm" href="#">Provider Portal</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-[#F0C87A] font-bold mb-6">Stay Connected</h4>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#F0C87A] hover:bg-white/10 transition-colors" href="#">
+<span class="material-symbols-outlined">public</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#F0C87A] hover:bg-white/10 transition-colors" href="#">
+<span class="material-symbols-outlined">mail</span>
+</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto pt-16 mt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-[#FFFBF5]/40 text-sm">© 2024 Petovia. All rights reserved.</p>
+<div class="flex gap-8">
+<a class="text-[#FFFBF5]/40 text-sm hover:text-[#F0C87A]" href="#">Privacy</a>
+<a class="text-[#FFFBF5]/40 text-sm hover:text-[#F0C87A]" href="#">Terms</a>
+</div>
+</div>
+</footer>
+</body></html>

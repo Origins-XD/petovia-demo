@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dr. Sarah Chen - Vet Profile | Petovia</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#2c1600",
+                    "inverse-surface": "#31302d",
+                    "on-tertiary-container": "#3f2f23",
+                    "on-tertiary-fixed-variant": "#554336",
+                    "background": "#fdf9f3",
+                    "tertiary-fixed": "#f9ddcc",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#fdf9f3",
+                    "primary": "#006a62",
+                    "on-surface": "#1c1c18",
+                    "on-surface-variant": "#3c4947",
+                    "surface-variant": "#e6e2dc",
+                    "on-primary-fixed-variant": "#005049",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed-dim": "#ffb86e",
+                    "secondary-container": "#fea94b",
+                    "surface-container-high": "#ebe8e2",
+                    "tertiary-fixed-dim": "#dbc2b1",
+                    "on-primary-container": "#003a35",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed": "#00201d",
+                    "on-secondary-container": "#6f4000",
+                    "tertiary-container": "#ae9687",
+                    "surface-tint": "#006a62",
+                    "outline-variant": "#bbc9c6",
+                    "outline": "#6c7a77",
+                    "inverse-on-surface": "#f4f0ea",
+                    "on-error-container": "#93000a",
+                    "primary-container": "#1aada0",
+                    "tertiary": "#6e5a4d",
+                    "surface-container": "#f1ede7",
+                    "primary-fixed-dim": "#5bdacc",
+                    "on-tertiary": "#ffffff",
+                    "surface-dim": "#dddad4",
+                    "on-secondary-fixed-variant": "#693c00",
+                    "primary-fixed": "#7bf7e8",
+                    "surface-container-highest": "#e6e2dc",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed": "#26190e",
+                    "inverse-primary": "#5bdacc",
+                    "secondary-fixed": "#ffdcbd",
+                    "surface": "#fdf9f3",
+                    "secondary": "#8a5100",
+                    "error": "#ba1a1a",
+                    "on-background": "#1c1c18",
+                    "surface-container-low": "#f7f3ed",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .active-tab-indicator {
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: #006a62;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background font-body text-on-surface antialiased">
+<!-- Top Status Bar (Simulated Mobile Header) -->
+<header class="bg-transparent fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center">
+<button class="w-10 h-10 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center shadow-[0px_4px_12px_rgba(26,173,160,0.1)]">
+<span class="material-symbols-outlined text-primary">arrow_back</span>
+</button>
+<div class="flex gap-3">
+<button class="w-10 h-10 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center shadow-[0px_4px_12px_rgba(26,173,160,0.1)]">
+<span class="material-symbols-outlined text-primary">favorite</span>
+</button>
+<button class="w-10 h-10 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center shadow-[0px_4px_12px_rgba(26,173,160,0.1)]">
+<span class="material-symbols-outlined text-primary">share</span>
+</button>
+</div>
+</header>
+<main class="pb-32">
+<!-- Photo Carousel Section -->
+<section class="relative h-[400px] w-full overflow-hidden">
+<div class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar h-full">
+<div class="flex-none w-full h-full snap-start">
+<img alt="Doctor Sarah Chen" class="w-full h-full object-cover" data-alt="Professional portrait of a kind female veterinarian in a clean modern clinic setting with soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPK7v5ZYpph0aygfb4rtN_wYh30vgOGpf3k1DqWtO5uPHghzZQUUd3U955XjQsgBogSUYwD9U6kthfM9L5H1pwHaAiF03dNgxsTVC6god-QlKvkDQr7g80JC4Wu04iXT4_MmyfVYOcJeNskm5UY2Lrtqqql627qy8aBnui6kzrscGieGZu1OkXkyD3GKqi5UW0B78GHkZGCA-o64xbVJ0L8pIMGoony1aTG7McZS01nVb0m0g28el69Y9ql-mV6KpfgQxP4vN8iu7k"/>
+</div>
+<div class="flex-none w-full h-full snap-start">
+<img alt="Clinic Interior" class="w-full h-full object-cover" data-alt="Interior of a high-end modern veterinary clinic with warm wooden accents and minimalist cream furniture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCws07hTdLBFWsaYwtte1WsLFLmw42ODlcI22_6lQaG-CZKZ3SeCxsQK9sg0yZlzR0TVX2LWRBNJrZkexE4uxmmdH6iDer3f7MubOoeA2ePTT3v7NXeXniE7MSReP1oLT9entb2lTWdDb_YhMplDWtW4PHNQDAhYBmg6gzdWu2bIoDSnufboifSCGCOd3NrsTl6bqDUXQhG1Dv8ncMc5OX_7NVab1vo2zr8_VyPkpe_EVSu91XhPZ3DFWLZ6GKlhGqGIyMxNMnBM-cw"/>
+</div>
+</div>
+<!-- Pagination Dots -->
+<div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex gap-2">
+<span class="w-2 h-2 rounded-full bg-surface-container-lowest"></span>
+<span class="w-2 h-2 rounded-full bg-surface-container-lowest/40"></span>
+<span class="w-2 h-2 rounded-full bg-surface-container-lowest/40"></span>
+</div>
+<!-- Curve Overlay -->
+<div class="absolute bottom-0 w-full h-8 bg-background rounded-t-[32px]"></div>
+</section>
+<!-- Profile Info Header -->
+<section class="px-6 -mt-4 relative">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h1 class="text-3xl font-black tracking-tight text-on-surface">Dr. Sarah Chen</h1>
+<p class="text-primary font-semibold flex items-center gap-1 mt-1">
+<span class="material-symbols-outlined text-sm">verified</span>
+                        Senior Veterinary Surgeon
+                    </p>
+</div>
+<div class="bg-secondary-container px-3 py-1.5 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-on-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-on-secondary-container font-bold text-sm">4.9</span>
+</div>
+</div>
+<div class="flex gap-2 mt-4 overflow-x-auto no-scrollbar pb-2">
+<span class="flex-none px-4 py-2 bg-surface-container-low text-on-surface-variant rounded-full text-xs font-medium">Domestic Animals</span>
+<span class="flex-none px-4 py-2 bg-surface-container-low text-on-surface-variant rounded-full text-xs font-medium">12+ Years Exp</span>
+<span class="flex-none px-4 py-2 bg-surface-container-low text-on-surface-variant rounded-full text-xs font-medium">Surgery Specialist</span>
+</div>
+<!-- Bento Stats -->
+<div class="grid grid-cols-3 gap-3 mt-6">
+<div class="bg-surface-container-low p-4 rounded-lg flex flex-col items-center justify-center">
+<span class="text-xs text-on-surface-variant font-medium mb-1">Reviews</span>
+<span class="text-lg font-bold text-on-surface">1.2k</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-lg flex flex-col items-center justify-center">
+<span class="text-xs text-on-surface-variant font-medium mb-1">Success</span>
+<span class="text-lg font-bold text-on-surface">98%</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-lg flex flex-col items-center justify-center">
+<span class="text-xs text-on-surface-variant font-medium mb-1">Response</span>
+<span class="text-lg font-bold text-on-surface">&lt;1h</span>
+</div>
+</div>
+</section>
+<!-- Tabbed Navigation -->
+<nav class="mt-8 px-6 border-b border-outline-variant/20 flex justify-between">
+<button class="pb-3 text-primary font-bold relative border-b-2 border-primary">
+                About
+            </button>
+<button class="pb-3 text-on-surface-variant font-medium">
+                Reviews
+            </button>
+<button class="pb-3 text-on-surface-variant font-medium">
+                Services
+            </button>
+<button class="pb-3 text-on-surface-variant font-medium">
+                Photos
+            </button>
+</nav>
+<!-- Scrollable Content Sections -->
+<div class="px-6 mt-8 space-y-10">
+<!-- Biography -->
+<section>
+<h3 class="text-xl font-extrabold mb-3">Professional Bio</h3>
+<p class="text-on-surface-variant leading-relaxed">
+                    Dr. Sarah Chen is a board-certified veterinary surgeon dedicated to providing high-quality care with a personal touch. With over 12 years of experience in leading hospitals, she specializes in minimally invasive surgery and advanced diagnostic techniques.
+                </p>
+<button class="mt-2 text-primary font-bold text-sm">Read more</button>
+</section>
+<!-- Location Section (Asymmetric Layout) -->
+<section>
+<div class="flex items-center justify-between mb-4">
+<h3 class="text-xl font-extrabold">Clinic Location</h3>
+<span class="text-primary text-sm font-bold">Get Directions</span>
+</div>
+<div class="relative w-full h-48 rounded-lg overflow-hidden shadow-[0px_12px_32px_rgba(26,173,160,0.06)]">
+<img alt="Clinic Location Map" class="w-full h-full object-cover" data-location="San Francisco" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCv5SkrxcNd9kXGa-Jda2inUd2JpE4rtgrtTrx09eYDB7VoMOWUWen5JVmtB7I44VHzpj2SIrVOKPdzTg2ARpvfX60H_kt4QOXQ7sNfbZJJoPnNiYOxlx03UlEqgpDwfgNtcJaWjEXO4oQmDdhL3po_InryUq_W314r10SEzpXPyCe1trI0W_v0aLywy97-WhiSRW81jDnDqjd907BQ0yDBrmHTJmhdHv1jNu3awn8yayGrT0okrmbkKUGfkihuP2Z4XdNXgSSEQwwW"/>
+<div class="absolute inset-0 bg-primary/10 pointer-events-none"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+<div class="bg-primary p-2 rounded-full shadow-lg">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+</div>
+</div>
+<div class="mt-4 flex gap-3 items-center">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">map</span>
+</div>
+<div>
+<p class="font-bold text-on-surface">Paws &amp; Whiskers Medical Center</p>
+<p class="text-sm text-on-surface-variant">482 Oakwood Ave, San Francisco, CA</p>
+</div>
+</div>
+</section>
+<!-- Services Quick List -->
+<section>
+<h3 class="text-xl font-extrabold mb-4">Core Services</h3>
+<div class="space-y-4">
+<div class="bg-surface-container-low p-4 rounded-lg flex items-center justify-between group">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">health_and_safety</span>
+<span class="font-bold">General Consultation</span>
+</div>
+<span class="text-primary font-black">$85</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">vaccines</span>
+<span class="font-bold">Vaccinations</span>
+</div>
+<span class="text-primary font-black">From $45</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">content_cut</span>
+<span class="font-bold">Dental Cleaning</span>
+</div>
+<span class="text-primary font-black">$220</span>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Sticky Contact Action (Mobile Pattern) -->
+<div class="fixed bottom-24 left-0 w-full px-6 z-40">
+<div class="bg-surface-container-lowest/90 backdrop-blur-xl p-4 rounded-lg shadow-[0px_12px_32px_rgba(26,173,160,0.12)] flex items-center gap-4">
+<div class="flex-1">
+<p class="text-xs text-on-surface-variant font-medium">Availability</p>
+<p class="font-bold text-green-600 flex items-center gap-1">
+<span class="w-2 h-2 bg-green-600 rounded-full"></span>
+                    Available Today
+                </p>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-8 py-3.5 rounded-full font-bold text-sm flex items-center gap-2 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-sm">calendar_month</span>
+                Book Appointment
+            </button>
+</div>
+</div>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center p-4 bg-[#FFFBF5] border-t border-[#EEE8DD]/40 z-50">
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="text-[10px] mt-1 font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-[#E8F8F6] text-[#006a62] rounded-full px-4 py-2" href="#">
+<span class="material-symbols-outlined" data-icon="storefront">storefront</span>
+<span class="text-[10px] mt-1 font-bold">Marketplace</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="groups">groups</span>
+<span class="text-[10px] mt-1 font-medium">Community</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span>
+<span class="text-[10px] mt-1 font-medium">Saved</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="text-[10px] mt-1 font-medium">Account</span>
+</a>
+</nav>
+</body></html>

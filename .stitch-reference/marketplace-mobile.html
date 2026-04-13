@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Petovia - Vet Directory</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#2c1600",
+                    "inverse-surface": "#31302d",
+                    "on-tertiary-container": "#3f2f23",
+                    "on-tertiary-fixed-variant": "#554336",
+                    "background": "#fdf9f3",
+                    "tertiary-fixed": "#f9ddcc",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#fdf9f3",
+                    "primary": "#006a62",
+                    "on-surface": "#1c1c18",
+                    "on-surface-variant": "#3c4947",
+                    "surface-variant": "#e6e2dc",
+                    "on-primary-fixed-variant": "#005049",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed-dim": "#ffb86e",
+                    "secondary-container": "#fea94b",
+                    "surface-container-high": "#ebe8e2",
+                    "tertiary-fixed-dim": "#dbc2b1",
+                    "on-primary-container": "#003a35",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed": "#00201d",
+                    "on-secondary-container": "#6f4000",
+                    "tertiary-container": "#ae9687",
+                    "surface-tint": "#006a62",
+                    "outline-variant": "#bbc9c6",
+                    "outline": "#6c7a77",
+                    "inverse-on-surface": "#f4f0ea",
+                    "on-error-container": "#93000a",
+                    "primary-container": "#1aada0",
+                    "tertiary": "#6e5a4d",
+                    "surface-container": "#f1ede7",
+                    "primary-fixed-dim": "#5bdacc",
+                    "on-tertiary": "#ffffff",
+                    "surface-dim": "#dddad4",
+                    "on-secondary-fixed-variant": "#693c00",
+                    "primary-fixed": "#7bf7e8",
+                    "surface-container-highest": "#e6e2dc",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed": "#26190e",
+                    "inverse-primary": "#5bdacc",
+                    "secondary-fixed": "#ffdcbd",
+                    "surface": "#fdf9f3",
+                    "secondary": "#8a5100",
+                    "error": "#ba1a1a",
+                    "on-background": "#1c1c18",
+                    "surface-container-low": "#f7f3ed",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        }
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #FFFBF5; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-ink { color: #1A1A1A; }
+        .bg-cream { background-color: #FFFBF5; }
+        .shadow-teal-soft { box-shadow: 0px 12px 32px rgba(26, 173, 160, 0.08); }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen pb-24">
+<!-- Sticky Search/Filter Bar -->
+<header class="fixed top-0 w-full z-50 bg-[#FFFBF5]/80 backdrop-blur-xl transition-all duration-200">
+<div class="px-5 pt-4 pb-2">
+<div class="flex items-center gap-3">
+<div class="flex-1 h-12 bg-surface-container-low rounded-xl px-4 flex items-center gap-3">
+<span class="material-symbols-outlined text-outline" data-icon="search">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-on-surface-variant font-medium placeholder:text-outline-variant w-full text-sm" placeholder="Search veterinarians..." type="text"/>
+</div>
+<button class="w-12 h-12 bg-surface-container-low rounded-xl flex items-center justify-center text-primary active:scale-95 transition-transform">
+<span class="material-symbols-outlined" data-icon="tune">tune</span>
+</button>
+</div>
+</div>
+<!-- Filter Quick Chips -->
+<div class="px-5 py-3 flex gap-2 overflow-x-auto no-scrollbar">
+<div class="flex-none px-4 py-1.5 bg-primary text-on-primary rounded-full text-xs font-bold tracking-tight">All Experts</div>
+<div class="flex-none px-4 py-1.5 bg-surface-container-highest text-on-surface-variant rounded-full text-xs font-semibold">Surgery</div>
+<div class="flex-none px-4 py-1.5 bg-surface-container-highest text-on-surface-variant rounded-full text-xs font-semibold">Emergency</div>
+<div class="flex-none px-4 py-1.5 bg-surface-container-highest text-on-surface-variant rounded-full text-xs font-semibold">Exotic Pets</div>
+<div class="flex-none px-4 py-1.5 bg-surface-container-highest text-on-surface-variant rounded-full text-xs font-semibold">Wellness</div>
+</div>
+</header>
+<!-- Main Content List -->
+<main class="mt-36 px-5 space-y-4">
+<div class="flex justify-between items-end mb-6">
+<div>
+<h1 class="text-2xl font-black tracking-tight text-ink">Marketplace</h1>
+<p class="text-sm text-on-surface-variant font-medium">42 highly rated vets near you</p>
+</div>
+<div class="text-primary font-bold text-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-sm" data-icon="sort">sort</span>
+                Sorted by Distance
+            </div>
+</div>
+<!-- Vet Card 1 -->
+<article class="bg-surface-container-lowest rounded-lg p-4 flex gap-4 shadow-teal-soft active:scale-[0.98] transition-all border-none">
+<div class="relative flex-none">
+<img alt="Professional Veterinarian" class="w-[96px] h-[96px] object-cover rounded-2xl" data-alt="Professional veterinarian with kind eyes wearing modern teal scrubs in a brightly lit clean clinic setting with soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQ6vKq7Ryg1HkOCc1RFcD5i5U4XUnVaDdVhVOoxPy8mxFmBuarwhacFx0MGKl7vbDhHFAfsMyy6ESgzG6dRyIAxAD3QySbildt7J7QBP4-IRzX-8-6r53BRtX2NtaVuqR_wnXzuoPlwVUDDqV2Nen5M_1Ho0VkLukT10opoRVqmfu54fmrloAA4CiNvZzCCRJ5g0KKXk4uRgVzmP0WmW8JGGvxFQkUul9ZHBLOndiz0l-6OSbU0qDr9vZKlQlt_OCnYuJs7xLZFuaG"/>
+<div class="absolute -bottom-1 -right-1 bg-primary-container text-on-primary-container p-1 rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-xs" data-icon="verified" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start">
+<h3 class="text-base font-bold text-ink leading-tight">Dr. Elena Rodriguez</h3>
+<div class="flex items-center gap-1 bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 rounded text-[10px] font-black">
+<span class="material-symbols-outlined text-[10px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+                            4.9
+                        </div>
+</div>
+<p class="text-xs text-primary font-bold mt-1">Specialist Surgeon</p>
+<div class="flex items-center gap-1 mt-2 text-on-surface-variant/70">
+<span class="material-symbols-outlined text-sm" data-icon="location_on">location_on</span>
+<span class="text-xs font-medium">Downtown Clinic • 1.2 mi</span>
+</div>
+</div>
+<div class="flex justify-between items-center mt-3">
+<p class="text-sm font-bold text-ink">$85<span class="text-[10px] text-on-surface-variant font-medium">/visit</span></p>
+<button class="bg-primary text-on-primary px-4 py-1.5 rounded-full text-xs font-bold">Book Now</button>
+</div>
+</div>
+</article>
+<!-- Vet Card 2 -->
+<article class="bg-surface-container-lowest rounded-lg p-4 flex gap-4 shadow-teal-soft active:scale-[0.98] transition-all">
+<div class="relative flex-none">
+<img alt="Professional Veterinarian" class="w-[96px] h-[96px] object-cover rounded-2xl" data-alt="Experienced senior veterinarian smiling warmly in a modern high-end pet hospital with wooden accents and warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUcpBia-UnYIU7ShwJSW-zokY-p6yx5drm35f9lMapvY_tGTEVLeXzS1KEQ6pjAb8aFGxum-w_2v3anRin9vZZ_4N2tugQ-M7etjWrjGQr6tL2lUfwNY804DsHnyOu9qaR6DvkyhTwf6QRxH5p5MNG7MhWA_11L2ZGcDjRNT1-5sUFOElm3EMCO3hygz4gxzlWgwjshwSLDwNuTVgCJcrhb9id5PXXCBY1GKXDK756uUKZeGfJAnpVykXjF6_cswLqgmH9uuqRNTRP"/>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start">
+<h3 class="text-base font-bold text-ink leading-tight">Dr. James Sterling</h3>
+<div class="flex items-center gap-1 bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 rounded text-[10px] font-black">
+<span class="material-symbols-outlined text-[10px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+                            5.0
+                        </div>
+</div>
+<p class="text-xs text-primary font-bold mt-1">Avian &amp; Exotic Expert</p>
+<div class="flex items-center gap-1 mt-2 text-on-surface-variant/70">
+<span class="material-symbols-outlined text-sm" data-icon="location_on">location_on</span>
+<span class="text-xs font-medium">Westside Animal Care • 2.8 mi</span>
+</div>
+</div>
+<div class="flex justify-between items-center mt-3">
+<p class="text-sm font-bold text-ink">$110<span class="text-[10px] text-on-surface-variant font-medium">/visit</span></p>
+<button class="bg-primary text-on-primary px-4 py-1.5 rounded-full text-xs font-bold">Book Now</button>
+</div>
+</div>
+</article>
+<!-- Vet Card 3 -->
+<article class="bg-surface-container-lowest rounded-lg p-4 flex gap-4 shadow-teal-soft active:scale-[0.98] transition-all">
+<div class="relative flex-none">
+<img alt="Professional Veterinarian" class="w-[96px] h-[96px] object-cover rounded-2xl" data-alt="Young female veterinarian with modern glasses examining a small pet with care in a bright minimalist office environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr1Dkal-iArbTnOFgufx6RgrXftAoAmEPxpdPylhV8vyaDti-Wh1nyYoKjTe9Crf3fAawTtWRO5jOUbh1RO_PlQT6vFCqd71F_n03IqX_GTN5c11T-xT3ycZK2FNmdnNsN5wsY7t1gaAuQntXsiLu4qy9lxsj3IYlqIsHsibi54-mZefjEIZwFOCIngi1tSvmQ6AUIIGYHH6oMNRGMjcDJbF8W2POfnbVSEjgsfw9ihGMd4GLhfSPvVwTYnMCRJfjDKgpUX_ylZ7Cj"/>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start">
+<h3 class="text-base font-bold text-ink leading-tight">Dr. Sarah Chen</h3>
+<div class="flex items-center gap-1 bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 rounded text-[10px] font-black">
+<span class="material-symbols-outlined text-[10px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+                            4.7
+                        </div>
+</div>
+<p class="text-xs text-primary font-bold mt-1">Holistic Wellness</p>
+<div class="flex items-center gap-1 mt-2 text-on-surface-variant/70">
+<span class="material-symbols-outlined text-sm" data-icon="location_on">location_on</span>
+<span class="text-xs font-medium">Oak Valley Pets • 3.5 mi</span>
+</div>
+</div>
+<div class="flex justify-between items-center mt-3">
+<p class="text-sm font-bold text-ink">$75<span class="text-[10px] text-on-surface-variant font-medium">/visit</span></p>
+<button class="bg-primary text-on-primary px-4 py-1.5 rounded-full text-xs font-bold">Book Now</button>
+</div>
+</div>
+</article>
+<!-- Vet Card 4 -->
+<article class="bg-surface-container-lowest rounded-lg p-4 flex gap-4 shadow-teal-soft active:scale-[0.98] transition-all">
+<div class="relative flex-none">
+<img alt="Professional Veterinarian" class="w-[96px] h-[96px] object-cover rounded-2xl" data-alt="Friendly male veterinarian holding a clipboard and smiling in a modern pet care facility with soft teal walls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLDc6ax1v8TqpIk2fLhrPiX6j2ovvO8MfEgg7tbVBuyAetCxxZfOpG_Qg4Qhq6ihbRxwfYn2UO5gVmqw39SD318huQbV090KDh6HaZCm0sWuhLpPnIgO0goPLdPrOmZQ82q0HZqynCFZNo7ErZa4eiPImzoul_ZUnZtsjlTOXNCjbDXU7WET_Dme5FgQnfJGmC5Fki2kmdVZd1HMDvTnMfE2tzopspa0eieWczcKUsPsM3HcLTnrQ9Qwo6P_ajSdXLPn7mfOwc1ggC"/>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start">
+<h3 class="text-base font-bold text-ink leading-tight">Dr. Michael Foster</h3>
+<div class="flex items-center gap-1 bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 rounded text-[10px] font-black">
+<span class="material-symbols-outlined text-[10px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+                            4.8
+                        </div>
+</div>
+<p class="text-xs text-primary font-bold mt-1">General Practitioner</p>
+<div class="flex items-center gap-1 mt-2 text-on-surface-variant/70">
+<span class="material-symbols-outlined text-sm" data-icon="location_on">location_on</span>
+<span class="text-xs font-medium">Central Paws • 4.1 mi</span>
+</div>
+</div>
+<div class="flex justify-between items-center mt-3">
+<p class="text-sm font-bold text-ink">$90<span class="text-[10px] text-on-surface-variant font-medium">/visit</span></p>
+<button class="bg-primary text-on-primary px-4 py-1.5 rounded-full text-xs font-bold">Book Now</button>
+</div>
+</div>
+</article>
+</main>
+<!-- Map Floating Button -->
+<div class="fixed bottom-24 left-1/2 -translate-x-1/2 z-40">
+<button class="bg-on-background text-background px-6 py-3 rounded-full flex items-center gap-2 shadow-2xl scale-100 hover:scale-[0.98] transition-all font-bold tracking-tight">
+<span class="material-symbols-outlined text-xl" data-icon="map">map</span>
+            Show Map
+        </button>
+</div>
+<!-- Bottom Navigation Bar (The Shell) -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center p-4 bg-[#FFFBF5] shadow-[0px_-12px_32px_rgba(26,173,160,0.08)] z-50">
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="text-[10px] font-bold mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-[#E8F8F6] text-[#006a62] rounded-full px-4 py-2" href="#">
+<span class="material-symbols-outlined" data-icon="storefront" style="font-variation-settings: 'FILL' 1;">storefront</span>
+<span class="text-[10px] font-bold mt-1">Marketplace</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="groups">groups</span>
+<span class="text-[10px] font-bold mt-1">Community</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span>
+<span class="text-[10px] font-bold mt-1">Saved</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1A1A]/60" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="text-[10px] font-bold mt-1">Account</span>
+</a>
+</nav>
+<!-- Backdrop for Filter Sheet (Hidden initially) -->
+<div class="hidden fixed inset-0 bg-ink/20 backdrop-blur-sm z-[60]"></div>
+<!-- Filter Bottom Sheet Trigger Area (Not Open) -->
+<!-- This is a visual representation of where the sheet pulls from -->
+<div class="hidden fixed bottom-0 left-0 w-full h-[707px] bg-background rounded-t-xl z-[70] p-6 shadow-2xl">
+<div class="w-12 h-1.5 bg-surface-container-highest rounded-full mx-auto mb-8"></div>
+<h2 class="text-xl font-black text-ink mb-6">Refine Results</h2>
+</div>
+</body></html>
