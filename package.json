@@ -10,6 +10,7 @@
     "import-vets": "npx ts-node --project tsconfig.scripts.json scripts/apify-import.ts"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.19.1",
     "@radix-ui/react-dialog": "^1",
     "@radix-ui/react-select": "^2",
     "@radix-ui/react-slider": "^1",
@@ -26,7 +27,8 @@
     "react-dom": "^18",
     "react-leaflet": "^4",
     "react-markdown": "^9",
-    "tailwind-merge": "^2"
+    "tailwind-merge": "^2",
+    "wrangler": "^4.81.1"
   },
   "devDependencies": {
     "@types/leaflet": "^1",
